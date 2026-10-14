@@ -2,7 +2,7 @@ import { Article, Category } from '../types';
 
 export const authorIshara = {
   id: 'ishara-perera',
-  name: 'Ishara Fernando',
+  name: 'Ishara Udayaga',
   avatar: '/images/ishara-avatar.jpg',
   bio: 'Software engineer and tech enthusiast writing about artificial intelligence, modern computing hardware, and future tech.',
   role: 'Writer · Builder · Lifelong Learner',
@@ -108,7 +108,7 @@ export const mockArticles: Article[] = [
         ],
         quote: {
           text: '“A simpler setup isn\'t about having less. It\'s about giving more space to what truly matters.”',
-          author: 'Ishara Fernando',
+          author: 'Ishara Udayaga',
         },
       },
       {
@@ -197,7 +197,7 @@ export const mockArticles: Article[] = [
         ],
         quote: {
           text: '“The real question isn\'t whether frontier models are impressive. It\'s whether we\'re asking the right architectural questions about oversight and sandboxing.”',
-          author: 'Ishara Fernando',
+          author: 'Ishara Udayaga',
         },
       },
       {
@@ -283,7 +283,7 @@ export const mockArticles: Article[] = [
         ],
         quote: {
           text: '“We are no longer designing individual chips. We are designing data centers as monolithic computational engines.”',
-          author: 'Ishara Fernando',
+          author: 'Ishara Udayaga',
         },
       },
       {
@@ -333,7 +333,7 @@ export const mockArticles: Article[] = [
         ],
         quote: {
           text: '“Safety in agentic systems is primarily an engineering hygiene discipline: deterministic boundaries, clear authorizations, and immutable audit logs.”',
-          author: 'Ishara Fernando',
+          author: 'Ishara Udayaga',
         },
       },
       {

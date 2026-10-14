@@ -12,12 +12,11 @@ import { C } from '../styles/theme';
 export const HomePage: React.FC = () => {
   return (
     <div 
-      className="pt-2 sm:pt-4 pb-12 sm:pb-16"
-      style={{ backgroundColor: C.bg }}
+      className="pt-6 sm:pt-8 md:pt-10 lg:pt-12 pb-2 sm:pb-3 bg-white dark:bg-[#0D0D0D]"
     >
       <PageContainer>
-        <div className="space-y-7 sm:space-y-8 md:space-y-9">
-          {/* 1. Main Hero: Large Featured Card (col-7) + 3 Rectangular Stacked Cards (col-5) */}
+        <div className="space-y-8 sm:space-y-10 md:space-y-12 lg:space-y-7">
+          {/* 1. Main Hero */}
           <FeaturedHero />
 
           {/* 2. Secondary Spotlight Banner */}

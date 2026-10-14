@@ -43,7 +43,7 @@ export const BrowseByTopic: React.FC = () => {
       <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
         {/* Label */}
         <h2 
-          className="text-lg sm:text-xl font-medium text-gray-950 flex-shrink-0 tracking-tight"
+          className="text-lg sm:text-xl font-medium text-gray-950 dark:text-gray-100 flex-shrink-0 tracking-tight"
           style={{ fontFamily: F.family }}
         >
           Browse by topic
@@ -54,11 +54,11 @@ export const BrowseByTopic: React.FC = () => {
           {topics.map((topic) => (
             <Link
               key={topic.slug}
-              to={`/categories?topic=${topic.slug}`}
-              className="group inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 hover:border-gray-900 bg-white hover:bg-gray-50 text-xs sm:text-sm text-gray-700 hover:text-black font-normal transition-all duration-150 shadow-[0_1px_2px_rgba(0,0,0,0.02)]"
+              to={`/journal?category=${topic.slug}`}
+              className="group inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 dark:border-gray-800 hover:border-gray-900 dark:hover:border-gray-600 bg-white dark:bg-[#141414] hover:bg-gray-50 dark:hover:bg-[#1C1C1C] text-xs sm:text-sm text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white font-normal transition-all duration-150 shadow-[0_1px_2px_rgba(0,0,0,0.02)]"
               style={S.pill}
             >
-              <span>{topic.icon}</span>
+              <span className="text-gray-700 dark:text-gray-300 group-hover:text-black dark:group-hover:text-white">{topic.icon}</span>
               <span className="font-normal" style={{ fontFamily: F.family }}>{topic.name}</span>
             </Link>
           ))}

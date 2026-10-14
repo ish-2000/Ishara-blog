@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import { Layout } from '../components/layout/Layout';
 import { HomePage } from '../pages/HomePage';
 import { JournalPage } from '../pages/JournalPage';
+import { NewsPage } from '../pages/NewsPage';
 import { ArticlePage } from '../pages/ArticlePage';
 import { CategoriesPage } from '../pages/CategoriesPage';
 import { AboutPage } from '../pages/AboutPage';
@@ -16,6 +17,7 @@ export const AppRoutes: React.FC = () => {
         <Route index element={<HomePage />} />
         <Route path="journal" element={<JournalPage />} />
         <Route path="journal/:slug" element={<ArticlePage />} />
+        <Route path="news" element={<NewsPage />} />
         <Route path="article/:slug" element={<ArticlePage />} />
         <Route path="categories" element={<CategoriesPage />} />
         <Route path="about" element={<AboutPage />} />

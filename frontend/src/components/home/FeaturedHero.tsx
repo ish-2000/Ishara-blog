@@ -190,7 +190,7 @@ export const FeaturedHero: React.FC = () => {
               to={`/article/${article.slug}`}
               className={`group flex flex-1 items-center gap-4 py-2 first:pt-0 last:pb-0 ${
                 index !== stackedArticles.length - 1
-                  ? "border-b border-gray-200"
+                  ? "border-b border-gray-200 dark:border-gray-800"
                   : ""
               }`}
             >
@@ -210,16 +210,16 @@ export const FeaturedHero: React.FC = () => {
 
                 <span
                   style={S.badge}
-                  className="inline-block rounded-full bg-gray-100 px-2.5 py-1 text-[9px] leading-none uppercase tracking-[0.08em] text-gray-600 font-medium"
+                  className="inline-block rounded-full bg-gray-100 dark:bg-gray-800 px-2.5 py-1 text-[9px] leading-none uppercase tracking-[0.08em] text-gray-600 dark:text-gray-400 font-medium"
                 >
                   {article.categoryName}
                 </span>
 
-                <h2 className="mt-2 text-[13px] sm:text-[14px] lg:text-[13px] xl:text-[15px] font-medium tracking-[-0.03em] leading-[1.25] text-[#171717] line-clamp-3 group-hover:text-gray-500 transition-colors">
+                <h2 className="mt-2 text-[13px] sm:text-[14px] lg:text-[13px] xl:text-[15px] font-medium tracking-[-0.03em] leading-[1.25] text-[#171717] dark:text-gray-200 line-clamp-3 group-hover:text-gray-500 dark:group-hover:text-gray-400 transition-colors">
                   {article.title}
                 </h2>
 
-                <div className="flex flex-wrap items-center gap-x-2 gap-y-1 mt-2 text-[11px] font-normal text-gray-400">
+                <div className="flex flex-wrap items-center gap-x-2 gap-y-1 mt-2 text-[11px] font-normal text-gray-400 dark:text-gray-500">
                   <span>{article.publishedAt}</span>
                   <span>•</span>
                   <span>{article.readingTime}</span>

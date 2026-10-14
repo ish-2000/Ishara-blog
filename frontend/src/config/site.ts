@@ -8,6 +8,7 @@ export const siteConfig: SiteConfig = {
   navItems: [
     { label: 'Home', href: '/' },
     { label: 'Journal', href: '/journal' },
+    {label: 'News', href: '/news'},
     { label: 'Categories', href: '/categories' },
     { label: 'About', href: '/about' },
     { label: 'Contact', href: '/contact' },
@@ -15,6 +16,7 @@ export const siteConfig: SiteConfig = {
   footerNavItems: [
     { label: 'Home', href: '/' },
     { label: 'Journal', href: '/journal' },
+    { label: 'News', href: '/news' },
     { label: 'Categories', href: '/categories' },
     { label: 'About', href: '/about' },
     { label: 'Contact', href: '/contact' },

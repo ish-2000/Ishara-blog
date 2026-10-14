@@ -63,15 +63,15 @@ const NewsletterCard: React.FC = () => {
   };
 
   return (
-    <div className="rounded-2xl border border-gray-200/80 bg-white p-5 shadow-[0_1px_3px_rgba(0,0,0,0.02)]">
+    <div className="rounded-2xl border border-gray-200/80 dark:border-gray-800 bg-white dark:bg-[#141414] p-5 shadow-[0_1px_3px_rgba(0,0,0,0.02)]">
       <h3
-        className="text-[14px] font-semibold text-gray-950 leading-snug tracking-tight"
+        className="text-[16px] font-medium text-gray-950 dark:text-gray-100 leading-snug tracking-tight"
         style={{ fontFamily: F.family }}
       >
-        A calmer, more intentional life — in your inbox
+        A calmer, more intentional life in your inbox
       </h3>
       <p 
-        className="text-[12px] text-gray-500 font-normal mt-1.5 leading-relaxed" 
+        className="text-[12px] text-gray-500 dark:text-gray-400 font-normal mt-1.5 leading-relaxed" 
         style={{ fontFamily: F.family }}
       >
         Thoughts, tools, and stories on productivity, creativity, and a balanced tech life. No spam, ever.
@@ -86,12 +86,12 @@ const NewsletterCard: React.FC = () => {
             if (feedback) setFeedback(null);
           }}
           placeholder="Your email address"
-          className="w-full rounded-xl border border-gray-200 focus:border-gray-400 focus:outline-none px-3.5 py-2.5 text-xs text-gray-900 placeholder:text-gray-400 transition-colors"
+          className="w-full rounded-full border border-gray-200 dark:border-gray-700 bg-white dark:bg-[#1C1C1C] focus:border-gray-400 dark:focus:border-gray-500 focus:outline-none px-3.5 py-2.5 text-xs text-gray-900 dark:text-gray-100 placeholder:text-gray-400 dark:placeholder:text-gray-500 transition-colors"
           style={{ fontFamily: F.family }}
         />
         <button
           type="submit"
-          className="w-full rounded-xl bg-gray-950 hover:bg-black text-white text-xs font-medium py-2.5 transition-colors"
+          className="w-full rounded-full bg-gray-950 dark:bg-white hover:bg-black dark:hover:bg-gray-100 text-white dark:text-gray-950 text-xs font-medium py-2.5 transition-colors"
           style={{ fontFamily: F.family }}
         >
           Subscribe
@@ -99,12 +99,12 @@ const NewsletterCard: React.FC = () => {
       </form>
 
       {feedback && (
-        <p className="mt-2.5 text-[11px] text-gray-600 bg-gray-50 border border-gray-100 rounded-lg p-2 leading-relaxed">
+        <p className="mt-2.5 text-[11px] text-gray-600 dark:text-gray-300 bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-lg p-2 leading-relaxed">
           {feedback}
         </p>
       )}
 
-      <div className="mt-3.5 flex items-center gap-1.5 text-[11px] text-gray-400" style={{ fontFamily: F.family }}>
+      <div className="mt-3.5 flex items-center gap-1.5 text-[11px] text-gray-400 dark:text-gray-500" style={{ fontFamily: F.family }}>
         <Users className="w-3.5 h-3.5" />
         <span>Join 5,000+ readers</span>
       </div>
@@ -118,7 +118,7 @@ const RelatedCard: React.FC<{ article: Article }> = ({ article }) => (
     to={`/article/${article.slug}`}
     className="group flex items-center gap-3 py-2.5 first:pt-0 last:pb-0 transition-all"
   >
-    <div className="w-14 h-12 rounded-lg overflow-hidden flex-shrink-0 bg-gray-100">
+    <div className="w-14 h-12 rounded-lg overflow-hidden flex-shrink-0 bg-gray-100 dark:bg-gray-900">
       <img
         src={article.coverImage}
         alt={article.title}
@@ -128,13 +128,13 @@ const RelatedCard: React.FC<{ article: Article }> = ({ article }) => (
     </div>
     <div className="flex-1 min-w-0">
       <h4
-        className="text-[12px] font-semibold text-gray-950 group-hover:text-gray-600 line-clamp-2 leading-snug tracking-tight transition-colors"
+        className="text-[12px] font-medium text-gray-950 dark:text-gray-100 group-hover:text-gray-600 dark:group-hover:text-gray-400 line-clamp-2 leading-snug tracking-tight transition-colors"
         style={{ fontFamily: F.family }}
       >
         {article.title}
       </h4>
       <p 
-        className="text-[10px] text-gray-400 mt-1 uppercase tracking-wider font-medium" 
+        className="text-[10px] text-gray-400 dark:text-gray-500 mt-1 uppercase tracking-wider font-medium" 
         style={{ fontFamily: F.family }}
       >
         {article.categoryName} · {article.publishedAt}
@@ -176,7 +176,7 @@ const SharePanel: React.FC<{ articleTitle: string }> = ({ articleTitle }) => {
 
   return (
     <div>
-      <h3 
+      {/* <h3 
         className="text-[12px] font-semibold text-gray-950 mb-2 uppercase tracking-wider" 
         style={{ fontFamily: F.family }}
       >
@@ -207,7 +207,7 @@ const SharePanel: React.FC<{ articleTitle: string }> = ({ articleTitle }) => {
           </span>
           <span>{copied ? 'Link copied!' : 'Copy link'}</span>
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
@@ -222,7 +222,7 @@ const ArticleBody: React.FC<{ article: Article }> = ({ article }) => {
           <div key={section.id} className={idx === 0 ? '' : 'mt-9'}>
             <h2
               id={section.id}
-              className="text-xl sm:text-[22px] font-semibold text-gray-950 mb-3.5 tracking-tight scroll-mt-24"
+              className="text-xl sm:text-[22px] font-semibold text-gray-950 dark:text-gray-100 mb-3.5 tracking-tight scroll-mt-24"
               style={{ fontFamily: F.family }}
             >
               {section.title}
@@ -231,7 +231,7 @@ const ArticleBody: React.FC<{ article: Article }> = ({ article }) => {
             {section.paragraphs.map((p, pIdx) => (
               <p
                 key={pIdx}
-                className="text-[14px] sm:text-[15px] leading-[1.75] text-gray-700 mb-4 font-normal"
+                className="text-[14px] sm:text-[15px] leading-[1.75] text-gray-700 dark:text-gray-300 mb-4 font-normal"
                 style={{ fontFamily: F.family }}
               >
                 {p}
@@ -239,12 +239,12 @@ const ArticleBody: React.FC<{ article: Article }> = ({ article }) => {
             ))}
 
             {section.quote && (
-              <blockquote className="border-l-[2.5px] border-gray-950 pl-4 sm:pl-5 py-0.5 my-6">
-                <p className="text-[15px] sm:text-[16px] italic leading-relaxed text-gray-800 font-normal">
+              <blockquote className="border-l-[2.5px] border-gray-950 dark:border-gray-200 pl-4 sm:pl-5 py-0.5 my-6">
+                <p className="text-[15px] sm:text-[16px] italic leading-relaxed text-gray-800 dark:text-gray-200 font-normal">
                   {section.quote.text}
                 </p>
                 {section.quote.author && (
-                  <footer className="text-[12px] text-gray-400 font-normal not-italic mt-2">
+                  <footer className="text-[12px] text-gray-400 dark:text-gray-500 font-normal not-italic mt-2">
                     — {section.quote.author}
                   </footer>
                 )}
@@ -252,14 +252,14 @@ const ArticleBody: React.FC<{ article: Article }> = ({ article }) => {
             )}
 
             {section.image && (
-              <div className="my-6 rounded-2xl overflow-hidden bg-gray-100 border border-gray-100">
+              <div className="my-6 rounded-2xl overflow-hidden bg-gray-100 dark:bg-gray-900 border border-gray-100 dark:border-gray-800">
                 <img
                   src={section.image.url}
                   alt={section.image.alt || section.title}
                   className="w-full object-cover max-h-[300px]"
                 />
                 {section.image.caption && (
-                  <p className="text-center text-[11px] text-gray-400 py-2">
+                  <p className="text-center text-[11px] text-gray-400 dark:text-gray-500 py-2">
                     {section.image.caption}
                   </p>
                 )}
@@ -271,16 +271,16 @@ const ArticleBody: React.FC<{ article: Article }> = ({ article }) => {
                 {section.items.map((item, itemIdx) => (
                   <div
                     key={itemIdx}
-                    className="flex items-start gap-3 p-3.5 rounded-xl bg-gray-50/80 border border-gray-100"
+                    className="flex items-start gap-3 p-3.5 rounded-xl bg-gray-50/80 dark:bg-[#141414] border border-gray-100 dark:border-gray-800"
                   >
-                    <div className="w-7 h-7 rounded-lg bg-gray-200/70 flex items-center justify-center flex-shrink-0 mt-0.5 text-gray-600 text-xs font-bold">
+                    <div className="w-7 h-7 rounded-lg bg-gray-200/70 dark:bg-gray-800 flex items-center justify-center flex-shrink-0 mt-0.5 text-gray-600 dark:text-gray-300 text-xs font-bold">
                       →
                     </div>
                     <div>
-                      <p className="text-[13px] font-semibold text-gray-950 leading-tight">
+                      <p className="text-[13px] font-semibold text-gray-950 dark:text-gray-100 leading-tight">
                         {item.title}
                       </p>
-                      <p className="text-[12px] text-gray-500 font-normal mt-0.5 leading-relaxed">
+                      <p className="text-[12px] text-gray-500 dark:text-gray-400 font-normal mt-0.5 leading-relaxed">
                         {item.description}
                       </p>
                     </div>
@@ -301,13 +301,13 @@ const ArticleBody: React.FC<{ article: Article }> = ({ article }) => {
 
   return (
     <div className="article-body" style={{ fontFamily: F.family }}>
-      <h2 id="content" className="text-xl sm:text-[22px] font-semibold text-gray-950 mb-3.5 tracking-tight scroll-mt-24">
+      <h2 id="content" className="text-xl sm:text-[22px] font-semibold text-gray-950 dark:text-gray-100 mb-3.5 tracking-tight scroll-mt-24">
         Overview
       </h2>
       {paragraphs.map((p, idx) => (
         <p
           key={idx}
-          className="text-[14px] sm:text-[15px] leading-[1.75] text-gray-700 mb-4 font-normal"
+          className="text-[14px] sm:text-[15px] leading-[1.75] text-gray-700 dark:text-gray-300 mb-4 font-normal"
           style={{ fontFamily: F.family }}
         >
           {p}
@@ -321,19 +321,19 @@ const ArticleBody: React.FC<{ article: Article }> = ({ article }) => {
 const ArticleNotFound: React.FC = () => (
   <div className="min-h-[60vh] flex items-center justify-center py-20 px-4">
     <div className="text-center max-w-md">
-      <span className="inline-block text-xs font-mono font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full mb-4">
+      <span className="inline-block text-xs font-mono font-medium text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/40 px-3 py-1 rounded-full mb-4">
         404 — Not Found
       </span>
-      <h1 className="text-3xl font-semibold text-gray-950 mb-3 tracking-tight" style={{ fontFamily: F.family }}>
+      <h1 className="text-3xl font-semibold text-gray-950 dark:text-gray-100 mb-3 tracking-tight" style={{ fontFamily: F.family }}>
         Article Not Found
       </h1>
-      <p className="text-sm text-gray-500 mb-8 leading-relaxed" style={{ fontFamily: F.family }}>
+      <p className="text-sm text-gray-500 dark:text-gray-400 mb-8 leading-relaxed" style={{ fontFamily: F.family }}>
         The article you are looking for doesn't exist, may have been moved, or the link is incorrect.
       </p>
       <div className="flex items-center justify-center gap-3">
         <Link
           to="/journal"
-          className="inline-flex items-center gap-2 px-5 py-2.5 bg-gray-950 hover:bg-black text-white text-xs font-medium rounded-full transition-colors"
+          className="inline-flex items-center gap-2 px-5 py-2.5 bg-gray-950 dark:bg-white hover:bg-black dark:hover:bg-gray-100 text-white dark:text-gray-950 text-xs font-medium rounded-full transition-colors"
           style={{ fontFamily: F.family }}
         >
           <BookOpen className="w-3.5 h-3.5" />
@@ -341,7 +341,7 @@ const ArticleNotFound: React.FC = () => (
         </Link>
         <Link
           to="/"
-          className="inline-flex items-center gap-2 px-5 py-2.5 border border-gray-200 hover:bg-gray-50 text-gray-700 text-xs font-medium rounded-full transition-colors"
+          className="inline-flex items-center gap-2 px-5 py-2.5 border border-gray-200 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-850 text-gray-700 dark:text-gray-300 text-xs font-medium rounded-full transition-colors"
           style={{ fontFamily: F.family }}
         >
           <Home className="w-3.5 h-3.5" />
@@ -484,29 +484,13 @@ const ArticleView: React.FC<{ article: Article }> = ({ article }) => {
 
   return (
     <div
-      className="min-h-screen bg-white pt-2 pb-16 sm:pb-24"
+      className="min-h-screen bg-white dark:bg-[#0D0D0D] pt-4 pb-16 sm:pb-24"
       style={{ fontFamily: F.family }}
     >
       {/* ──────────────────────────────────────────────────────────────────── */}
       {/* Page Container: 1200px max width matching site layout               */}
       {/* ──────────────────────────────────────────────────────────────────── */}
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
-
-        {/* ================================================================ */}
-        {/* TOP METADATA ROW (Reference: CATEGORY / DATE / READING TIME)     */}
-        {/* ================================================================ */}
-        <div className="flex items-center gap-2 pt-6 pb-4 text-[11px] font-medium text-gray-400 uppercase tracking-wider">
-          <Link
-            to="/journal"
-            className="text-gray-500 hover:text-gray-900 transition-colors"
-          >
-            {article.categoryName}
-          </Link>
-          <span className="text-gray-300">/</span>
-          <span className="text-gray-400">{article.publishedAt.toUpperCase()}</span>
-          <span className="text-gray-300">/</span>
-          <span className="text-gray-400">{article.readingTime.toUpperCase()}</span>
-        </div>
 
         {/* ================================================================ */}
         {/* 3-COLUMN EDITORIAL LAYOUT                                        */}
@@ -518,7 +502,7 @@ const ArticleView: React.FC<{ article: Article }> = ({ article }) => {
           {/* LEFT COLUMN: STICKY TABLE OF CONTENTS                          */}
           {/* ============================================================== */}
           <aside className="hidden lg:block sticky top-24 self-start">
-            <p className="text-[11px] font-medium text-gray-400 mb-3" style={{ fontFamily: F.family }}>
+            <p className="text-[13px] font-medium text-gray-800 dark:text-gray-200 mb-3" style={{ fontFamily: F.family }}>
               On this page
             </p>
             <nav className="space-y-1" aria-label="Article table of contents">
@@ -534,14 +518,14 @@ const ArticleView: React.FC<{ article: Article }> = ({ article }) => {
                     }}
                     className={`flex items-center py-1 text-[13px] transition-colors leading-snug group ${
                       isActive
-                        ? 'text-gray-950 font-medium'
-                        : 'text-gray-400 hover:text-gray-700 font-normal'
+                        ? 'text-gray-950 dark:text-gray-100 font-medium'
+                        : 'text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 font-normal'
                     }`}
                   >
                     {/* Left vertical indicator line */}
                     <span
                       className={`flex-shrink-0 w-[2px] h-[16px] rounded-full mr-2.5 transition-all duration-200 ${
-                        isActive ? 'bg-gray-950' : 'bg-transparent'
+                        isActive ? 'bg-gray-950 dark:bg-gray-100' : 'bg-transparent'
                       }`}
                     />
                     <span className="truncate">{item.label}</span>
@@ -558,7 +542,7 @@ const ArticleView: React.FC<{ article: Article }> = ({ article }) => {
 
             {/* Article Heading */}
             <h1
-              className="text-2xl sm:text-3xl md:text-[34px] font-medium text-gray-950 tracking-[-0.035em] leading-[1.2] mb-3"
+              className="text-2xl sm:text-3xl md:text-[34px] font-medium text-gray-950 dark:text-gray-100 tracking-[-0.035em] leading-[1.2] mb-3"
               style={{ fontFamily: F.family }}
             >
               {article.title}
@@ -566,30 +550,30 @@ const ArticleView: React.FC<{ article: Article }> = ({ article }) => {
 
             {/* Excerpt / Subtitle */}
             <p
-              className="text-[15px] sm:text-[16px] text-gray-500 font-normal leading-relaxed mb-6"
+              className="text-[15px] sm:text-[16px] text-gray-500 dark:text-gray-400 font-normal leading-relaxed mb-6"
               style={{ fontFamily: F.family }}
             >
               {article.excerpt}
             </p>
 
             {/* Author Row & Action Icons */}
-            <div className="flex items-center justify-between gap-4 pb-6 border-b border-gray-100">
+            <div className="flex items-center justify-between gap-4 pb-6 border-b border-gray-100 dark:border-gray-800">
               {/* Author Info */}
               <div className="flex items-center gap-3">
                 <img
                   src={article.author.avatar}
                   alt={article.author.name}
-                  className="w-10 h-10 rounded-full object-cover border border-gray-100 flex-shrink-0"
+                  className="w-10 h-10 rounded-full object-cover border border-gray-100 dark:border-gray-800 flex-shrink-0"
                 />
                 <div>
                   <p 
-                    className="text-[13px] font-semibold text-gray-950 leading-tight" 
+                    className="text-[13px] font-semibold text-gray-950 dark:text-gray-100 leading-tight" 
                     style={{ fontFamily: F.family }}
                   >
                     By {article.author.name}
                   </p>
                   <p 
-                    className="text-[11px] text-gray-400 font-normal mt-0.5" 
+                    className="text-[11px] text-gray-400 dark:text-gray-500 font-normal mt-0.5" 
                     style={{ fontFamily: F.family }}
                   >
                     {article.author.role || 'Writer · Builder · Lifelong Learner'}
@@ -607,8 +591,8 @@ const ArticleView: React.FC<{ article: Article }> = ({ article }) => {
                   title={isBookmarked ? 'Bookmarked' : 'Bookmark article'}
                   className={`w-9 h-9 rounded-full border flex items-center justify-center transition-colors ${
                     isBookmarked
-                      ? 'border-gray-900 bg-gray-950 text-white'
-                      : 'border-gray-200 bg-white text-gray-600 hover:text-gray-950 hover:border-gray-400'
+                      ? 'border-gray-900 dark:border-white bg-gray-950 dark:bg-white text-white dark:text-gray-950'
+                      : 'border-gray-200 dark:border-gray-800 bg-white dark:bg-[#141414] text-gray-600 dark:text-gray-300 hover:text-gray-950 dark:hover:text-white hover:border-gray-400 dark:hover:border-gray-600'
                   }`}
                 >
                   <Bookmark 
@@ -623,7 +607,7 @@ const ArticleView: React.FC<{ article: Article }> = ({ article }) => {
                   onClick={handleShareClick}
                   aria-label="Share article"
                   title="Share article"
-                  className="w-9 h-9 rounded-full border border-gray-200 bg-white flex items-center justify-center text-gray-600 hover:text-gray-950 hover:border-gray-400 transition-colors"
+                  className="w-9 h-9 rounded-full border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#141414] flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-gray-950 dark:hover:text-white hover:border-gray-400 dark:hover:border-gray-600 transition-colors"
                 >
                   <Share2 className="w-4 h-4" />
                 </button>
@@ -634,33 +618,33 @@ const ArticleView: React.FC<{ article: Article }> = ({ article }) => {
                   onClick={() => setIsMoreOpen(!isMoreOpen)}
                   aria-label="More options"
                   title="More options"
-                  className="w-9 h-9 rounded-full border border-gray-200 bg-white flex items-center justify-center text-gray-600 hover:text-gray-950 hover:border-gray-400 transition-colors"
+                  className="w-9 h-9 rounded-full border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#141414] flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-gray-950 dark:hover:text-white hover:border-gray-400 dark:hover:border-gray-600 transition-colors"
                 >
                   <MoreHorizontal className="w-4 h-4" />
                 </button>
 
                 {/* More Dropdown Menu */}
                 {isMoreOpen && (
-                  <div className="absolute right-0 top-11 w-48 bg-white rounded-xl shadow-lg border border-gray-100 py-1.5 z-30">
+                  <div className="absolute right-0 top-11 w-48 bg-white dark:bg-[#181818] rounded-xl shadow-lg border border-gray-100 dark:border-gray-800 py-1.5 z-30">
                     <button
                       type="button"
                       onClick={handleCopyLink}
-                      className="w-full px-3.5 py-2 text-left text-xs text-gray-700 hover:bg-gray-50 flex items-center gap-2 transition-colors"
+                      className="w-full px-3.5 py-2 text-left text-xs text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 flex items-center gap-2 transition-colors"
                     >
-                      {copyFeedback ? <Check className="w-3.5 h-3.5 text-emerald-600" /> : <Link2 className="w-3.5 h-3.5 text-gray-400" />}
+                      {copyFeedback ? <Check className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" /> : <Link2 className="w-3.5 h-3.5 text-gray-400" />}
                       <span>{copyFeedback ? 'Link copied!' : 'Copy link'}</span>
                     </button>
                     <button
                       type="button"
                       onClick={handlePrint}
-                      className="w-full px-3.5 py-2 text-left text-xs text-gray-700 hover:bg-gray-50 flex items-center gap-2 transition-colors"
+                      className="w-full px-3.5 py-2 text-left text-xs text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 flex items-center gap-2 transition-colors"
                     >
                       <Printer className="w-3.5 h-3.5 text-gray-400" />
                       <span>Print article</span>
                     </button>
                     <a
                       href={`mailto:?subject=${encodeURIComponent(article.title)}&body=${encodeURIComponent(window.location.href)}`}
-                      className="w-full px-3.5 py-2 text-left text-xs text-gray-700 hover:bg-gray-50 flex items-center gap-2 transition-colors"
+                      className="w-full px-3.5 py-2 text-left text-xs text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 flex items-center gap-2 transition-colors"
                     >
                       <Mail className="w-3.5 h-3.5 text-gray-400" />
                       <span>Email to a friend</span>
@@ -671,7 +655,7 @@ const ArticleView: React.FC<{ article: Article }> = ({ article }) => {
             </div>
 
             {/* Cover Image */}
-            <div className="my-6 rounded-2xl overflow-hidden bg-gray-100 shadow-[0_2px_8px_rgba(0,0,0,0.04)]">
+            <div className="my-6 rounded-2xl overflow-hidden bg-gray-100 dark:bg-gray-900 shadow-[0_2px_8px_rgba(0,0,0,0.04)]">
               <img
                 src={article.coverImage}
                 alt={article.title}
@@ -683,11 +667,11 @@ const ArticleView: React.FC<{ article: Article }> = ({ article }) => {
             <ArticleBody article={article} />
 
             {/* Bottom Mobile-Friendly Share & Related Sections */}
-            <div className="lg:hidden mt-12 pt-8 border-t border-gray-100 space-y-8">
+            <div className="lg:hidden mt-12 pt-8 border-t border-gray-100 dark:border-gray-800 space-y-8">
               <NewsletterCard />
               {related.length > 0 && (
                 <div>
-                  <h3 className="text-[12px] font-semibold text-gray-950 mb-3 uppercase tracking-wider">
+                  <h3 className="text-[12px] font-semibold text-gray-950 dark:text-gray-100 mb-3 uppercase tracking-wider">
                     Related articles
                   </h3>
                   <div className="space-y-1">
@@ -711,13 +695,13 @@ const ArticleView: React.FC<{ article: Article }> = ({ article }) => {
             <NewsletterCard />
 
             {/* Divider */}
-            <div className="border-t border-gray-100" />
+            <div className="border-t border-gray-100 dark:border-gray-800" />
 
             {/* Related Articles */}
             {related.length > 0 && (
               <div>
                 <h3
-                  className="text-[12px] font-semibold text-gray-950 mb-3 uppercase tracking-wider"
+                  className="text-[12px] font-semibold text-gray-950 dark:text-gray-100 mb-3 uppercase tracking-wider"
                   style={{ fontFamily: F.family }}
                 >
                   Related articles
@@ -731,7 +715,7 @@ const ArticleView: React.FC<{ article: Article }> = ({ article }) => {
             )}
 
             {/* Divider */}
-            <div className="border-t border-gray-100" />
+            <div className="border-t border-gray-100 dark:border-gray-800" />
 
             {/* Share Panel */}
             <SharePanel articleTitle={article.title} />

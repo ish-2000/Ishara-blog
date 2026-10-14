@@ -13,7 +13,7 @@ export const MidFeatureBanner: React.FC = () => {
   return (
     <section
       aria-label="Highlighted Story"
-      className="w-full border-y border-gray-200 py-3"
+      className="w-full border-y border-gray-200 dark:border-gray-800 py-3"
       style={{ fontFamily: F.family }}
     >
       <Link
@@ -33,16 +33,16 @@ export const MidFeatureBanner: React.FC = () => {
         <div className="flex-1 min-w-0">
           <span
             style={S.badge}
-            className="inline-flex rounded-full bg-gray-100 px-2.5 py-1 text-[9px] font-medium uppercase tracking-wide text-gray-600"
+            className="inline-flex rounded-full bg-gray-100 dark:bg-gray-800 px-2.5 py-1 text-[9px] font-medium uppercase tracking-wide text-gray-600 dark:text-gray-400"
           >
             {article.categoryName}
           </span>
 
-          <h2 className="mt-2 text-[15px] sm:text-[17px] font-medium tracking-tight leading-snug text-gray-950 group-hover:text-gray-600 transition-colors line-clamp-2">
+          <h2 className="mt-2 text-[15px] sm:text-[17px] font-medium tracking-tight leading-snug text-gray-950 dark:text-gray-100 group-hover:text-gray-600 dark:group-hover:text-gray-400 transition-colors line-clamp-2">
             {article.title}
           </h2>
 
-          <p className="mt-1 text-[12px] sm:text-[13px] font-normal leading-relaxed text-gray-400 line-clamp-2 max-w-[650px]">
+          <p className="mt-1 text-[12px] sm:text-[13px] font-normal leading-relaxed text-gray-400 dark:text-gray-500 line-clamp-2 max-w-[650px]">
             {article.excerpt}
           </p>
 
@@ -54,7 +54,7 @@ export const MidFeatureBanner: React.FC = () => {
               className="h-5 w-5 rounded-full object-cover"
             />
 
-            <span className="text-gray-600">
+            <span className="text-gray-600 dark:text-gray-400">
               {article.author.name}
             </span>
 
@@ -66,7 +66,7 @@ export const MidFeatureBanner: React.FC = () => {
         </div>
 
         {/* Arrow */}
-        <div className="hidden sm:flex shrink-0 items-center justify-center w-10 h-10 rounded-full border border-gray-200 text-gray-800 group-hover:bg-black group-hover:text-white group-hover:border-black transition-all duration-300">
+        <div className="hidden sm:flex shrink-0 items-center justify-center w-10 h-10 rounded-full border border-gray-200 dark:border-gray-700 text-gray-800 dark:text-gray-300 group-hover:bg-black dark:group-hover:bg-white group-hover:text-white dark:group-hover:text-black group-hover:border-black dark:group-hover:border-white transition-all duration-300">
           <ArrowRight size={17} strokeWidth={1.7} />
         </div>
       </Link>
