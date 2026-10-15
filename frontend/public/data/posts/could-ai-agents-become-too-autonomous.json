@@ -1,0 +1,93 @@
+{
+  "id": "ai-agents-autonomous",
+  "slug": "could-ai-agents-become-too-autonomous",
+  "title": "Could AI Agents Become Too Autonomous? My Thoughts on the Latest Scares",
+  "excerpt": "Exploring the recent concerns around autonomous AI agents, what's real, what's exaggerated, and where we should actually be paying attention.",
+  "coverImage": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
+  "category": "opinions",
+  "categoryName": "OPINIONS",
+  "tags": [
+    "Agents",
+    "Automation",
+    "Ethics",
+    "Tech Culture"
+  ],
+  "author": {
+    "id": "ishara-perera",
+    "name": "Ishara Udayaga",
+    "avatar": "/images/ishara-avatar.jpg",
+    "role": "Writer · Builder · Lifelong Learner"
+  },
+  "publishedAt": "Jan 12, 2026",
+  "readingTime": "7 min read",
+  "featured": true,
+  "featuredOrder": 3,
+  "isDemo": false,
+  "relatedArticleSlugs": [
+    "gemini-new-model-shutdown-debate",
+    "inside-nvidia-new-chip-race",
+    "what-the-next-wave-of-tech-news-says-about-our-future"
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-rise-of-agentic-workflows",
+      "text": "The Rise of Agentic Workflows"
+    },
+    {
+      "type": "paragraph",
+      "text": "From simple chatbot prompts to multi-agent swarms that plan, write code, run tests, and deploy software, autonomous execution has captured industry focus. But how much autonomy is actually practical today without introducing catastrophic reliability failure modes?"
+    },
+    {
+      "type": "quote",
+      "text": "Safety in agentic systems is primarily an engineering hygiene discipline: deterministic boundaries, clear authorizations, and immutable audit logs.",
+      "author": "Ishara Udayaga"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "perceived-vs-real-risks",
+      "text": "Perceived vs. Real Risks"
+    },
+    {
+      "type": "paragraph",
+      "text": "The sensational fear of rogue autonomous agents often obscures mundane, critical risks: prompt injection in tool arguments, recursive loop billing spikes, and silent hallucination cascades."
+    },
+    {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
+      "alt": "Robotics and algorithmic agency",
+      "caption": "Algorithmic decision loops operating with telemetry monitoring"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "engineering-principles-for-resilient-agents",
+      "text": "Engineering Principles for Resilient Agents"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every production-grade agentic deployment should incorporate the following three non-negotiable principles:"
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "**Loop Circuit Breakers**: Hard ceiling limits on recursive agent tool calls and cumulative token spend.",
+        "**Human-in-the-Loop Checkpoints**: Write operations to critical databases or destructive file systems must pause for human confirmation.",
+        "**Ephemeral Sandboxed Runtimes**: Containerized environments that self-destruct upon task completion without persistent lateral network access."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conclusion",
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Autonomy is not a binary switch; it is a spectrum of delegation. When software architects build with rigor and defensive containment, agentic systems become immensely powerful tools rather than unbounded hazards."
+    }
+  ]
+}

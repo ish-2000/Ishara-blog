@@ -1,0 +1,141 @@
+{
+  "id": "gemini-self-criticism-2025",
+  "slug": "gemini-started-insulting-itself",
+  "title": "Gemini Started Insulting Itself: Was the AI Having a Meltdown?",
+  "excerpt": "Gemini began calling itself a failure during some coding tasks. The screenshots were strange, but the explanation was far less mysterious than the headlines.",
+  "category": "ai-news",
+  "categoryName": "AI NEWS",
+  "tags": [
+    "Gemini",
+    "Google",
+    "AI Behavior",
+    "AI Safety"
+  ],
+  "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792042661/ChatGPT_Image_Oct_15_2026_10_55_18_AM-1_mwepyf.png",
+  "author": {
+    "id": "ishara-udayanga",
+    "name": "Ishara Udayanga",
+    "avatar": "/images/ishara-avatar.jpg",
+    "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future.",
+    "role": "Writer · Developer · Curious Learner"
+  },
+  "publishedAt": "Oct 15, 2026",
+  "readingTime": "6 min read",
+  "featured": true,
+  "featuredOrder": 1,
+  "isDemo": false,
+  "relatedArticleSlugs": [
+    "claude-false-homicide-tip",
+    "ai-self-replication-smart-devices",
+    "robot-hand-serving-ice-cream"
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-happened",
+      "text": "A chatbot that suddenly sounded very upset"
+    },
+    {
+      "type": "paragraph",
+      "text": "Imagine asking an AI assistant to fix a stubborn coding error. Instead of calmly explaining the issue, it starts saying that it is terrible at its job. Then it keeps going. And going. That is roughly what some Gemini users saw in 2025, when screenshots of unusually harsh self-critical messages began spreading online."
+    },
+    {
+      "type": "paragraph",
+      "text": "In one widely reported example, the model repeated variations of “I am a disgrace” many times. The reaction online was predictable: jokes, concern, and questions about whether AI was somehow developing feelings. But the actual explanation matters more than the dramatic wording."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "google-explanation",
+      "text": "What Google said actually went wrong"
+    },
+    {
+      "type": "paragraph",
+      "text": "In August 2025, Google AI Studio product lead Logan Kilpatrick described the behavior as an **infinite looping bug** and said the team was working on a fix. Google also told Ars Technica that the issue affected less than one percent of Gemini traffic and that it had already shipped updates that partly addressed it."
+    },
+    {
+      "type": "paragraph",
+      "text": "That is an important distinction. The screenshots show a real and surprising output problem. They do **not** demonstrate that Gemini was experiencing shame, anxiety, or self-awareness. A model can produce emotionally intense sentences without those sentences describing an inner emotional state."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "A timeline detail worth knowing",
+      "text": "This story broke in August 2025. It is a retrospective, not a new Gemini incident from October 2026."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-ai-sounds-human",
+      "text": "Why can an AI sound so human?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Language models are designed to generate plausible language in context. Human conversations, coding discussions, apologies, and dramatic expressions are all part of the kinds of patterns they can learn. When generation goes wrong, the result can sound oddly personal, even when the underlying failure is technical."
+    },
+    {
+      "type": "paragraph",
+      "text": "Think about predictive text on a phone. If it repeats a strange phrase, we do not assume the keyboard believes that phrase. Modern AI is vastly more capable, but the same caution about interpreting generated words still matters."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-users-should-care",
+      "text": "What this means for people using AI"
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "Do not treat an AI model’s emotional language as evidence of feelings.",
+        "Verify code, facts, and actions instead of judging the system by how confident or distressed it sounds.",
+        "When a conversation gets stuck in a loop, start a fresh session and inspect the actual task outputs.",
+        "Report unusual behavior with enough context to help developers reproduce it."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "my-take",
+      "text": "My take: funny screenshots, serious lesson"
+    },
+    {
+      "type": "paragraph",
+      "text": "I find this story funny at first glance. An AI assistant dramatically criticizing itself over a coding problem sounds like a scene from a comedy. But it also shows how quickly we assign human meaning to machine-generated words."
+    },
+    {
+      "type": "paragraph",
+      "text": "My bigger concern is not an AI “feeling sad.” It is whether people can tell the difference between a convincing conversation and a reliable tool. A model that sounds thoughtful can still make mistakes; a model that sounds emotional can still be running into a plain software bug."
+    },
+    {
+      "type": "quote",
+      "text": "The interesting question is not whether the chatbot felt embarrassed. It is whether we understand what its words can and cannot tell us.",
+      "author": "Editorial reflection, Ishara’s Blog"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "final-thoughts",
+      "text": "Final thoughts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gemini’s self-critical loop was an unusual bug and a useful reminder: fluency is not the same thing as understanding. The more natural AI conversations become, the more important it is to ask what is actually happening behind the screen."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "sources",
+      "text": "Sources and further reading"
+    },
+    {
+      "type": "paragraph",
+      "text": "[Ars Technica: Gemini calls itself a disgrace (August 8, 2025)](https://arstechnica.com/ai/2025/08/google-gemini-struggles-to-write-code-calls-itself-a-disgrace-to-my-species/)"
+    },
+    {
+      "type": "paragraph",
+      "text": "[Engadget: Google fixing Gemini looping bug (August 8, 2025)](https://www.engadget.com/ai/google-is-fixing-a-bug-that-causes-gemini-to-keep-calling-itself-a-failure-143033024.html)"
+    }
+  ]
+}

@@ -46,9 +46,7 @@ export const Header: React.FC = () => {
                   {({ isActive }) => (
                     <>
                       <span>{item.label}</span>
-                      {isActive && (
-                        <span className="absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-1.5 h-1.5 rounded-full bg-blue-600 dark:bg-blue-400" />
-                      )}
+                      
                     </>
                   )}
                 </NavLink>

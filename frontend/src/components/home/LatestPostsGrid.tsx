@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-import { mockArticles } from '../../data/mockArticles';
+import { ArticleMetadata } from '../../types';
+import { articleService, getArticleCoverImage, handleCoverImageError } from '../../services/articleService';
 import { F, S } from '../../styles/theme';
 
 export const LatestPostsGrid: React.FC = () => {
-  // 4 latest posts shown in the design reference (indexes 1, 2, 3, 4)
-  const posts = mockArticles.slice(1, 5);
+  const [posts, setPosts] = useState<ArticleMetadata[]>([]);
+
+  useEffect(() => {
+    let isMounted = true;
+    articleService.getPublishedArticles().then((all) => {
+      if (isMounted) {
+        setPosts(all.slice(1, 5));
+      }
+    });
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   return (
     <section aria-label="Latest Posts" className="w-full space-y-4">
@@ -20,7 +32,7 @@ export const LatestPostsGrid: React.FC = () => {
         </h2>
 
         <Link
-          to="/journal"
+          to="/blogs"
           className="group inline-flex items-center gap-1.5 text-xs text-gray-400 dark:text-gray-500 hover:text-black dark:hover:text-gray-100 transition-colors"
           style={{ fontFamily: F.family }}
         >
@@ -41,8 +53,10 @@ export const LatestPostsGrid: React.FC = () => {
               {/* Rounded Landscape Image Container */}
               <div className="w-full aspect-[16/10] rounded-xl overflow-hidden bg-gray-100 mb-2.5 shadow-[0_1px_3px_rgba(0,0,0,0.04)]">
                 <img
-                  src={post.coverImage}
+                  src={getArticleCoverImage(post)}
                   alt={post.title}
+                  loading="lazy"
+                  onError={(e) => handleCoverImageError(e, post.category)}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>

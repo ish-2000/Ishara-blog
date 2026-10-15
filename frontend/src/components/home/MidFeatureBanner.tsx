@@ -1,12 +1,27 @@
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import { mockArticles } from "../../data/mockArticles";
+import { ArticleMetadata } from "../../types";
+import { articleService, getArticleCoverImage, handleCoverImageError } from "../../services/articleService";
 import { F, S } from "../../styles/theme";
 
 export const MidFeatureBanner: React.FC = () => {
-  const article = mockArticles[2];
+  const [article, setArticle] = useState<ArticleMetadata | null>(null);
+
+  useEffect(() => {
+    let isMounted = true;
+    articleService.getPublishedArticles().then((articles) => {
+      if (isMounted && articles.length > 2) {
+        setArticle(articles[2]);
+      } else if (isMounted && articles.length > 0) {
+        setArticle(articles[0]);
+      }
+    });
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   if (!article) return null;
 
@@ -23,8 +38,10 @@ export const MidFeatureBanner: React.FC = () => {
         {/* Featured Image */}
         <div className="relative w-full sm:w-[290px] lg:w-[345px] h-[200px] sm:h-[138px] flex-shrink-0 overflow-hidden rounded-lg bg-gray-100">
           <img
-            src={article.coverImage}
+            src={getArticleCoverImage(article)}
             alt={article.title}
+            loading="lazy"
+            onError={(e) => handleCoverImageError(e, article.category)}
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
         </div>
@@ -58,10 +75,9 @@ export const MidFeatureBanner: React.FC = () => {
               {article.author.name}
             </span>
 
-            <span>•</span>
+            
             <span>{article.publishedAt}</span>
-            <span>•</span>
-            <span>{article.readingTime}</span>
+            
           </div>
         </div>
 

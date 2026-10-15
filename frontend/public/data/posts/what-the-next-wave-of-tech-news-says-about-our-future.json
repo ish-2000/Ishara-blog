@@ -1,0 +1,52 @@
+{
+  "id": "next-wave-tech-news",
+  "slug": "what-the-next-wave-of-tech-news-says-about-our-future",
+  "title": "What the Next Wave of Tech News Says About Our Future",
+  "excerpt": "A roundup of the latest tech developments and what they reveal about where we're headed next.",
+  "coverImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+  "category": "future-tech",
+  "categoryName": "FUTURE TECH",
+  "tags": [
+    "Future Tech",
+    "Trends",
+    "Regulation",
+    "Robotics"
+  ],
+  "author": {
+    "id": "ishara-perera",
+    "name": "Ishara Udayaga",
+    "avatar": "/images/ishara-avatar.jpg",
+    "role": "Writer · Builder · Lifelong Learner"
+  },
+  "publishedAt": "Dec 10, 2025",
+  "readingTime": "4 min read",
+  "featured": false,
+  "isDemo": false,
+  "relatedArticleSlugs": [
+    "could-ai-agents-become-too-autonomous",
+    "inside-nvidia-new-chip-race",
+    "is-the-web-ready-for-ai-search-to-take-over"
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "macro-signals",
+      "text": "Macro Signals Across Tech"
+    },
+    {
+      "type": "paragraph",
+      "text": "A quiet convergence is taking place between silicon manufacturing, renewable energy investments, and frontier AI research. The next decade will be defined by physical infrastructure scale."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "practical-takeaways",
+      "text": "Practical Takeaways for Creators"
+    },
+    {
+      "type": "paragraph",
+      "text": "Focus on enduring first principles: deepen domain expertise, master system-level thinking, and leverage modern tools to multiply your creative output."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "spacex-space-jellyfish-2026",
+  "slug": "spacex-rocket-created-space-jellyfish",
+  "title": "SpaceX Launched a Rocket: Then a Giant Glowing Jellyfish Appeared in the Sky",
+  "excerpt": "A Falcon 9 launch made the sky look almost unreal. Here is the simple science behind the strange glowing shape and why the rocket was flying.",
+  "category": "future-tech",
+  "categoryName": "FUTURE TECH",
+  "tags": [
+    "SpaceX",
+    "NASA",
+    "Falcon 9",
+    "Space"
+  ],
+  "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792042663/ChatGPT_Image_Oct_15_2026_10_55_19_AM-2_osnqg5.png",
+  "author": {
+    "id": "ishara-udayanga",
+    "name": "Ishara Udayanga",
+    "avatar": "/images/ishara-avatar.jpg",
+    "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future.",
+    "role": "Writer · Developer · Curious Learner"
+  },
+  "publishedAt": "Oct 15, 2026",
+  "readingTime": "6 min read",
+  "featured": true,
+  "featuredOrder": 2,
+  "isDemo": false,
+  "relatedArticleSlugs": [
+    "robot-hand-serving-ice-cream",
+    "ai-self-replication-smart-devices",
+    "gemini-started-insulting-itself"
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-sky",
+      "text": "The sky looked like science fiction"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some rocket launches look like a bright streak of fire. The SpaceX launch on October 13, 2026, did something much stranger: it left a glowing, jellyfish-shaped cloud stretching across the dawn sky. Photos from the eastern United States made it look like something from another planet."
+    },
+    {
+      "type": "paragraph",
+      "text": "There was no alien visitor and no mysterious explosion. It was a beautiful optical effect created by rocket exhaust high in the atmosphere. Still, I think it is one of those moments where real science manages to look more imaginative than science fiction."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "mission",
+      "text": "What actually launched?"
+    },
+    {
+      "type": "paragraph",
+      "text": "NASA says a SpaceX Falcon 9 lifted off from Cape Canaveral Space Force Station in Florida at **6:33 a.m. Eastern time** on October 13. The rocket carried a Dragon spacecraft for NASA’s **35th commercial resupply mission** to the International Space Station, with science equipment and supplies on board."
+    },
+    {
+      "type": "paragraph",
+      "text": "So while the glowing cloud stole the show on social media, the actual mission was very practical: delivering cargo to astronauts and researchers in orbit."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "jellyfish-explained",
+      "text": "Why did it look like a jellyfish?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here is the short explanation: the rocket rose into a part of the sky already receiving sunlight, while people watching from the ground were still in the dim light around sunrise. Exhaust released at high altitude expanded into the thinner air and became brightly lit by the Sun."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the illuminated exhaust plume spread outward behind the moving rocket, it formed a wide glowing shape with a bright center and trailing streaks. That silhouette is why people call the effect a **space jellyfish**. NASA specifically identified the bright exhaust plume as the cause."
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "Timing matters: launches close to sunrise or sunset offer the right lighting.",
+        "Altitude matters: high above Earth, exhaust can spread into large shapes.",
+        "The effect is visual: the cloud is not a living creature or unusual spacecraft."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "more-than-a-photo",
+      "text": "Why the mission matters beyond the photos"
+    },
+    {
+      "type": "paragraph",
+      "text": "The International Space Station relies on regular deliveries of food, equipment, spare parts, and materials for experiments. Commercial cargo flights make that possible. A spectacular image may attract attention, but what I like is that the mission behind it serves ongoing science."
+    },
+    {
+      "type": "paragraph",
+      "text": "That is also an underrated way to explain space technology to new readers. A stunning photo sparks curiosity; the real story shows how much careful engineering is happening in the background."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "my-take",
+      "text": "My take: space should feel exciting"
+    },
+    {
+      "type": "paragraph",
+      "text": "I love stories like this because you do not need an engineering degree to feel interested. You see a glowing shape, ask “what is that?”, and suddenly you are learning about sunlight, air pressure, orbital missions, and rocket engines."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sometimes tech coverage spends so much time on budgets and specifications that it forgets the wonder. This launch shows that curiosity is a great starting point for science."
+    },
+    {
+      "type": "quote",
+      "text": "A good technology story makes you stop scrolling and then gives you a reason to keep learning.",
+      "author": "Editorial reflection, Ishara’s Blog"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "final-thoughts",
+      "text": "Final thoughts"
+    },
+    {
+      "type": "paragraph",
+      "text": "The October 13 SpaceX “jellyfish” was a real rocket exhaust phenomenon captured during a real NASA cargo launch. The photos are dramatic, but the explanation is surprisingly simple. That combination is what makes it such a great story."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "sources",
+      "text": "Sources and further reading"
+    },
+    {
+      "type": "paragraph",
+      "text": "[NASA: CRS-35 launch jellyfish photo and explanation (October 14, 2026)](https://www.nasa.gov/image-article/nasas-space-x-crs-35-launch-jellyfish/)"
+    },
+    {
+      "type": "paragraph",
+      "text": "[Space.com: Falcon 9 space jellyfish photos and report](https://www.space.com/space-exploration/launches-spacecraft/spacex-rocket-launch-creates-incredible-space-jellyfish-visible-throughout-us-east-coast-photos)"
+    }
+  ]
+}

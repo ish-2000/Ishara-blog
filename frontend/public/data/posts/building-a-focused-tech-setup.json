@@ -1,0 +1,139 @@
+{
+  "id": "building-tech-setup",
+  "slug": "building-a-focused-tech-setup",
+  "title": "Building a Focused Tech Setup for a Calmer, More Productive Life",
+  "excerpt": "A practical guide to creating a minimal, intentional tech setup that helps you work better, think clearer, and enjoy the process without the noise.",
+  "coverImage": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
+  "category": "opinions",
+  "categoryName": "PRODUCTIVITY",
+  "tags": [
+    "Productivity",
+    "Minimalism",
+    "Workspace",
+    "Tech Setup"
+  ],
+  "author": {
+    "id": "ishara-perera",
+    "name": "Ishara Udayaga",
+    "avatar": "/images/ishara-avatar.jpg",
+    "bio": "Software engineer and tech enthusiast writing about artificial intelligence, modern computing hardware, and future tech.",
+    "role": "Writer · Builder · Lifelong Learner"
+  },
+  "publishedAt": "Jan 15, 2026",
+  "readingTime": "8 min read",
+  "featured": true,
+  "featuredOrder": 2,
+  "isDemo": false,
+  "relatedArticleSlugs": [
+    "gemini-new-model-shutdown-debate",
+    "inside-nvidia-new-chip-race",
+    "could-ai-agents-become-too-autonomous"
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "introduction",
+      "text": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "text": "Over the years, I've realized that productivity isn't about doing more, it's about creating the right environment for what matters. A well-thought-out tech setup can remove friction, reduce mental clutter, and help you focus on your best work."
+    },
+    {
+      "type": "paragraph",
+      "text": "In this post, I'm sharing my current minimalist tech setup, the tools I rely on, and the lessons I've learned while building a calmer, more intentional workflow. Check out [my personal GitHub](https://github.com) for dotfiles and configuration scripts."
+    },
+    {
+      "type": "quote",
+      "text": "A simpler setup isn't about having less. It's about giving more space to what truly matters.",
+      "author": "Ishara Udayaga"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-a-simpler-setup-works",
+      "text": "Why a Simpler Setup Works"
+    },
+    {
+      "type": "paragraph",
+      "text": "A minimalist tech setup helps eliminate decision fatigue. Fewer devices, fewer apps, and a cleaner workspace mean less time managing your tools and more time doing meaningful work."
+    },
+    {
+      "type": "paragraph",
+      "text": "It also creates a calmer mental environment. When your tools are intentional and reliable, you can focus better, switch contexts less, and enjoy the process without constant distractions."
+    },
+    {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80",
+      "alt": "Clean workspace desk setup",
+      "caption": "Good tools · Better focus · Happier work"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "my-current-hardware",
+      "text": "My Current Hardware"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here is a quick breakdown of the core tools and devices I use every day to keep my workflow snappy and reliable:"
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "**MacBook Air (M2)**: Primary device for writing, coding, and day-to-day operations. Completely silent with phenomenal battery life.",
+        "**Mechanical Keyboard & Trackpad**: Custom 65% keyboard with tactile switches paired with a Magic Trackpad for smooth macOS gesture navigation.",
+        "**Single 27-inch 4K Display**: One color-accurate external monitor avoids window sprawl and keeps attention centered on one task at a time.",
+        "**Audio Interface & Studio Headphones**: Closed-back monitors provide acoustic isolation during deep writing and engineering sessions."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "minimalist-software-stack",
+      "text": "The Minimalist Software Stack"
+    },
+    {
+      "type": "paragraph",
+      "text": "Software matters just as much as physical hardware. When selecting applications, I prioritize three qualities: zero distraction, fast startup speed, and dependable offline reliability."
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "filename": "setup-terminal.sh",
+      "code": "# Clean terminal environment for distraction-free coding\nexport EDITOR=\"nvim\"\nexport VISUAL=\"nvim\"\nalias journal=\"nvim ~/notes/journal.md\"\n\n# Keep terminal quiet on launch\nclear && echo 'Ready to build.'"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Rule of Thumb",
+      "text": "If a software tool requires you to spend more than 15 minutes configuring it each week, it has stopped being a productivity tool and has become a hobby."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "lessons-learned",
+      "text": "Lessons Learned"
+    },
+    {
+      "type": "paragraph",
+      "text": "The biggest trap is optimizing for setup perfection rather than doing the actual work. You can spend weeks tweaking window managers and productivity frameworks without writing a single line of thoughtful code."
+    },
+    {
+      "type": "paragraph",
+      "text": "Keep your workspace clean at the end of every day. Starting tomorrow morning with a clear desk and a single open document makes starting ten times easier."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "final-thoughts",
+      "text": "Final Thoughts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Technology should serve your thoughts, not dominate your attention. When your setup gets out of the way, your mind is finally free to focus on genuine creative craftsmanship. Try removing one unnecessary app, notifications channel, or peripheral this week and notice how much quieter your focus becomes."
+    }
+  ]
+}

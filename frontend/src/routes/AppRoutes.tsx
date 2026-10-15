@@ -5,7 +5,7 @@ import { HomePage } from '../pages/HomePage';
 import { JournalPage } from '../pages/JournalPage';
 import { NewsPage } from '../pages/NewsPage';
 import { ArticlePage } from '../pages/ArticlePage';
-import { CategoriesPage } from '../pages/CategoriesPage';
+
 import { AboutPage } from '../pages/AboutPage';
 import { ContactPage } from '../pages/ContactPage';
 import { NotFoundPage } from '../pages/NotFoundPage';
@@ -15,11 +15,11 @@ export const AppRoutes: React.FC = () => {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
-        <Route path="journal" element={<JournalPage />} />
-        <Route path="journal/:slug" element={<ArticlePage />} />
+        <Route path="blogs" element={<JournalPage />} />
+        <Route path="blogs/:slug" element={<ArticlePage />} />
         <Route path="news" element={<NewsPage />} />
         <Route path="article/:slug" element={<ArticlePage />} />
-        <Route path="categories" element={<CategoriesPage />} />
+       
         <Route path="about" element={<AboutPage />} />
         <Route path="contact" element={<ContactPage />} />
         <Route path="*" element={<NotFoundPage />} />

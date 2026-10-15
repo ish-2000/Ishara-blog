@@ -20,7 +20,8 @@ import {
 } from "lucide-react";
 import { PageContainer } from "../components/layout/PageContainer";
 import { siteConfig } from "../config/site";
-import { mockArticles } from "../data/mockArticles";
+import { ArticleMetadata } from "../types";
+import { articleService, getArticleCoverImage, handleCoverImageError } from "../services/articleService";
 import { F } from "../styles/theme";
 
 const XIcon = ({ className = "w-4 h-4" }) => (
@@ -109,7 +110,19 @@ const stackItems = [
 ];
 
 export const AboutPage: React.FC = () => {
-  const latestArticles = mockArticles.slice(0, 4);
+  const [latestArticles, setLatestArticles] = React.useState<ArticleMetadata[]>([]);
+
+  React.useEffect(() => {
+    let isMounted = true;
+    articleService.getPublishedArticles().then((articles) => {
+      if (isMounted) {
+        setLatestArticles(articles.slice(0, 4));
+      }
+    });
+    return () => {
+      isMounted = false;
+    };
+  }, []);
   const githubUrl = siteConfig.socials.find((s) => s.platform === "github")?.url || "#";
   const linkedinUrl = siteConfig.socials.find((s) => s.platform === "linkedin")?.url || "#";
   const twitterUrl = siteConfig.socials.find((s) => s.platform === "twitter")?.url || "#";
@@ -139,11 +152,11 @@ export const AboutPage: React.FC = () => {
               </p>
               <div className="flex flex-wrap items-center gap-3 mb-8">
                 <Link
-                  to="/journal"
+                  to="/blogs"
                   className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-gray-950 dark:bg-white hover:bg-black dark:hover:bg-gray-100 text-white dark:text-gray-950 text-[12px] font-medium transition-all shadow-sm"
                 >
                   Read latest posts
-                  <ArrowRight className="w-3.5 h-3.5" />
+              
                 </Link>
                 <a
                   href={siteConfig.portfolioUrl}
@@ -222,7 +235,7 @@ export const AboutPage: React.FC = () => {
               {topics.map((topic) => (
                 <Link
                   key={topic.slug}
-                  to="/journal"
+                  to="/blogs"
                   className="group flex gap-3 p-3 rounded-xl border border-gray-100 dark:border-gray-800/80 hover:border-gray-200 dark:hover:border-gray-700 bg-white dark:bg-[#141414] hover:shadow-sm transition-all"
                 >
                   <div className="w-[110px] h-[78px] rounded-lg overflow-hidden flex-shrink-0 bg-gray-100 dark:bg-gray-900">
@@ -268,41 +281,6 @@ export const AboutPage: React.FC = () => {
             </div>
           </section>
 
-          {/* 4. TECH STACK */}
-          <section>
-            <div className="flex items-end justify-between mb-5">
-              <div>
-                <h2 className="text-[20px] sm:text-[24px] font-semibold text-gray-950 dark:text-gray-100 tracking-tight">
-                  My stack
-                </h2>
-                <p className="text-[13px] text-gray-500 dark:text-gray-400 font-normal mt-1">
-                  Tools and technologies I use and enjoy working with.
-                </p>
-              </div>
-              <a
-                href={siteConfig.portfolioUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hidden sm:inline-flex items-center gap-1 text-[12px] text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 font-medium transition-colors"
-              >
-                View full tech stack
-                <ArrowRight className="w-3.5 h-3.5" />
-              </a>
-            </div>
-            <div className="flex flex-wrap gap-3">
-              {stackItems.map((item) => (
-                <div
-                  key={item.name}
-                  className="flex flex-col items-center gap-2 px-4 py-3 rounded-xl border border-gray-100 dark:border-gray-800 hover:border-gray-200 dark:hover:border-gray-700 bg-white dark:bg-[#141414] hover:shadow-sm transition-all cursor-default"
-                  style={{ minWidth: "72px" }}
-                >
-                  <span className="text-xl leading-none">{item.icon}</span>
-                  <span className="text-[11px] text-gray-600 dark:text-gray-300 font-medium">{item.name}</span>
-                </div>
-              ))}
-            </div>
-          </section>
-
           {/* 5. QUOTE BANNER */}
           <section className="relative rounded-2xl overflow-hidden">
             <img
@@ -339,7 +317,7 @@ export const AboutPage: React.FC = () => {
                 </p>
               </div>
               <Link
-                to="/journal"
+                to="/blogs"
                 className="hidden sm:inline-flex items-center gap-1 text-[12px] text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 font-medium transition-colors"
               >
                 View all posts
@@ -355,8 +333,10 @@ export const AboutPage: React.FC = () => {
                 >
                   <div className="aspect-video rounded-xl overflow-hidden bg-gray-100 dark:bg-gray-900 mb-3 flex-shrink-0">
                     <img
-                      src={article.coverImage}
+                      src={getArticleCoverImage(article)}
                       alt={article.title}
+                      loading="lazy"
+                      onError={(e) => handleCoverImageError(e, article.category)}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
@@ -374,7 +354,7 @@ export const AboutPage: React.FC = () => {
             </div>
             <div className="mt-5 sm:hidden">
               <Link
-                to="/journal"
+                to="/blogs"
                 className="inline-flex items-center gap-1 text-[12px] text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 font-medium transition-colors"
               >
                 View all posts <ArrowRight className="w-3.5 h-3.5" />

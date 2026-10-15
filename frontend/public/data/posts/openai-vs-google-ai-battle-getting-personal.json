@@ -1,0 +1,67 @@
+{
+  "id": "openai-vs-google-ai-battle",
+  "slug": "openai-vs-google-ai-battle-getting-personal",
+  "title": "The OpenAI vs Google AI Battle Is Getting Personal",
+  "excerpt": "A look at how the rivalry is evolving, what's at stake beyond the products, and why this competition matters for the future of AI.",
+  "coverImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
+  "category": "big-tech",
+  "categoryName": "BIG TECH",
+  "tags": [
+    "OpenAI",
+    "Google",
+    "Competition",
+    "LLMs"
+  ],
+  "author": {
+    "id": "ishara-perera",
+    "name": "Ishara Udayaga",
+    "avatar": "/images/ishara-avatar.jpg",
+    "role": "Writer · Builder · Lifelong Learner"
+  },
+  "publishedAt": "Jan 02, 2026",
+  "readingTime": "6 min read",
+  "featured": false,
+  "isDemo": false,
+  "relatedArticleSlugs": [
+    "gemini-new-model-shutdown-debate",
+    "inside-nvidia-new-chip-race",
+    "is-the-web-ready-for-ai-search-to-take-over"
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-rivalry-unfolds",
+      "text": "The Rivalry Unfolds"
+    },
+    {
+      "type": "paragraph",
+      "text": "What began as an open academic research dialogue has transformed into one of the fiercest commercial competitions in modern tech history. Product announcements, benchmark releases, and developer keynotes are now timed down to the hour to capture media mindshare."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "distribution-vs-research-speed",
+      "text": "Distribution Moats vs. Research Speed"
+    },
+    {
+      "type": "paragraph",
+      "text": "Google commands unmatched global scale across Android, Workspace, YouTube, and Chrome. OpenAI counters with agile iteration cycles, developer mindshare, and intense consumer loyalty."
+    },
+    {
+      "type": "quote",
+      "text": "When giants collide, the developers and end users win: reasoning tokens become cheaper, models become faster, and boundaries expand.",
+      "author": "Ishara Udayaga"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-it-means-for-builders",
+      "text": "What It Means for Builders"
+    },
+    {
+      "type": "paragraph",
+      "text": "For engineers building on top of LLM APIs, multi-provider abstraction layers have become an architectural necessity. Relying on an isolated provider leaves applications vulnerable to sudden outages or rate limit shifts."
+    }
+  ]
+}

@@ -4,8 +4,10 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev": "node scripts/generate-article-index.js && vite",
+    "generate-index": "node scripts/generate-article-index.js",
+    "validate-images": "node scripts/validate-article-images.js",
+    "build": "node scripts/generate-article-index.js && tsc -b && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

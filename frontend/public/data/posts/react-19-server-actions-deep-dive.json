@@ -1,0 +1,94 @@
+{
+  "id": "react-19-server-actions-deep-dive",
+  "slug": "react-19-server-actions-deep-dive",
+  "title": "React 19 & Server Actions in Production: What Changes for Frontend Engineers",
+  "excerpt": "A deep dive into React 19's Actions, useActionState, useOptimistic, and how static JSON architectures compare with full-stack frameworks.",
+  "coverImage": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=1200&q=80",
+  "category": "development",
+  "categoryName": "DEVELOPMENT",
+  "tags": [
+    "React",
+    "TypeScript",
+    "Frontend Architecture",
+    "Vite"
+  ],
+  "author": {
+    "id": "ishara-perera",
+    "name": "Ishara Udayaga",
+    "avatar": "/images/ishara-avatar.jpg",
+    "role": "Writer · Builder · Lifelong Learner"
+  },
+  "publishedAt": "Jan 08, 2026",
+  "readingTime": "9 min read",
+  "featured": true,
+  "featuredOrder": 4,
+  "isDemo": false,
+  "relatedArticleSlugs": [
+    "building-a-focused-tech-setup",
+    "inside-nvidia-new-chip-race",
+    "sample-interactive-demo-post"
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "react-19-landscape",
+      "text": "The React 19 Landscape"
+    },
+    {
+      "type": "paragraph",
+      "text": "React 19 represents one of the most substantial evolutionary steps in the library's history. Between official Server Components support, Asset Loading improvements, and the new Actions ecosystem, frontend engineering patterns are undergoing a noticeable paradigm shift."
+    },
+    {
+      "type": "quote",
+      "text": "The best architecture is the one that gives your users instant page transitions and gives your team zero maintenance overhead.",
+      "author": "Ishara Udayaga"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "understanding-use-action-state",
+      "text": "Understanding useActionState and useOptimistic"
+    },
+    {
+      "type": "paragraph",
+      "text": "In prior React versions, tracking pending state, error boundaries, and optimistic UI updates required juggling multiple useState and useEffect hooks. React 19 streamlines this pattern into a unified primitive:"
+    },
+    {
+      "type": "code",
+      "language": "tsx",
+      "filename": "BookmarkToggle.tsx",
+      "code": "import { useActionState, useOptimistic } from 'react';\n\nexport function BookmarkToggle({ articleId, initialBookmarked }: { articleId: string; initialBookmarked: boolean }) {\n  const [isBookmarked, toggleAction, isPending] = useActionState(\n    async (currentState: boolean) => {\n      const next = !currentState;\n      await persistBookmark(articleId, next);\n      return next;\n    },\n    initialBookmarked\n  );\n\n  const [optimisticState, setOptimistic] = useOptimistic(isBookmarked);\n\n  return (\n    <button\n      disabled={isPending}\n      onClick={() => {\n        setOptimistic(!optimisticState);\n        toggleAction();\n      }}\n      className=\"p-2 rounded-full border transition-all\"\n    >\n      {optimisticState ? '★ Bookmarked' : '☆ Bookmark'}\n    </button>\n  );\n}"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-static-json-still-wins",
+      "text": "Why Static JSON Architectures Still Win For Editorial Blogs"
+    },
+    {
+      "type": "paragraph",
+      "text": "While full-stack server runtimes are fantastic for dynamic dashboards, technical blogs and documentation hubs benefit enormously from pure static compilation:"
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "**Global Edge Distribution**: Pre-built static JSON served directly from worldwide CDN points of presence provides sub-50ms TTFB globally.",
+        "**Zero Database Downtime**: No MongoDB connection pools, connection drops, or backend cold starts.",
+        "**Effortless Scalability**: High traffic spikes from social aggregators or Hacker News require zero server autoscaling.",
+        "**Version Control as CMS**: Every editorial revision is backed by a Git commit hash."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "summary",
+      "text": "Summary"
+    },
+    {
+      "type": "paragraph",
+      "text": "Embrace React 19 primitives where user interactivity requires optimistic feedback, but keep your content delivery pipeline static, simple, and lightning-fast."
+    }
+  ]
+}

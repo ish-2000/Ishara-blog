@@ -2,26 +2,40 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import { mockArticles } from "../../data/mockArticles";
+import { ArticleMetadata } from "../../types";
+import { articleService, getArticleCoverImage, handleCoverImageError } from "../../services/articleService";
 import { F, S } from "../../styles/theme";
 
 export const FeaturedHero: React.FC = () => {
-  const featuredArticles = mockArticles.slice(0, 6);
-  const stackedArticles = mockArticles.slice(1, 4);
-
+  const [featuredArticles, setFeaturedArticles] = useState<ArticleMetadata[]>([]);
   const [activeSlide, setActiveSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
+  useEffect(() => {
+    let isMounted = true;
+    articleService.getFeaturedArticles(6).then((articles) => {
+      if (isMounted) {
+        setFeaturedArticles(articles);
+      }
+    });
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
+  const stackedArticles = featuredArticles.slice(1, 4);
   const totalSlides = featuredArticles.length;
-  const heroArticle = featuredArticles[activeSlide];
+  const heroArticle = featuredArticles[activeSlide] || featuredArticles[0];
 
   const handlePrev = () => {
+    if (totalSlides <= 1) return;
     setActiveSlide((prev) =>
       (prev - 1 + totalSlides) % totalSlides
     );
   };
 
   const handleNext = () => {
+    if (totalSlides <= 1) return;
     setActiveSlide((prev) => (prev + 1) % totalSlides);
   };
 
@@ -56,9 +70,12 @@ export const FeaturedHero: React.FC = () => {
           {featuredArticles.map((article, index) => (
             <img
               key={article.id}
-              src={article.coverImage}
-              alt=""
+              src={getArticleCoverImage(article)}
+              alt={article.title}
+              onError={(e) => handleCoverImageError(e, article.category)}
               aria-hidden={index !== activeSlide}
+              fetchPriority={index === 0 ? "high" : "low"}
+              loading={index === 0 ? "eager" : "lazy"}
               className={`absolute inset-0 w-full h-full object-cover object-center transition-all duration-700 ease-in-out ${
                 index === activeSlide
                   ? "opacity-100 scale-100"
@@ -83,7 +100,7 @@ export const FeaturedHero: React.FC = () => {
           <div className="absolute top-6 left-6 z-10">
             <span
               style={S.darkBadge}
-              className="inline-flex items-center rounded-full bg-white/20 backdrop-blur-md border border-white/10 px-3 py-1 text-[10px] font-medium tracking-[0.14em] text-white uppercase"
+              className="inline-flex font-normal items-center rounded-full bg-white/20 backdrop-blur-md border border-white/10 px-3 py-1 text-[10px] font-medium tracking-[0.14em] text-white uppercase"
             >
               {heroArticle.categoryName}
             </span>
@@ -198,9 +215,10 @@ export const FeaturedHero: React.FC = () => {
               {/* Thumbnail */}
               <div className="w-[38%] sm:w-[160px] lg:w-[38%] aspect-[1.43] shrink-0 overflow-hidden rounded-lg bg-gray-100">
                 <img
-                  src={article.coverImage}
+                  src={getArticleCoverImage(article)}
                   alt={article.title}
                   loading="lazy"
+                  onError={(e) => handleCoverImageError(e, article.category)}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -221,8 +239,7 @@ export const FeaturedHero: React.FC = () => {
 
                 <div className="flex flex-wrap items-center gap-x-2 gap-y-1 mt-2 text-[11px] font-normal text-gray-400 dark:text-gray-500">
                   <span>{article.publishedAt}</span>
-                  <span>•</span>
-                  <span>{article.readingTime}</span>
+                
                 </div>
 
               </div>

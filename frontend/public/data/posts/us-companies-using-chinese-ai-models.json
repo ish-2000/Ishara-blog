@@ -1,0 +1,164 @@
+{
+  "id": "us-companies-using-chinese-ai-models",
+  "slug": "us-companies-using-chinese-ai-models",
+  "title": "America Is Racing China in AI: So Why Are US Companies Using Chinese Models?",
+  "excerpt": "Some American companies are experimenting with Chinese-developed AI models for a practical reason: they may be good enough and less expensive.",
+  "coverImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
+  "category": "ai-news",
+  "categoryName": "GLOBAL TECH",
+  "tags": [
+    "AI Models",
+    "China",
+    "Open Weights",
+    "Global Tech"
+  ],
+  "author": {
+    "id": "ishara-udayanga",
+    "name": "Ishara Udayanga",
+    "avatar": "/images/ishara-avatar.jpg",
+    "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future.",
+    "role": "Writer · Developer · Curious Learner"
+  },
+  "publishedAt": "Oct 15, 2026",
+  "readingTime": "8 min read",
+  "featured": false,
+  "featuredOrder": 5,
+  "isDemo": false,
+  "relatedArticleSlugs": [
+    "ai-boom-stock-selloff-bubble-question",
+    "inside-nvidia-ai-safety-compute-commitment"
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "an-unexpected-twist-in-the-ai-race",
+      "text": "An unexpected twist in the AI race"
+    },
+    {
+      "type": "paragraph",
+      "text": "The headlines often make artificial intelligence sound like a simple contest: the United States on one side, China on the other. But real businesses do not always follow that neat story. Some American companies are testing or using Chinese-developed AI models because the performance and price can make sense for their work."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reporting in 2026 described growing interest in model families such as Alibaba’s Qwen, Z.ai’s GLM and Moonshot AI’s Kimi. This does not mean US companies have abandoned American AI. It shows that developers have more choices than the biggest household names."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-would-a-us-company-choose-a-chinese-model",
+      "text": "Why would a US company choose a Chinese model?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The answer can be surprisingly ordinary: cost, capability and flexibility. A team building a customer-support feature or coding assistant may not need the most expensive model in the world. It needs a model that performs the task reliably at a price that works."
+    },
+    {
+      "type": "paragraph",
+      "text": "Many Chinese developers release open-weight models. That generally means the model parameters can be downloaded and run in different environments, subject to their licenses. Open-weight does not automatically mean fully open-source, free of restrictions or safe for every use."
+    },
+    {
+      "type": "image",
+      "url": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/REPLACE_THIS_IMAGE.webp",
+      "alt": "Conceptual illustration of AI chips and interconnected global data centers",
+      "caption": "Illustrative artwork, not a claim about any company’s infrastructure."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-does-cheaper-ai-change",
+      "text": "What does cheaper AI change?"
+    },
+    {
+      "type": "paragraph",
+      "text": "For smaller companies, model costs matter a lot. If the price of processing millions of requests falls, products that were previously too expensive can suddenly become practical."
+    },
+    {
+      "type": "paragraph",
+      "text": "It also gives developers negotiating power. When a product is built around one provider, changing prices or access rules can become a headache. More compatible choices can reduce that dependence, although switching still requires testing and engineering work."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-about-privacy-and-security",
+      "text": "What about privacy and security?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A low price is not enough reason to use a model. Teams still need to understand where the model runs, how customer data is handled, what the license permits, and whether the provider can change or discontinue access."
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "Check whether requests are processed locally, in your own cloud or by a third-party service.",
+        "Read the license and deployment conditions.",
+        "Test accuracy, latency and reliability using your own tasks.",
+        "Review privacy, legal and security requirements before handling sensitive data."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Worth remembering",
+      "text": "A model being developed in China does not by itself tell you where your data goes. Deployment architecture and contractual terms matter."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "is-ai-leadership-about-being-smartest-or-most-useful",
+      "text": "Is AI leadership about being smartest or most useful?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A frontier model might win difficult benchmark tests while a smaller, cheaper model wins thousands of everyday deployments. Both achievements matter. Companies building AI services often care about speed, predictable behavior and cost as much as leaderboard rankings."
+    },
+    {
+      "type": "paragraph",
+      "text": "That is why this story is more interesting than a straightforward national rivalry. AI may spread globally through a combination of breakthroughs, open model ecosystems, manufacturing, cloud services and ordinary developer decisions."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "my-take-developers-benefit-when-they-have-options",
+      "text": "My take: developers benefit when they have options"
+    },
+    {
+      "type": "paragraph",
+      "text": "I like competition when it gives builders more control. If multiple models can handle a task well, developers can choose based on their real needs rather than brand loyalty. That is healthy for experimentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "I would still be careful about exaggerated comparisons. One model being cheaper in a particular setup does not guarantee it is the better choice for every application. The best model is the one that survives honest testing on your own workload."
+    },
+    {
+      "type": "quote",
+      "text": "In everyday software, the AI model that wins may not be the one with the loudest launch. It may be the one that quietly gets the job done.",
+      "author": "Ishara Udayanga, draft opinion"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-comes-next",
+      "text": "What comes next?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Watch how cloud providers, enterprises and independent developers adopt different model families. Pay attention to real deployments rather than only dramatic demos, and expect trade-offs between capability, control and cost."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "sources-and-final-thoughts",
+      "text": "Sources and final thoughts"
+    },
+    {
+      "type": "paragraph",
+      "text": "For the reporting behind this trend, read [The Washington Post’s October 11 report](https://www.washingtonpost.com/business/2026/10/11/race-ai-dominance-us-relies-surprising-ally-china/) and its [July coverage of Chinese-model adoption](https://www.washingtonpost.com/technology/2026/07/14/silicon-valley-hottest-ai-models-face-powerful-source-competition/)."
+    },
+    {
+      "type": "paragraph",
+      "text": "To me, the surprising part is not that companies try lower-cost models. It is how quickly the AI world has changed from a handful of choices to a much bigger global marketplace."
+    }
+  ]
+}

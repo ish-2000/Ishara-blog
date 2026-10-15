@@ -1,0 +1,67 @@
+{
+  "id": "ai-search-web",
+  "slug": "is-the-web-ready-for-ai-search-to-take-over",
+  "title": "Is the Web Ready for AI Search to Take Over?",
+  "excerpt": "Looking at how AI search is changing the web, what challenges remain, and whether we're ready for a new era of information discovery.",
+  "coverImage": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=1200&q=80",
+  "category": "future-tech",
+  "categoryName": "FUTURE TECH",
+  "tags": [
+    "Search",
+    "AI Search",
+    "Web",
+    "Information Discovery"
+  ],
+  "author": {
+    "id": "ishara-perera",
+    "name": "Ishara Udayaga",
+    "avatar": "/images/ishara-avatar.jpg",
+    "role": "Writer · Builder · Lifelong Learner"
+  },
+  "publishedAt": "Dec 20, 2025",
+  "readingTime": "5 min read",
+  "featured": false,
+  "isDemo": false,
+  "relatedArticleSlugs": [
+    "what-the-next-wave-of-tech-news-says-about-our-future",
+    "gemini-new-model-shutdown-debate",
+    "openai-vs-google-ai-battle-getting-personal"
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-paradigm-shift",
+      "text": "The Paradigm Shift in Search"
+    },
+    {
+      "type": "paragraph",
+      "text": "For nearly three decades, search meant typing keywords and scanning blue links. Today, conversational reasoning synthesizes answers directly, fundamentally rewriting user interaction patterns across the web."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "publisher-economics",
+      "text": "Publisher Economics & Referral Traffic"
+    },
+    {
+      "type": "paragraph",
+      "text": "When search engines answer questions without requiring a click, the open web's ad-supported economic model experiences profound strain. Attribution, citations, and content licensing agreements must evolve rapidly."
+    },
+    {
+      "type": "quote",
+      "text": "High-quality original analysis, primary reporting, and distinctive personal voice will always command an audience, even when summaries are automated.",
+      "author": "Ishara Udayaga"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "future-of-discovery",
+      "text": "The Future of Information Discovery"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rather than generic SEO compilations, high-signal personal journals and specialized engineering blogs will become the true bastions of credible knowledge on the internet."
+    }
+  ]
+}

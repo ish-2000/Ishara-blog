@@ -1,0 +1,25 @@
+{
+  "note": "All five are editorial drafts. Replace CDN placeholder URLs, set your own author avatar, review claims and update publishedAt when actually publishing. Set isDemo to false after editorial approval.",
+  "imageAssets": [
+    {
+      "article": "gemini-started-insulting-itself",
+      "suggestedFile": "gemini-self-criticism-cover.webp"
+    },
+    {
+      "article": "spacex-rocket-created-space-jellyfish",
+      "suggestedFile": "spacex-jellyfish-cover.webp"
+    },
+    {
+      "article": "claude-false-homicide-tip",
+      "suggestedFile": "claude-police-tip-cover.webp"
+    },
+    {
+      "article": "ai-self-replication-smart-devices",
+      "suggestedFile": "ai-worms-smart-devices-cover.webp"
+    },
+    {
+      "article": "robot-hand-serving-ice-cream",
+      "suggestedFile": "robot-serving-ice-cream-cover.webp"
+    }
+  ]
+}

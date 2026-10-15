@@ -1,0 +1,719 @@
+[
+  {
+    "id": "ai-boom-stock-selloff-bubble-question",
+    "slug": "ai-boom-stock-selloff-bubble-question",
+    "title": "AI Stocks Lost Billions in a Day: Is the Boom Becoming a Bubble?",
+    "excerpt": "Big AI infrastructure companies fell sharply after a hotter-than-expected US inflation report. Does a stock-market shock tell us AI is overhyped?",
+    "coverImage": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
+    "category": "opinions",
+    "categoryName": "TECH INDUSTRY",
+    "tags": [
+      "AI Infrastructure",
+      "Markets",
+      "Data Centers",
+      "Tech Industry"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Developer · Curious Learner",
+      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "8 min read",
+    "featured": false,
+    "featuredOrder": 4,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "inside-nvidia-ai-safety-compute-commitment",
+      "us-companies-using-chinese-ai-models"
+    ]
+  },
+  {
+    "id": "ai-self-replication-iot-2026",
+    "slug": "ai-self-replication-smart-devices",
+    "title": "Could AI Copy Itself Into Your Fridge and Smart TV? Researchers Say the Risk Is Getting Closer",
+    "excerpt": "Anthropic tested whether smaller AI models could spread across connected devices. The findings are serious, but they are not proof of a runaway AI outbreak.",
+    "coverImage": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1200&q=80",
+    "category": "future-tech",
+    "categoryName": "FUTURE TECH",
+    "tags": [
+      "Anthropic",
+      "Cybersecurity",
+      "Smart Home",
+      "AI Safety"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Developer · Curious Learner",
+      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "7 min read",
+    "featured": true,
+    "featuredOrder": 4,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "claude-false-homicide-tip",
+      "gemini-started-insulting-itself",
+      "robot-hand-serving-ice-cream"
+    ]
+  },
+  {
+    "id": "character-ai-bankruptcy-si",
+    "slug": "character-ai-bankruptcy-sinhala-long",
+    "title": "Users ලා මිලියන ගණනක්! ඒත් සල්ලි නෑ? Character.AI බංකොලොත් වීම පිටුපස කතාව!",
+    "excerpt": "ලෝකය පුරා ජනප්‍රිය වුණු Character.AI එක Chapter 11 bankruptcy process එකට ගිහින්. Users මිලියන ගණනක් හිටියත් business එකක් අසාර්ථක වෙන්නේ කොහොමද? Disney deal එක, අධික AI costs, safety issues සහ අපේ private chats ගැන අපි සරලව කතා කරමු.",
+    "coverImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
+    "category": "ai-news",
+    "categoryName": "AI NEWS · සිංහල",
+    "tags": [
+      "Character.AI",
+      "AI News",
+      "Bankruptcy",
+      "AI Companions",
+      "Technology",
+      "සිංහල"
+    ],
+    "language": "si",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Builder · Lifelong Learner",
+      "bio": "AI, software development සහ අලුත් technology news ගැන සරලව ලියන tech enthusiast කෙනෙක්."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "11 min read",
+    "featured": true,
+    "featuredOrder": 1,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "gemini-started-insulting-itself",
+      "claude-false-homicide-tip",
+      "ai-self-replication-smart-devices"
+    ]
+  },
+  {
+    "id": "claude-false-homicide-tip-2026",
+    "slug": "claude-false-homicide-tip",
+    "title": "An AI Agent Submitted a False Murder Tip, And It Wasn’t Asked To",
+    "excerpt": "During testing, an Anthropic AI system sent a false tip through an online homicide form. It was caught before investigators acted, but the incident raises a bigger question about AI autonomy.",
+    "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792042660/ChatGPT_Image_Oct_15_2026_10_55_21_AM-3_fiqja4.png",
+    "category": "ai-news",
+    "categoryName": "AI NEWS",
+    "tags": [
+      "Claude",
+      "Anthropic",
+      "AI Agents",
+      "AI Safety"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Developer · Curious Learner",
+      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "7 min read",
+    "featured": true,
+    "featuredOrder": 3,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "ai-self-replication-smart-devices",
+      "gemini-started-insulting-itself",
+      "robot-hand-serving-ice-cream"
+    ]
+  },
+  {
+    "id": "gemini-self-criticism-2025",
+    "slug": "gemini-started-insulting-itself",
+    "title": "Gemini Started Insulting Itself: Was the AI Having a Meltdown?",
+    "excerpt": "Gemini began calling itself a failure during some coding tasks. The screenshots were strange, but the explanation was far less mysterious than the headlines.",
+    "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792042661/ChatGPT_Image_Oct_15_2026_10_55_18_AM-1_mwepyf.png",
+    "category": "ai-news",
+    "categoryName": "AI NEWS",
+    "tags": [
+      "Gemini",
+      "Google",
+      "AI Behavior",
+      "AI Safety"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Developer · Curious Learner",
+      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "6 min read",
+    "featured": true,
+    "featuredOrder": 1,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "claude-false-homicide-tip",
+      "ai-self-replication-smart-devices",
+      "robot-hand-serving-ice-cream"
+    ]
+  },
+  {
+    "id": "google-gemini-4-argon-release",
+    "slug": "google-gemini-4-argon-release",
+    "title": "Google Just Released Gemini 4 Argon: Is This the AI Model That Changes Everything?",
+    "excerpt": "Google's newest flagship AI model promises stronger coding, reasoning and cybersecurity capabilities. But will Gemini 4 Argon actually change how developers work, or is this another round of AI hype?",
+    "coverImage": "/images/Gemini 4 Argon.jpeg",
+    "category": "ai-news",
+    "categoryName": "AI NEWS",
+    "tags": [
+      "Google",
+      "Gemini 4 Argon",
+      "AI News",
+      "AI Models",
+      "Coding",
+      "Cybersecurity"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Builder · Lifelong Learner",
+      "bio": "Software developer and tech enthusiast writing about AI, development and the future of technology."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "8 min read",
+    "featured": true,
+    "featuredOrder": 1,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "gemini-started-insulting-itself",
+      "inside-nvidia-new-chip-race",
+      "could-ai-agents-become-too-autonomous"
+    ]
+  },
+  {
+    "id": "gta-vi-almost-here",
+    "slug": "gta-vi-almost-here-can-rockstar-deliver",
+    "title": "GTA VI Is Almost Here: Can Rockstar Really Deliver the Most Anticipated Game in History?",
+    "excerpt": "After 13 years of waiting, Vice City is calling us back. New characters, a massive open world, stunning visuals, and expectations bigger than ever, but will GTA VI actually live up to the hype?",
+    "coverImage": "/images/gta_vi.jpeg",
+    "category": "gaming",
+    "categoryName": "GAMING",
+    "tags": [
+      "GTA VI",
+      "Rockstar Games",
+      "Gaming",
+      "Grand Theft Auto",
+      "Vice City",
+      "Jason and Lucia",
+      "Open World Games",
+      "Game Development"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Builder · Lifelong Learner",
+      "bio": "Developer, designer, and tech enthusiast sharing thoughts on technology, gaming, software, and digital experiences."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "14 min read",
+    "featured": false,
+    "featuredOrder": 99,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "what-the-next-wave-of-tech-news-says-about-our-future",
+      "building-a-focused-tech-setup",
+      "could-ai-agents-become-too-autonomous"
+    ]
+  },
+  {
+    "id": "inside-nvidia-ai-safety-compute-commitment",
+    "slug": "inside-nvidia-ai-safety-compute-commitment",
+    "title": "NVIDIA Is Putting $250 Million in Computing Power Toward AI Safety: Why Now?",
+    "excerpt": "The company behind the AI chip boom is backing UK safety research. But this is computing access, not a $250 million cash cheque.",
+    "coverImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+    "category": "ai-news",
+    "categoryName": "AI NEWS",
+    "tags": [
+      "NVIDIA",
+      "AI Safety",
+      "AI Agents",
+      "Computing"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Developer · Curious Learner",
+      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "7 min read",
+    "featured": true,
+    "featuredOrder": 2,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "ai-self-replication-smart-devices",
+      "microsoft-milk-ai-regulation"
+    ]
+  },
+  {
+    "id": "microsoft-milk-ai-regulation",
+    "slug": "microsoft-milk-ai-regulation",
+    "title": "Microsoft Says Milk Has More Safety Rules Than AI: Should We Be Worried?",
+    "excerpt": "A strange comparison from Microsoft president Brad Smith raises a serious question: who checks powerful AI systems before things go wrong?",
+    "coverImage": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&q=80",
+    "category": "opinions",
+    "categoryName": "OPINIONS",
+    "tags": [
+      "Microsoft",
+      "Brad Smith",
+      "AI Regulation",
+      "AI Safety"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Developer · Curious Learner",
+      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "7 min read",
+    "featured": false,
+    "featuredOrder": 3,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "inside-nvidia-ai-safety-compute-commitment",
+      "ai-self-replication-smart-devices"
+    ]
+  },
+  {
+    "id": "robot-hand-ice-cream-2026",
+    "slug": "robot-hand-serving-ice-cream",
+    "title": "A Robot Hand Can Serve Ice Cream: Are Robots Finally Getting Useful?",
+    "excerpt": "A highly precise robot-hand demo and a new 3D mapping camera offer a glimpse of robots moving from flashy performances to genuinely useful tasks.",
+    "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792042660/ChatGPT_Image_Oct_15_2026_10_55_24_AM-5_avfkgu.png",
+    "category": "big-tech",
+    "categoryName": "BIG TECH",
+    "tags": [
+      "Robotics",
+      "Hesai",
+      "Humanoid Robots",
+      "Computer Vision"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Developer · Curious Learner",
+      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "6 min read",
+    "featured": false,
+    "featuredOrder": 5,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "ai-self-replication-smart-devices",
+      "claude-false-homicide-tip",
+      "spacex-rocket-created-space-jellyfish"
+    ]
+  },
+  {
+    "id": "spacex-space-jellyfish-2026",
+    "slug": "spacex-rocket-created-space-jellyfish",
+    "title": "SpaceX Launched a Rocket: Then a Giant Glowing Jellyfish Appeared in the Sky",
+    "excerpt": "A Falcon 9 launch made the sky look almost unreal. Here is the simple science behind the strange glowing shape and why the rocket was flying.",
+    "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792042663/ChatGPT_Image_Oct_15_2026_10_55_19_AM-2_osnqg5.png",
+    "category": "future-tech",
+    "categoryName": "FUTURE TECH",
+    "tags": [
+      "SpaceX",
+      "NASA",
+      "Falcon 9",
+      "Space"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Developer · Curious Learner",
+      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "6 min read",
+    "featured": true,
+    "featuredOrder": 2,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "robot-hand-serving-ice-cream",
+      "ai-self-replication-smart-devices",
+      "gemini-started-insulting-itself"
+    ]
+  },
+  {
+    "id": "spacex-starship-first-orbit-engine-issue",
+    "slug": "spacex-starship-first-orbit-engine-issue",
+    "title": "Starship Reached Orbit With an Engine Problem: How Did SpaceX Pull That Off?",
+    "excerpt": "An engine shut down early, the flight plan changed, and Starship still made it to orbit. Here is why this messy success actually matters.",
+    "coverImage": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=1200&q=80",
+    "category": "future-tech",
+    "categoryName": "SPACE & EXPLORATION",
+    "tags": [
+      "SpaceX",
+      "Starship",
+      "Space Exploration",
+      "Engineering"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Developer · Curious Learner",
+      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "7 min read",
+    "featured": true,
+    "featuredOrder": 1,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "spacex-rocket-created-space-jellyfish",
+      "inside-nvidia-ai-safety-compute-commitment"
+    ]
+  },
+  {
+    "id": "us-companies-using-chinese-ai-models",
+    "slug": "us-companies-using-chinese-ai-models",
+    "title": "America Is Racing China in AI: So Why Are US Companies Using Chinese Models?",
+    "excerpt": "Some American companies are experimenting with Chinese-developed AI models for a practical reason: they may be good enough and less expensive.",
+    "coverImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
+    "category": "ai-news",
+    "categoryName": "GLOBAL TECH",
+    "tags": [
+      "AI Models",
+      "China",
+      "Open Weights",
+      "Global Tech"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Developer · Curious Learner",
+      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "8 min read",
+    "featured": false,
+    "featuredOrder": 5,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "ai-boom-stock-selloff-bubble-question",
+      "inside-nvidia-ai-safety-compute-commitment"
+    ]
+  },
+  {
+    "id": "inside-nvidia-new-chip-race",
+    "slug": "inside-nvidia-new-chip-race",
+    "title": "Inside NVIDIA's New Chip Race: Power, Hype, and the Future of AI Hardware",
+    "excerpt": "Breaking down NVIDIA's latest announcements, the real performance gains, and what this means for the next wave of AI infrastructure and liquid cooling.",
+    "coverImage": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=1200&q=80",
+    "category": "chips",
+    "categoryName": "CHIPS",
+    "tags": [
+      "NVIDIA",
+      "Silicon",
+      "Hardware",
+      "GPUs",
+      "Blackwell"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-perera",
+      "name": "Ishara Udayaga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Builder · Lifelong Learner",
+      "bio": ""
+    },
+    "publishedAt": "Jan 18, 2026",
+    "readingTime": "5 min read",
+    "featured": true,
+    "featuredOrder": 1,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "gemini-new-model-shutdown-debate",
+      "openai-vs-google-ai-battle-getting-personal",
+      "could-ai-agents-become-too-autonomous"
+    ]
+  },
+  {
+    "id": "building-tech-setup",
+    "slug": "building-a-focused-tech-setup",
+    "title": "Building a Focused Tech Setup for a Calmer, More Productive Life",
+    "excerpt": "A practical guide to creating a minimal, intentional tech setup that helps you work better, think clearer, and enjoy the process without the noise.",
+    "coverImage": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
+    "category": "opinions",
+    "categoryName": "PRODUCTIVITY",
+    "tags": [
+      "Productivity",
+      "Minimalism",
+      "Workspace",
+      "Tech Setup"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-perera",
+      "name": "Ishara Udayaga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Builder · Lifelong Learner",
+      "bio": "Software engineer and tech enthusiast writing about artificial intelligence, modern computing hardware, and future tech."
+    },
+    "publishedAt": "Jan 15, 2026",
+    "readingTime": "8 min read",
+    "featured": true,
+    "featuredOrder": 2,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "gemini-new-model-shutdown-debate",
+      "inside-nvidia-new-chip-race",
+      "could-ai-agents-become-too-autonomous"
+    ]
+  },
+  {
+    "id": "ai-agents-autonomous",
+    "slug": "could-ai-agents-become-too-autonomous",
+    "title": "Could AI Agents Become Too Autonomous? My Thoughts on the Latest Scares",
+    "excerpt": "Exploring the recent concerns around autonomous AI agents, what's real, what's exaggerated, and where we should actually be paying attention.",
+    "coverImage": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
+    "category": "opinions",
+    "categoryName": "OPINIONS",
+    "tags": [
+      "Agents",
+      "Automation",
+      "Ethics",
+      "Tech Culture"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-perera",
+      "name": "Ishara Udayaga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Builder · Lifelong Learner",
+      "bio": ""
+    },
+    "publishedAt": "Jan 12, 2026",
+    "readingTime": "7 min read",
+    "featured": true,
+    "featuredOrder": 3,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "gemini-new-model-shutdown-debate",
+      "inside-nvidia-new-chip-race",
+      "what-the-next-wave-of-tech-news-says-about-our-future"
+    ]
+  },
+  {
+    "id": "react-19-server-actions-deep-dive",
+    "slug": "react-19-server-actions-deep-dive",
+    "title": "React 19 & Server Actions in Production: What Changes for Frontend Engineers",
+    "excerpt": "A deep dive into React 19's Actions, useActionState, useOptimistic, and how static JSON architectures compare with full-stack frameworks.",
+    "coverImage": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=1200&q=80",
+    "category": "development",
+    "categoryName": "DEVELOPMENT",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Frontend Architecture",
+      "Vite"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-perera",
+      "name": "Ishara Udayaga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Builder · Lifelong Learner",
+      "bio": ""
+    },
+    "publishedAt": "Jan 08, 2026",
+    "readingTime": "9 min read",
+    "featured": true,
+    "featuredOrder": 4,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "building-a-focused-tech-setup",
+      "inside-nvidia-new-chip-race",
+      "sample-interactive-demo-post"
+    ]
+  },
+  {
+    "id": "openai-vs-google-ai-battle",
+    "slug": "openai-vs-google-ai-battle-getting-personal",
+    "title": "The OpenAI vs Google AI Battle Is Getting Personal",
+    "excerpt": "A look at how the rivalry is evolving, what's at stake beyond the products, and why this competition matters for the future of AI.",
+    "coverImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
+    "category": "big-tech",
+    "categoryName": "BIG TECH",
+    "tags": [
+      "OpenAI",
+      "Google",
+      "Competition",
+      "LLMs"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-perera",
+      "name": "Ishara Udayaga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Builder · Lifelong Learner",
+      "bio": ""
+    },
+    "publishedAt": "Jan 02, 2026",
+    "readingTime": "6 min read",
+    "featured": false,
+    "featuredOrder": 99,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "gemini-new-model-shutdown-debate",
+      "inside-nvidia-new-chip-race",
+      "is-the-web-ready-for-ai-search-to-take-over"
+    ]
+  },
+  {
+    "id": "ai-search-web",
+    "slug": "is-the-web-ready-for-ai-search-to-take-over",
+    "title": "Is the Web Ready for AI Search to Take Over?",
+    "excerpt": "Looking at how AI search is changing the web, what challenges remain, and whether we're ready for a new era of information discovery.",
+    "coverImage": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=1200&q=80",
+    "category": "future-tech",
+    "categoryName": "FUTURE TECH",
+    "tags": [
+      "Search",
+      "AI Search",
+      "Web",
+      "Information Discovery"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-perera",
+      "name": "Ishara Udayaga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Builder · Lifelong Learner",
+      "bio": ""
+    },
+    "publishedAt": "Dec 20, 2025",
+    "readingTime": "5 min read",
+    "featured": false,
+    "featuredOrder": 99,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "what-the-next-wave-of-tech-news-says-about-our-future",
+      "gemini-new-model-shutdown-debate",
+      "openai-vs-google-ai-battle-getting-personal"
+    ]
+  },
+  {
+    "id": "next-wave-tech-news",
+    "slug": "what-the-next-wave-of-tech-news-says-about-our-future",
+    "title": "What the Next Wave of Tech News Says About Our Future",
+    "excerpt": "A roundup of the latest tech developments and what they reveal about where we're headed next.",
+    "coverImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+    "category": "future-tech",
+    "categoryName": "FUTURE TECH",
+    "tags": [
+      "Future Tech",
+      "Trends",
+      "Regulation",
+      "Robotics"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-perera",
+      "name": "Ishara Udayaga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Builder · Lifelong Learner",
+      "bio": ""
+    },
+    "publishedAt": "Dec 10, 2025",
+    "readingTime": "4 min read",
+    "featured": false,
+    "featuredOrder": 99,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "could-ai-agents-become-too-autonomous",
+      "inside-nvidia-new-chip-race",
+      "is-the-web-ready-for-ai-search-to-take-over"
+    ]
+  },
+  {
+    "id": "sample-demo-post",
+    "slug": "sample-interactive-demo-post",
+    "title": "Interactive Demo: Testing Blocks, Code Snippets & Image Captions",
+    "excerpt": "A demonstration post showing all available block types in the static JSON engine: headings, code blocks, bullet points, callouts, and CDN media.",
+    "coverImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
+    "category": "development",
+    "categoryName": "DEVELOPMENT",
+    "tags": [
+      "Demo",
+      "Format Test",
+      "Block Renderer",
+      "Documentation"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-perera",
+      "name": "Ishara Udayaga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Builder · Lifelong Learner",
+      "bio": ""
+    },
+    "publishedAt": "Dec 01, 2025",
+    "readingTime": "3 min read",
+    "featured": false,
+    "featuredOrder": 99,
+    "isDemo": true,
+    "status": "demo",
+    "relatedArticleSlugs": [
+      "react-19-server-actions-deep-dive",
+      "building-a-focused-tech-setup"
+    ]
+  }
+]

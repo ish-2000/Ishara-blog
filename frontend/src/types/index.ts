@@ -12,7 +12,8 @@ export type CategorySlug =
   | 'big-tech' 
   | 'future-tech' 
   | 'opinions' 
-  | 'development';
+  | 'development'
+  | 'gaming';
 
 export interface Category {
   id: string;
@@ -49,7 +50,71 @@ export interface ArticleSection {
   }[];
 }
 
-export interface Article {
+// ─── Structured Block System ──────────────────────────────────────────────────
+export type BlockType =
+  | 'heading'
+  | 'paragraph'
+  | 'code'
+  | 'quote'
+  | 'image'
+  | 'list'
+  | 'callout';
+
+export interface HeadingBlock {
+  type: 'heading';
+  level: 2 | 3;
+  id: string;
+  text: string;
+}
+
+export interface ParagraphBlock {
+  type: 'paragraph';
+  text: string;
+}
+
+export interface CodeBlock {
+  type: 'code';
+  code: string;
+  language?: string;
+  filename?: string;
+}
+
+export interface QuoteBlock {
+  type: 'quote';
+  text: string;
+  author?: string;
+}
+
+export interface ImageBlock {
+  type: 'image';
+  url: string;
+  alt?: string;
+  caption?: string;
+}
+
+export interface ListBlock {
+  type: 'list';
+  style: 'bullet' | 'ordered';
+  items: string[];
+}
+
+export interface CalloutBlock {
+  type: 'callout';
+  title?: string;
+  text: string;
+  variant?: 'info' | 'tip' | 'warning';
+}
+
+export type ContentBlock =
+  | HeadingBlock
+  | ParagraphBlock
+  | CodeBlock
+  | QuoteBlock
+  | ImageBlock
+  | ListBlock
+  | CalloutBlock;
+
+export interface ArticleMetadata {
   id: string;
   slug: string;
   title: string;
@@ -58,14 +123,31 @@ export interface Article {
   category: CategorySlug;
   categoryName: string;
   tags: string[];
+  language?: string;
   author: Author;
   publishedAt: string;
   readingTime: string;
   featured: boolean;
   featuredOrder?: number;
+  isDemo?: boolean;
+  status?: 'published' | 'draft' | 'demo' | string;
+  relatedArticleSlugs?: string[];
+}
+
+export interface ArticlePost extends ArticleMetadata {
+  content?: string;
+  blocks?: ContentBlock[];
+  sections?: ArticleSection[];
+  relatedArticleSlugs?: string[];
+  relatedArticleIds?: string[];
+}
+
+export interface Article extends ArticleMetadata {
   content: string;
   sections?: ArticleSection[];
+  blocks?: ContentBlock[];
   relatedArticleIds: string[];
+  relatedArticleSlugs?: string[];
 }
 
 export interface NavigationItem {
