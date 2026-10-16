@@ -8,7 +8,7 @@ export interface Author {
 
 export type CategorySlug = 
   | 'ai-news' 
-  | 'chips' 
+  | 'lifestyle'
   | 'big-tech' 
   | 'future-tech' 
   | 'opinions' 

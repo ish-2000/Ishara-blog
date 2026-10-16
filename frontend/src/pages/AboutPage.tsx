@@ -39,10 +39,10 @@ const topics = [
     image: "/images/gemini-hero.jpg",
   },
   {
-    slug: "chips",
-    name: "Chips & Hardware",
-    description: "The race for faster, smarter hardware powering the AI era.",
-    icon: <Cpu className="w-4 h-4 text-green-600" />,
+    slug: "lifestyle",
+    name: "Lifestyle",
+    description: "Everyday tech, intentional setups, productivity, and modern living.",
+    icon: <Sparkles className="w-4 h-4 text-green-600" />,
     image: "/images/nvidia-chip.jpg",
   },
   {
@@ -50,7 +50,7 @@ const topics = [
     name: "Development",
     description: "Web development, tools, productivity, and things I build.",
     icon: <Code2 className="w-4 h-4 text-purple-600" />,
-    image: "/images/about-hero.jpg",
+    image: "/images/xabout-hero.jpg",
   },
   {
     slug: "big-tech",
@@ -131,88 +131,145 @@ export const AboutPage: React.FC = () => {
   return (
     <div className="bg-white dark:bg-[#0D0D0D] min-h-screen" style={{ fontFamily: F.family }}>
       <PageContainer>
-        <div className="pt-8 sm:pt-10 pb-4 space-y-14 sm:space-y-16">
+        <div className="pt-8 sm:pt-2 pb-4 space-y-14 sm:space-y-16">
 
-          {/* 1. HERO */}
-          <section className="grid grid-cols-1 lg:grid-cols-[1fr_420px] gap-10 lg:gap-14 items-center">
-            <div>
-              <span className="block text-[10px] uppercase tracking-[0.15em] text-gray-400 dark:text-gray-500 font-medium mb-5">
-                About
-              </span>
-              <h1 className="text-3xl sm:text-4xl md:text-[44px] font-semibold text-gray-950 dark:text-gray-100 leading-[1.12] tracking-[-0.04em] mb-5">
-                Hi, I'm Ishara —{" "}
-                <span className="text-gray-400 dark:text-gray-500 font-light">
-                  exploring technology, ideas, and what's next.
-                </span>
-              </h1>
-              <p className="text-[14px] sm:text-[15px] text-gray-500 dark:text-gray-400 font-normal leading-relaxed max-w-[500px] mb-7">
-                I write about AI, development, product thinking, and digital culture —
-                sharing what I learn, build, and explore along the way. This is a space
-                for curious minds who care about technology and a better future.
-              </p>
-              <div className="flex flex-wrap items-center gap-3 mb-8">
-                <Link
-                  to="/blogs"
-                  className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-gray-950 dark:bg-white hover:bg-black dark:hover:bg-gray-100 text-white dark:text-gray-950 text-[12px] font-medium transition-all shadow-sm"
-                >
-                  Read latest posts
+          {/* 1. CINEMATIC CREATOR HERO STAGE */}
+          <section className="space-y-8">
+            {/* Main Visual Stage Canvas */}
+            <div className="relative w-full h-[480px] sm:h-[540px] md:h-[600px] lg:h-[650px] rounded-2xl sm:rounded-3xl overflow-hidden border border-gray-200/80 dark:border-gray-800 bg-[#070A10] shadow-2xl shadow-black/40 group">
               
-                </Link>
-                <a
-                  href={siteConfig.portfolioUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full border border-gray-200 dark:border-gray-800 hover:border-gray-400 dark:hover:border-gray-600 bg-white dark:bg-[#141414] text-gray-700 dark:text-gray-300 text-[12px] font-medium transition-all"
-                >
-                  View portfolio
-                  <ExternalLink className="w-3.5 h-3.5" />
-                </a>
+              {/* Background 3D Floating Cards Wall */}
+              <img
+                src="/images/hero_bg.png"
+                alt="Tech articles floating in perspective backdrop"
+                className="absolute inset-0 w-full h-full object-cover object-center filter brightness-[0.92] contrast-[1.06]"
+              />
+
+              {/* Ambient radial glow behind subject */}
+              <div 
+                className="absolute inset-0 pointer-events-none"
+                style={{
+                  background: "radial-gradient(circle at 50% 55%, rgba(245, 158, 11, 0.15) 0%, rgba(30, 58, 138, 0.10) 50%, transparent 75%)"
+                }}
+              />
+
+              {/* Atmospheric Edge & Depth Vignettes */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-black/20 pointer-events-none" />
+              <div className="absolute inset-x-0 bottom-0 h-44 sm:h-52 bg-gradient-to-t from-black via-black/85 to-transparent pointer-events-none z-[15]" />
+
+              
+
+              {/* Center Cutout Portrait - Ishara */}
+              {/* make this image smaller */}
+              <div className="absolute inset-x-0 bottom-10 h-full flex items-end justify-center z-10 pointer-events-none">
+                <img
+                  src="/images/about-hero.jpg"
+                  alt="Ishara Udayanga"
+                  className="h-[70%] sm:h-[70%] md:h-[83%] lg:h-[83%] w-auto max-w-none object-contain object-bottom select-none filter drop-shadow-[0_20px_45px_rgba(0,0,0,0.95)] drop-shadow-[0_0_60px_rgba(245,158,11,0.14)]"
+                />
               </div>
-              <div className="flex items-center gap-4 text-gray-500 dark:text-gray-400">
-                <a href={githubUrl} target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:text-black dark:hover:text-white transition-colors">
-                  <Github className="w-[18px] h-[18px]" />
-                </a>
-                <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-black dark:hover:text-white transition-colors">
-                  <Linkedin className="w-[18px] h-[18px]" />
-                </a>
-                <a href={twitterUrl} target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" className="hover:text-black dark:hover:text-white transition-colors">
-                  <XIcon className="w-[17px] h-[17px]" />
-                </a>
-                <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="hover:text-red-600 dark:hover:text-red-400 transition-colors">
-                  <Youtube className="w-[18px] h-[18px]" />
-                </a>
-                <a href="mailto:hello@ishara.live" aria-label="Email" className="hover:text-black dark:hover:text-white transition-colors">
-                  <Mail className="w-[18px] h-[18px]" />
-                </a>
+
+              {/* Bottom Bold Headline Banner - YouTube Creator Style */}
+              <div className="absolute bottom-5 sm:bottom-8 left-0 right-0 z-20 flex flex-col items-center text-center px-4">
+                <div className="flex items-center gap-2 sm:gap-3.5 flex-wrap justify-center drop-shadow-[0_10px_25px_rgba(0,0,0,0.9)]">
+                  <span className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight text-white uppercase drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
+                    Hi, I'm
+                  </span>
+                  <span className="inline-block bg-[#FACC15] text-gray-950 text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight px-3 sm:px-5 py-0.5 sm:py-1 rounded-xl shadow-[0_10px_35px_rgba(250,204,21,0.45)] uppercase transform -rotate-1 hover:rotate-0 transition-transform duration-200">
+                    Ishara
+                  </span>
+                </div>
+                <p className="mt-2.5 sm:mt-3 text-xs sm:text-sm md:text-base text-gray-200 font-medium max-w-xl text-center drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] px-2">
+                  Exploring technology, ideas, and what's next.
+                </p>
               </div>
             </div>
 
-            <div className="relative hidden lg:block">
-              <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-xl">
-                <img
-                  src="/images/about-hero.jpg"
-                  alt="Ishara working at a developer setup"
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-br from-black/10 to-black/30" />
-              </div>
-              <div className="absolute -top-3 -right-3 bg-white dark:bg-[#1A1A1A] rounded-xl shadow-lg border border-gray-100 dark:border-gray-800 px-3.5 py-2.5 max-w-[160px]">
-                <div className="flex items-center gap-1.5 mb-0.5">
-                  <div className="w-4 h-4 rounded-full bg-blue-100 dark:bg-blue-950/60 flex items-center justify-center flex-shrink-0">
-                    <span className="text-[8px]">🚀</span>
-                  </div>
-                  <span className="text-[10px] font-semibold text-gray-900 dark:text-gray-100 leading-tight">
-                    Always learning, always building.
-                  </span>
-                </div>
-                <p className="text-[9px] text-gray-400 dark:text-gray-400 font-normal leading-snug pl-5">
-                  Ideas today. A better tomorrow.
+            {/* Intro Details & Actions Row Below Hero Canvas */}
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start pt-2">
+              <div className="lg:col-span-8 space-y-5">
+                <span className="block text-[10px] uppercase tracking-[0.16em] text-gray-400 dark:text-gray-500 font-semibold">
+                  About Ishara
+                </span>
+                <p className="text-[15px] sm:text-[16px] text-gray-600 dark:text-gray-300 font-normal leading-relaxed max-w-2xl">
+                  I write about AI, hardware architectures, modern development, and digital culture —
+                  sharing what I learn, build, and explore along the way. This is a space
+                  for curious minds who care about technology and a better future.
                 </p>
+
+                {/* CTAs */}
+                <div className="flex flex-wrap items-center gap-3 pt-2">
+                  <Link
+                    to="/blogs"
+                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gray-950 dark:bg-white hover:bg-black dark:hover:bg-gray-100 text-white dark:text-gray-950 text-[13px] font-medium transition-all shadow-sm"
+                  >
+                    <span>Read latest articles</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
+                  <a
+                    href={siteConfig.portfolioUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-gray-200 dark:border-gray-800 hover:border-gray-400 dark:hover:border-gray-600 bg-white dark:bg-[#141414] text-gray-700 dark:text-gray-300 text-[13px] font-medium transition-all"
+                  >
+                    <span>View portfolio</span>
+                    <ExternalLink className="w-3.5 h-3.5 text-gray-400" />
+                  </a>
+                </div>
               </div>
-              <div className="absolute -bottom-3 -left-3 bg-white dark:bg-[#1A1A1A] rounded-xl shadow-lg border border-gray-100 dark:border-gray-800 px-3.5 py-2.5 max-w-[200px] flex items-center gap-2.5">
-                <div className="w-2 h-2 rounded-full bg-green-400 flex-shrink-0" />
-                <p className="text-[10px] font-medium text-gray-800 dark:text-gray-200 leading-snug">
-                  Building a calmer,<br />more intentional tech life.
+
+              {/* Social Connections Column */}
+              <div className="lg:col-span-4 p-5 rounded-2xl border border-gray-100 dark:border-gray-800 bg-gray-50/70 dark:bg-[#141414] space-y-3.5">
+                <span className="block text-[10px] uppercase tracking-[0.14em] text-gray-400 dark:text-gray-500 font-semibold">
+                  Connect & Follow
+                </span>
+                <div className="flex items-center gap-3 text-gray-600 dark:text-gray-300">
+                  <a
+                    href={githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub"
+                    className="w-9 h-9 rounded-full bg-white dark:bg-gray-800 border border-gray-200/80 dark:border-gray-700 flex items-center justify-center hover:text-black dark:hover:text-white hover:border-gray-400 transition-all shadow-xs"
+                  >
+                    <Github className="w-4 h-4" />
+                  </a>
+                  <a
+                    href={linkedinUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                    className="w-9 h-9 rounded-full bg-white dark:bg-gray-800 border border-gray-200/80 dark:border-gray-700 flex items-center justify-center hover:text-blue-600 dark:hover:text-blue-400 hover:border-blue-400 transition-all shadow-xs"
+                  >
+                    <Linkedin className="w-4 h-4" />
+                  </a>
+                  <a
+                    href={twitterUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="X (Twitter)"
+                    className="w-9 h-9 rounded-full bg-white dark:bg-gray-800 border border-gray-200/80 dark:border-gray-700 flex items-center justify-center hover:text-black dark:hover:text-white hover:border-gray-400 transition-all shadow-xs"
+                  >
+                    <XIcon className="w-3.5 h-3.5" />
+                  </a>
+                  <a
+                    href={youtubeUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="YouTube"
+                    className="w-9 h-9 rounded-full bg-white dark:bg-gray-800 border border-gray-200/80 dark:border-gray-700 flex items-center justify-center hover:text-red-600 dark:hover:text-red-400 hover:border-red-400 transition-all shadow-xs"
+                  >
+                    <Youtube className="w-4 h-4" />
+                  </a>
+                  <a
+                    href="mailto:hello@ishara.live"
+                    aria-label="Email"
+                    className="w-9 h-9 rounded-full bg-white dark:bg-gray-800 border border-gray-200/80 dark:border-gray-700 flex items-center justify-center hover:text-amber-600 dark:hover:text-amber-400 hover:border-amber-400 transition-all shadow-xs"
+                  >
+                    <Mail className="w-4 h-4" />
+                  </a>
+                </div>
+                <p className="text-[11px] text-gray-500 dark:text-gray-400 font-normal leading-relaxed">
+                  Open for tech writing, collaborations, and discussions on future tech.
                 </p>
               </div>
             </div>

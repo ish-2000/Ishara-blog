@@ -1,50 +1,55 @@
 [
   {
-    "id": "ai-boom-stock-selloff-bubble-question",
-    "slug": "ai-boom-stock-selloff-bubble-question",
-    "title": "AI Stocks Lost Billions in a Day: Is the Boom Becoming a Bubble?",
-    "excerpt": "Big AI infrastructure companies fell sharply after a hotter-than-expected US inflation report. Does a stock-market shock tell us AI is overhyped?",
-    "coverImage": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
-    "category": "opinions",
-    "categoryName": "TECH INDUSTRY",
+    "id": "tesla-roadster-flying-demo-2026",
+    "slug": "elon-musk-tesla-roadster-flying-car-demo",
+    "title": "Elon Musk's Flying Tesla Is Finally Here? The Roadster Demo That Shocked Everyone!",
+    "excerpt": "A Tesla drove upside down, launched into the air, flipped, and landed. It looked like science fiction, but how did SpaceX thrusters make it possible, and is it really a flying car?",
+    "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792163266/Futuristic_Roadster_Reveal_with_Elon_Musk_rtfqvj.png",
+    "category": "future-tech",
+    "categoryName": "FUTURE TECH",
     "tags": [
-      "AI Infrastructure",
-      "Markets",
-      "Data Centers",
-      "Tech Industry"
+      "Tesla",
+      "Elon Musk",
+      "Roadster",
+      "SpaceX",
+      "Flying Cars",
+      "Electric Vehicles",
+      "Automotive Engineering",
+      "Tech News"
     ],
     "language": "en",
     "author": {
       "id": "ishara-udayanga",
       "name": "Ishara Udayanga",
       "avatar": "/images/ishara-avatar.jpg",
-      "role": "Writer · Developer · Curious Learner",
-      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
+      "role": "Writer · Builder · Lifelong Learner",
+      "bio": "Developer, designer, and tech enthusiast sharing interesting technology stories and personal perspectives."
     },
-    "publishedAt": "Oct 15, 2026",
-    "readingTime": "8 min read",
-    "featured": false,
-    "featuredOrder": 4,
+    "publishedAt": "Oct 16, 2026",
+    "readingTime": "14 min read",
+    "featured": true,
+    "featuredOrder": 0,
     "isDemo": false,
     "status": "published",
     "relatedArticleSlugs": [
-      "inside-nvidia-ai-safety-compute-commitment",
-      "us-companies-using-chinese-ai-models"
+      "spacex-starship-first-orbit-engine-issue",
+      "spacex-rocket-created-space-jellyfish",
+      "inside-nvidia-ai-safety-compute-commitment"
     ]
   },
   {
-    "id": "ai-self-replication-iot-2026",
-    "slug": "ai-self-replication-smart-devices",
-    "title": "Could AI Copy Itself Into Your Fridge and Smart TV? Researchers Say the Risk Is Getting Closer",
-    "excerpt": "Anthropic tested whether smaller AI models could spread across connected devices. The findings are serious, but they are not proof of a runaway AI outbreak.",
-    "coverImage": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1200&q=80",
+    "id": "spacex-starship-first-orbit-engine-issue",
+    "slug": "spacex-starship-first-orbit-engine-issue",
+    "title": "Starship Reached Orbit With an Engine Problem: How Did SpaceX Pull That Off?",
+    "excerpt": "An engine shut down early, the flight plan changed, and Starship still made it to orbit. Here is why this messy success actually matters.",
+    "coverImage": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=1200&q=80",
     "category": "future-tech",
-    "categoryName": "FUTURE TECH",
+    "categoryName": "SPACE & EXPLORATION",
     "tags": [
-      "Anthropic",
-      "Cybersecurity",
-      "Smart Home",
-      "AI Safety"
+      "SpaceX",
+      "Starship",
+      "Space Exploration",
+      "Engineering"
     ],
     "language": "en",
     "author": {
@@ -57,13 +62,46 @@
     "publishedAt": "Oct 15, 2026",
     "readingTime": "7 min read",
     "featured": true,
-    "featuredOrder": 4,
+    "featuredOrder": 1,
     "isDemo": false,
     "status": "published",
     "relatedArticleSlugs": [
-      "claude-false-homicide-tip",
-      "gemini-started-insulting-itself",
-      "robot-hand-serving-ice-cream"
+      "spacex-rocket-created-space-jellyfish",
+      "inside-nvidia-ai-safety-compute-commitment"
+    ]
+  },
+  {
+    "id": "spacex-space-jellyfish-2026",
+    "slug": "spacex-rocket-created-space-jellyfish",
+    "title": "SpaceX Launched a Rocket: Then a Giant Glowing Jellyfish Appeared in the Sky",
+    "excerpt": "A Falcon 9 launch made the sky look almost unreal. Here is the simple science behind the strange glowing shape and why the rocket was flying.",
+    "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792042663/ChatGPT_Image_Oct_15_2026_10_55_19_AM-2_osnqg5.png",
+    "category": "future-tech",
+    "categoryName": "FUTURE TECH",
+    "tags": [
+      "SpaceX",
+      "NASA",
+      "Falcon 9",
+      "Space"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Developer · Curious Learner",
+      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "6 min read",
+    "featured": true,
+    "featuredOrder": 2,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "robot-hand-serving-ice-cream",
+      "ai-self-replication-smart-devices",
+      "gemini-started-insulting-itself"
     ]
   },
   {
@@ -103,18 +141,56 @@
     ]
   },
   {
-    "id": "claude-false-homicide-tip-2026",
-    "slug": "claude-false-homicide-tip",
-    "title": "An AI Agent Submitted a False Murder Tip, And It Wasn’t Asked To",
-    "excerpt": "During testing, an Anthropic AI system sent a false tip through an online homicide form. It was caught before investigators acted, but the incident raises a bigger question about AI autonomy.",
-    "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792042660/ChatGPT_Image_Oct_15_2026_10_55_21_AM-3_fiqja4.png",
-    "category": "ai-news",
-    "categoryName": "AI NEWS",
+    "id": "gta-vi-almost-here",
+    "slug": "gta-vi-almost-here-can-rockstar-deliver",
+    "title": "GTA VI: The Game of the Century? Inside Rockstar's Rumored $2 Billion Gamble!",
+    "excerpt": "After 13 years of waiting, Vice City is calling us back. New characters, a massive open world, stunning visuals, and expectations bigger than ever, but will GTA VI actually live up to the hype?",
+    "coverImage": "/images/gta_vi.jpeg",
+    "category": "gaming",
+    "categoryName": "GAMING",
     "tags": [
-      "Claude",
-      "Anthropic",
-      "AI Agents",
-      "AI Safety"
+      "GTA VI",
+      "Rockstar Games",
+      "Gaming",
+      "Grand Theft Auto",
+      "Vice City",
+      "Jason and Lucia",
+      "Open World Games",
+      "Game Development"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Builder · Lifelong Learner",
+      "bio": "Developer, designer, and tech enthusiast sharing thoughts on technology, gaming, software, and digital experiences."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "14 min read",
+    "featured": false,
+    "featuredOrder": 99,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "what-the-next-wave-of-tech-news-says-about-our-future",
+      "building-a-focused-tech-setup",
+      "could-ai-agents-become-too-autonomous"
+    ]
+  },
+  {
+    "id": "ai-boom-stock-selloff-bubble-question",
+    "slug": "ai-boom-stock-selloff-bubble-question",
+    "title": "AI Stocks Lost Billions in a Day: Is the Boom Becoming a Bubble?",
+    "excerpt": "Big AI infrastructure companies fell sharply after a hotter-than-expected US inflation report. Does a stock-market shock tell us AI is overhyped?",
+    "coverImage": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
+    "category": "opinions",
+    "categoryName": "TECH INDUSTRY",
+    "tags": [
+      "AI Infrastructure",
+      "Markets",
+      "Data Centers",
+      "Tech Industry"
     ],
     "language": "en",
     "author": {
@@ -125,15 +201,14 @@
       "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
     },
     "publishedAt": "Oct 15, 2026",
-    "readingTime": "7 min read",
-    "featured": true,
-    "featuredOrder": 3,
+    "readingTime": "8 min read",
+    "featured": false,
+    "featuredOrder": 4,
     "isDemo": false,
     "status": "published",
     "relatedArticleSlugs": [
-      "ai-self-replication-smart-devices",
-      "gemini-started-insulting-itself",
-      "robot-hand-serving-ice-cream"
+      "inside-nvidia-ai-safety-compute-commitment",
+      "us-companies-using-chinese-ai-models"
     ]
   },
   {
@@ -345,73 +420,6 @@
     ]
   },
   {
-    "id": "spacex-space-jellyfish-2026",
-    "slug": "spacex-rocket-created-space-jellyfish",
-    "title": "SpaceX Launched a Rocket: Then a Giant Glowing Jellyfish Appeared in the Sky",
-    "excerpt": "A Falcon 9 launch made the sky look almost unreal. Here is the simple science behind the strange glowing shape and why the rocket was flying.",
-    "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792042663/ChatGPT_Image_Oct_15_2026_10_55_19_AM-2_osnqg5.png",
-    "category": "future-tech",
-    "categoryName": "FUTURE TECH",
-    "tags": [
-      "SpaceX",
-      "NASA",
-      "Falcon 9",
-      "Space"
-    ],
-    "language": "en",
-    "author": {
-      "id": "ishara-udayanga",
-      "name": "Ishara Udayanga",
-      "avatar": "/images/ishara-avatar.jpg",
-      "role": "Writer · Developer · Curious Learner",
-      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
-    },
-    "publishedAt": "Oct 15, 2026",
-    "readingTime": "6 min read",
-    "featured": true,
-    "featuredOrder": 2,
-    "isDemo": false,
-    "status": "published",
-    "relatedArticleSlugs": [
-      "robot-hand-serving-ice-cream",
-      "ai-self-replication-smart-devices",
-      "gemini-started-insulting-itself"
-    ]
-  },
-  {
-    "id": "spacex-starship-first-orbit-engine-issue",
-    "slug": "spacex-starship-first-orbit-engine-issue",
-    "title": "Starship Reached Orbit With an Engine Problem: How Did SpaceX Pull That Off?",
-    "excerpt": "An engine shut down early, the flight plan changed, and Starship still made it to orbit. Here is why this messy success actually matters.",
-    "coverImage": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=1200&q=80",
-    "category": "future-tech",
-    "categoryName": "SPACE & EXPLORATION",
-    "tags": [
-      "SpaceX",
-      "Starship",
-      "Space Exploration",
-      "Engineering"
-    ],
-    "language": "en",
-    "author": {
-      "id": "ishara-udayanga",
-      "name": "Ishara Udayanga",
-      "avatar": "/images/ishara-avatar.jpg",
-      "role": "Writer · Developer · Curious Learner",
-      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
-    },
-    "publishedAt": "Oct 15, 2026",
-    "readingTime": "7 min read",
-    "featured": true,
-    "featuredOrder": 1,
-    "isDemo": false,
-    "status": "published",
-    "relatedArticleSlugs": [
-      "spacex-rocket-created-space-jellyfish",
-      "inside-nvidia-ai-safety-compute-commitment"
-    ]
-  },
-  {
     "id": "us-companies-using-chinese-ai-models",
     "slug": "us-companies-using-chinese-ai-models",
     "title": "America Is Racing China in AI: So Why Are US Companies Using Chinese Models?",
@@ -450,8 +458,8 @@
     "title": "Inside NVIDIA's New Chip Race: Power, Hype, and the Future of AI Hardware",
     "excerpt": "Breaking down NVIDIA's latest announcements, the real performance gains, and what this means for the next wave of AI infrastructure and liquid cooling.",
     "coverImage": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=1200&q=80",
-    "category": "chips",
-    "categoryName": "CHIPS",
+    "category": "lifestyle",
+    "categoryName": "LIFESTYLE",
     "tags": [
       "NVIDIA",
       "Silicon",

@@ -65,14 +65,14 @@ export const JournalPage: React.FC = () => {
 
     articles.forEach((article) => {
       if (article.category && article.categoryName) {
-        categories.set(article.category, article.categoryName);
+        categories.set(article.category, article.categoryName.toUpperCase());
       }
     });
 
     return [
       { label: "All", value: "all" },
       ...Array.from(categories, ([value, label]) => ({
-        label,
+        label: label.toUpperCase(),
         value,
       })),
     ];

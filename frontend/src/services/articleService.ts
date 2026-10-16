@@ -22,7 +22,7 @@ const SLUG_ALIASES: Record<string, string> = {
 
 const DEFAULT_CATEGORY_IMAGES: Record<string, string> = {
   'ai-news': 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80',
-  'chips': 'https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=1200&q=80',
+  'lifestyle': 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80',
   'big-tech': 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80',
   'future-tech': 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80',
   'opinions': 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80',
@@ -149,8 +149,10 @@ class ArticleService {
     const featured = published.filter((a) => a.featured);
 
     featured.sort((a, b) => {
-      if (typeof a.featuredOrder === 'number' && typeof b.featuredOrder === 'number') {
-        return a.featuredOrder - b.featuredOrder;
+      const orderA = typeof a.featuredOrder === 'number' ? a.featuredOrder : 99;
+      const orderB = typeof b.featuredOrder === 'number' ? b.featuredOrder : 99;
+      if (orderA !== orderB) {
+        return orderA - orderB;
       }
       return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
     });
