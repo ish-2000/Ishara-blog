@@ -2,7 +2,7 @@ import { Article, Category } from '../types';
 
 export const authorIshara = {
   id: 'ishara-perera',
-  name: 'Ishara Fernando',
+  name: 'Ishara Udayaga',
   avatar: '/images/ishara-avatar.jpg',
   bio: 'Software engineer and tech enthusiast writing about artificial intelligence, modern computing hardware, and future tech.',
   role: 'Writer · Builder · Lifelong Learner',
@@ -83,6 +83,32 @@ export const categoriesData: Category[] = [
 
 export const mockArticles: Article[] = [
   {
+    id: 'tesla-roadster-flying-demo-2026',
+    slug: 'elon-musk-tesla-roadster-flying-car-demo',
+    title: 'Elon Musk’s Flying Tesla Is Finally Here? The Roadster Demo That Shocked Everyone!',
+    excerpt: 'A Tesla drove upside down, launched into the air, flipped, and landed. It looked like science fiction, but how did SpaceX thrusters make it possible, and is it really a flying car?',
+    coverImage: 'https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792163266/Futuristic_Roadster_Reveal_with_Elon_Musk_rtfqvj.png',
+    category: 'future-tech',
+    categoryName: 'FUTURE TECH',
+    tags: ['Tesla', 'Elon Musk', 'Roadster', 'SpaceX', 'Flying Cars', 'Electric Vehicles'],
+    author: authorIshara,
+    publishedAt: 'Oct 16, 2026',
+    readingTime: '14 min read',
+    featured: true,
+    featuredOrder: 0,
+    content: 'A Tesla drove upside down, launched into the air, flipped, and landed. It looked like science fiction, but how did SpaceX thrusters make it possible, and is it really a flying car?',
+    relatedArticleIds: ['spacex-starship-first-orbit-engine-issue', 'spacex-rocket-created-space-jellyfish'],
+    sections: [
+      {
+        id: 'the-moment',
+        title: 'The Moment a Car Stopped Acting Like a Car',
+        paragraphs: [
+          "Picture this. You're watching what looks like a normal supercar reveal. There are lights, dramatic music, an expensive-looking vehicle, and an audience waiting for the usual acceleration numbers. Then the car drives up a giant curved ramp. It keeps climbing until it's upside down. And just when you think the stunt is over, it launches into the air, rolls, and lands back on its wheels."
+        ]
+      }
+    ]
+  },
+  {
     id: 'building-tech-setup',
     slug: 'building-a-focused-tech-setup',
     title: 'Building a Focused Tech Setup for a Calmer, More Productive Life',
@@ -108,7 +134,7 @@ export const mockArticles: Article[] = [
         ],
         quote: {
           text: '“A simpler setup isn\'t about having less. It\'s about giving more space to what truly matters.”',
-          author: 'Ishara Fernando',
+          author: 'Ishara Udayaga',
         },
       },
       {
@@ -197,7 +223,7 @@ export const mockArticles: Article[] = [
         ],
         quote: {
           text: '“The real question isn\'t whether frontier models are impressive. It\'s whether we\'re asking the right architectural questions about oversight and sandboxing.”',
-          author: 'Ishara Fernando',
+          author: 'Ishara Udayaga',
         },
       },
       {
@@ -257,8 +283,8 @@ export const mockArticles: Article[] = [
     title: "Inside NVIDIA's New Chip Race — Power, Hype, and the Future of AI Hardware",
     excerpt: "Breaking down NVIDIA's latest announcements, the real performance gains, and what this means for the next wave of AI infrastructure.",
     coverImage: '/images/nvidia-chip.jpg',
-    category: 'chips',
-    categoryName: 'CHIPS',
+    category: 'lifestyle',
+    categoryName: 'LIFESTYLE',
     tags: ['NVIDIA', 'Silicon', 'Hardware', 'GPUs'],
     author: authorIshara,
     publishedAt: 'Jan 18, 2026',
@@ -283,7 +309,7 @@ export const mockArticles: Article[] = [
         ],
         quote: {
           text: '“We are no longer designing individual chips. We are designing data centers as monolithic computational engines.”',
-          author: 'Ishara Fernando',
+          author: 'Ishara Udayaga',
         },
       },
       {
@@ -333,7 +359,7 @@ export const mockArticles: Article[] = [
         ],
         quote: {
           text: '“Safety in agentic systems is primarily an engineering hygiene discipline: deterministic boundaries, clear authorizations, and immutable audit logs.”',
-          author: 'Ishara Fernando',
+          author: 'Ishara Udayaga',
         },
       },
       {

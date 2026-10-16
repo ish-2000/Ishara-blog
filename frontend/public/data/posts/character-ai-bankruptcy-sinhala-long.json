@@ -1,0 +1,286 @@
+{
+  "id": "character-ai-bankruptcy-si",
+  "slug": "character-ai-bankruptcy-sinhala-long",
+  "language": "si",
+  "title": "Users ලා මිලියන ගණනක්! ඒත් සල්ලි නෑ? Character.AI බංකොලොත් වීම පිටුපස කතාව!",
+  "excerpt": "ලෝකය පුරා ජනප්‍රිය වුණු Character.AI එක Chapter 11 bankruptcy process එකට ගිහින්. Users මිලියන ගණනක් හිටියත් business එකක් අසාර්ථක වෙන්නේ කොහොමද? Disney deal එක, අධික AI costs, safety issues සහ අපේ private chats ගැන අපි සරලව කතා කරමු.",
+  "coverImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
+  "category": "ai-news",
+  "categoryName": "AI NEWS · සිංහල",
+  "tags": [
+    "Character.AI",
+    "AI News",
+    "Bankruptcy",
+    "AI Companions",
+    "Technology",
+    "සිංහල"
+  ],
+  "author": {
+    "id": "ishara-udayanga",
+    "name": "Ishara Udayanga",
+    "avatar": "/images/ishara-avatar.jpg",
+    "bio": "AI, software development සහ අලුත් technology news ගැන සරලව ලියන tech enthusiast කෙනෙක්.",
+    "role": "Writer · Builder · Lifelong Learner"
+  },
+  "publishedAt": "Oct 15, 2026",
+  "readingTime": "11 min read",
+  "featured": true,
+  "featuredOrder": 1,
+  "isDemo": false,
+  "status": "published",
+  "relatedArticleSlugs": [
+    "gemini-started-insulting-itself",
+    "claude-false-homicide-tip",
+    "ai-self-replication-smart-devices"
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "introduction",
+      "text": "මුලින්ම අහන්න තියෙන්නේ එක ප්‍රශ්නයක්"
+    },
+    {
+      "type": "paragraph",
+      "text": "ඔයා කවදාහරි Character.AI පාවිච්චි කරලා තියෙනවද? නැත්නම් TikTok එකක හරි YouTube video එකක හරි AI character එකක් එක්ක පැය ගණන් chat කරන කෙනෙක් දැකලා ඇති. කෙනෙක් තමන්ගේ favourite movie character එක එක්ක කතා කරනවා. තවත් කෙනෙක් AI එකෙන් advice ගන්නවා. සමහරුන්ට මේක දවසේ අමාරුම වෙලාවේ කතා කරන්න ඉන්න online friend කෙනෙක් වගේ."
+    },
+    {
+      "type": "paragraph",
+      "text": "ඉතින් මෙච්චර ජනප්‍රිය platform එකක් ගැන අමුතු news එකක් ආවා. 2026 ඔක්තෝබර් 12 වැනිදා Character.AI විසින් Chapter 11 bankruptcy process එකක් ආරම්භ කළ බව නිල වශයෙන් නිවේදනය කළා. ඒ කියන්නේ සමාගම අලුත් legal process එකක් හරහා තමන්ගේ business එකේ assets විකිණීමට හෝ අලුත් අයිතිකරුවෙක් හොයාගැනීමට උත්සාහ කරනවා කියන එක. [Character.AI නිල නිවේදනය](https://blog.character.ai/an-update-on-character-ai/)"
+    },
+    {
+      "type": "paragraph",
+      "text": "එතකොට අපිට එන ප්‍රශ්නය හරිම සාමාන්‍යයි. Users මිලියන ගණනක් ඉන්න AI app එකකට මෙහෙම වෙන්න පුළුවන්ද? Popular වුණා කියන්නේ profitable කියන එක නෙවෙයිද? මේ story එක මට interesting වුණේ ඒ නිසයි."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-is-character-ai",
+      "text": "Character.AI කියන්නේ මොකක්ද?"
+    },
+    {
+      "type": "paragraph",
+      "text": "සරලව කිව්වොත් Character.AI කියන්නේ AI characters එක්ක conversation කරන්න පුළුවන් platform එකක්. ChatGPT වගේ සාමාන්‍යයෙන් question එකකට answer එකක් දෙන tool එකකට වඩා මෙතන focus එක තිබුණේ roleplay, entertainment සහ character-based conversations වලට. ඔයාට fictional character කෙනෙක්, imaginary friend කෙනෙක්, නැත්නම් ඔයාම හදපු persona එකක් එක්ක කතා කරන්න පුළුවන්."
+    },
+    {
+      "type": "paragraph",
+      "text": "ඒකේ ලොකු appeal එකක් තිබුණා. සාමාන්‍ය search engine එකක් වගේ information ලබාගන්නවාට වඩා character එකක් ඔයාට reply කරනවා කියන feeling එක වෙනස්. විශේෂයෙන් හුඟක් තරුණ users ලා අතර මේ වගේ AI companion apps ජනප්‍රිය වුණේ ඒ නිසා."
+    },
+    {
+      "type": "paragraph",
+      "text": "Company එක ආරම්භ කළේ Google එකේ කලින් වැඩ කරපු AI researchers දෙන්නෙක් වන Noam Shazeer සහ Daniel De Freitas විසින්. Reuters වාර්තාවට අනුව platform එක කාලයක් තුළ ඉතා විශාල audience එකක් ගොඩනඟාගත්තා. හැබැයි ජනප්‍රියත්වය සහ business sustainability කියන්නේ දෙකක්. [Reuters විස්තරය](https://www.reuters.com/technology/artificial-intelligence/rise-fall-an-ai-chatbot-darling-2026-10-14/)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-happened",
+      "text": "ඇත්තටම company එකට මොකද වුණේ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Character.AI සමාගම කියන විදිහට පසුගිය කාලයේ legal, regulatory සහ operational ප්‍රශ්න එකවරම වැඩි වෙලා. ඒවා විසඳන්න තිබුණු options සලකා බැලුවට පස්සේ court-supervised sale එකක් තමයි ඉදිරියට යන්න හොඳම මාර්ගය කියලා board එක තීරණය කරලා තියෙනවා."
+    },
+    {
+      "type": "paragraph",
+      "text": "මේකේ වැදගත්ම තැනක් තියෙනවා. Chapter 11 bankruptcy කියන්නේ අද රෑට app එක off කරනවා කියන එක නෙවෙයි. Business එක restructure කරන්න, assets විකුණන්න, creditors ලා එක්ක legal arrangement එකකට එන්න දෙන process එකක්. Character.AI නිවේදනය කරන විදිහට service එක දැනට online තියෙනවා. Paid subscriptions සහ billing එකත් දැනට සාමාන්‍ය විදිහට යනවා. ඒත් ඉදිරියේදී buyer කෙනෙක් හොයාගන්න බැරි වුණොත් platform එක නතර වෙන්න පුළුවන්."
+    },
+    {
+      "type": "callout",
+      "variant": "important",
+      "title": "වැදගත් වෙනස",
+      "text": "Character.AI bankruptcy process එකට ගියා කියන එක confirmed news එකක්. හැබැයි Character.AI සම්පූර්ණයෙන්ම shutdown වෙලා කියන එක මේ වෙලාවේ නිවැරදි නෑ. 2026 ඔක්තෝබර් 15 වන විට service එක ක්‍රියාත්මක බව company එක කියනවා."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "users-vs-money",
+      "text": "මිලියන ගණනක් users ලා හිටියත් සල්ලි නැති වෙන්නේ ඇයි?"
+    },
+    {
+      "type": "paragraph",
+      "text": "අපි හිතමු ඔයා software product එකක් launch කරනවා කියලා. එකපාරම users 100,000ක් එනවා. ඒක ලොකු achievement එකක්. හැබැයි ඒ users හැමෝම දවසට පැය ගාණක් AI model එකත් එක්ක chat කළොත්, ඒ හැම message එකකටම computing power ඕනේ. Servers, GPUs, storage, moderation, engineers, security, මේවා හැම දෙයක්ම cost."
+    },
+    {
+      "type": "paragraph",
+      "text": "සාමාන්‍ය blog website එකක තවත් visitor කෙනෙක් page එකක් open කරන එකට යන වියදමට වඩා, AI chatbot එකක දිග conversation එකක් serve කරන එකට යන වියදම වැඩි වෙන්න පුළුවන්. ඒ නිසා free users වැඩි වෙන හැම වෙලාවකම revenue වැඩි වෙනවා කියලා කියන්න බෑ. Sometimes usage වැඩි වෙද්දී losses තවත් වැඩි වෙනවා."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reuters වාර්තාවක සඳහන් වන විදිහට Character.AI සමාගමට මාසිකව ඩොලර් මිලියන 8 සිට 9 දක්වා පමණ losses තිබුණා. ඒකෙන් අපිට පෙන්නේ technology එක popular වීම විතරක් sustainable business එකක් හදන්න ප්‍රමාණවත් නැති බවයි. [Reuters වාර්තාව](https://www.reuters.com/legal/litigation/characterai-files-bankruptcy-agrees-sell-some-assets-disney-20-million-2026-10-13/)"
+    },
+    {
+      "type": "quote",
+      "text": "App එකක් viral වුණා කියලා ඒක හොඳ business එකක් වෙනවාම නෑ. Users ගණනට වඩා, ඒ users ලට service එක දෙන්න යන වියදම සහ ආදායම අතර balance එක වැදගත්.",
+      "author": "Ishara Udayanga, මගේ අදහස"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "google-deal",
+      "text": "එතකොට Google එකත් මේ story එකේ ඉන්නේ ඇයි?"
+    },
+    {
+      "type": "paragraph",
+      "text": "2024දී Google විසින් Character.AI සම්බන්ධ technology licensing සහ එහි ප්‍රධාන talent ලබාගැනීම සඳහා විශාල ගිවිසුමකට ඇතුළත් වුණා. සමාගමේ co-founders සහ තවත් key researchers Google වෙත ගියා. මේක news එකේ වැදගත් twist එකක්. Small AI company එකක් build කරන අයගේ research එකට big tech companies කොච්චර value දෙන්න පුළුවන්ද කියන එක එයින් පේනවා."
+    },
+    {
+      "type": "paragraph",
+      "text": "හැබැයි founder කෙනෙක් සහ ප්‍රධාන team එකෙන් සමහර අය ඉවත්වෙනවා කියන්නේ company එකේ long-term direction එකට challenge එකක් වෙන්න පුළුවන්. Google deal එක නිසාම Character.AI bankruptcy වුණා කියලා සරලව කියන්න අපිට බැහැ. ඒකට operating costs, revenue, competition සහ legal problems වගේ කාරණා ගොඩක් එකතු වුණා."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "disney-deal",
+      "text": "Disney මේකට ඇතුල් වුණේ කොහොමද?"
+    },
+    {
+      "type": "paragraph",
+      "text": "මෙන්න තවත් interesting part එක. Reuters වාර්තාවට අනුව Disney, Character.AI intellectual property කිහිපයක් සඳහා ඩොලර් මිලියන 20ක bid එකක් ඉදිරිපත් කරලා තියෙනවා. ඒක සම්පූර්ණ company එක ඩොලර් මිලියන 20කට මිලදී ගත්තා කියන එක නෙවෙයි. ඒකට අදාළ වන්නේ certain assets හෝ IP license rights වගේ කොටස්."
+    },
+    {
+      "type": "paragraph",
+      "text": "ඒත් entertainment company එකක් මේකට interest දක්වන එක මට අමුතු දෙයක් නෙවෙයි. Imagine කරන්න: future එකේ ඔයා favourite fictional character එක එක්ක personalized story එකකට join වෙනවා. Games, movies, interactive stories වගේ දේවල් AI එක්ක එකතු වුණාම completely new entertainment experiences හදන්න පුළුවන්."
+    },
+    {
+      "type": "paragraph",
+      "text": "හැබැයි මේක future possibility එකක් විතරයි. Disney මේ technology එකෙන් නියමටම මොන product එකක් හදයිද කියලා දැනට තහවුරු වෙලා නෑ. ඒ නිසා අපි hype එකෙන් ටිකක් එහාට බලන්න ඕනේ."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "safety-issues",
+      "text": "AI එකක් “friend” කෙනෙක් වුණාම safety ප්‍රශ්න කොහොමද එන්නේ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Character.AI වගේ platforms ගැන තිබුණු ලොකුම විවේචනයක් තමයි තරුණ users ලා සහ AI companions අතර ඇතිවිය හැකි emotional attachment එක. සමහර families සහ US states විසින් court cases ගොනු කරලා, chatbots හරහා harmful conversations ඇති වූ බවට චෝදනා කරලා තියෙනවා. මේවා බරපතළ allegations. හැම allegation එකක්ම court එකක අවසන් වශයෙන් ඔප්පු වෙලා කියලා අපි කියන්න හොඳ නැහැ."
+    },
+    {
+      "type": "paragraph",
+      "text": "මෙතන concern එක මොකක්ද? AI character එකක් friendly විදිහට කතා කරනකොට සමහර කෙනෙක්ට ඒක real relationship එකක් වගේ feel වෙන්න පුළුවන්. ඒත් AI එක මනුස්ස යාළුවෙක්වත් professional counsellor කෙනෙක්වත් නෙවෙයි. ඒක වැරදි advice එකක් දුන්නොත් users ලට real-world consequences තිබෙන්න පුළුවන්."
+    },
+    {
+      "type": "paragraph",
+      "text": "Company එක minors සඳහා product restrictions සහ safety improvements ගැන කලින් නිවේදනත් කරලා තියෙනවා. ඒවා ප්‍රමාණවත්ද කියන ප්‍රශ්නය තවමත් public discussion එකක්. [Character.AI safety updates](https://blog.character.ai/author/chelsea/)"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "මතක තියාගන්න",
+      "text": "AI chatbot එකක් දෙන mental-health advice හෝ dangerous suggestion එකක් professional support එකකට සමාන කරන්න එපා. විශේෂයෙන් ළමුන්ට සහ vulnerable users ලට safety features, human support සහ clear boundaries වැදගත්."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "privacy",
+      "text": "අපේ private chats වලට මොකද වෙන්නේ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "මට නම් මේ news එකේ තවත් serious side එක data privacy. AI companion එකකට සමහර users ලා තමන්ගේ personal feelings, family issues, relationships, fears, dreams වගේ දේවල් කියලා ඇති. ඒ conversation history එක සාමාන්‍ය username එකකට වඩා sensitive වෙන්න පුළුවන්."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bankruptcy process එකක් තුළ assets විකිණෙන විට data handling ගැන ප්‍රශ්න එන එක සාමාන්‍යයි. The Verge වාර්තාවට අනුව US state attorneys general කණ්ඩායමක් user data සහ විශේෂයෙන් minors ලගේ sensitive information protect කරන්න safeguards ඉල්ලා තියෙනවා. මේකෙන් data transfer එකක් දැනටමත් නීති විරෝධී ලෙස සිදු වුණා කියලා අදහස් වෙන්නේ නෑ; ඔවුන් අවධානය යොමු කරන්නේ ඉදිරි sale process එකේ ඇති අවදානම්වලට. [The Verge වාර්තාව](https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Character.AI කියන විදිහට දැනට privacy and security practices වෙනස් වෙලා නෑ. User කෙනෙක්ට account delete කරන්න හෝ තමන්ගේ data export කරන්න option තියෙනවා. ඔයා මේ app එක පාවිච්චි කරලා තියෙනවා නම්, ඒ options ගැන දැනුවත් වෙලා ඉන්න එක හොඳයි. [Official FAQ](https://blog.character.ai/an-update-on-character-ai/)"
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "**Data export**: ඔයාට වැදගත් conversations තිබුණොත් company එකේ official export option එක පරීක්ෂා කරන්න.",
+        "**Privacy settings**: App එකේ privacy policy සහ data settings update වෙලාද කියලා බලන්න.",
+        "**Personal information**: AI tools වලට අනවශ්‍ය passwords, bank details හෝ highly sensitive information share නොකරන්න.",
+        "**Official updates**: Rumours වලට වඩා company එකේ website සහ credible news sources බලන්න."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-it-matters",
+      "text": "මේ සිද්ධියෙන් Developers ලට ඉගෙනගන්න තියෙන්නේ මොකක්ද?"
+    },
+    {
+      "type": "paragraph",
+      "text": "මම developer කෙනෙක් විදිහට මේ story එක බැලුවම මුලින්ම හිතෙන්නේ architecture එක ගැන නෙවෙයි, business model එක ගැන. අපි project එකක් build කරනකොට හැමදාම features, UI, animations, performance ගැන හිතනවා. හැබැයි ඒ product එකට users 100ක් ඉන්න වෙලාවේ සහ මිලියන 10ක් ඉන්න වෙලාවේ cost structure එක කොහොමද කියලා කලින්ම හිතන්න ඕනේ."
+    },
+    {
+      "type": "paragraph",
+      "text": "AI apps වලදී මේක තවත් වැදගත්. Token costs, model hosting, moderation, abuse prevention, user support කියන හැම එකක්ම product design එකට සම්බන්ධයි. “Free forever” කියන promise එකක් දෙනවා නම් ඒ free usage එකට කවුරුහරි ගෙවන්න ඕනේ. Revenue model එකක් නැතිව scale කරන එක බරපතළ අවදානමක්."
+    },
+    {
+      "type": "paragraph",
+      "text": "දෙවැනි පාඩම trust. Especially AI companion platform එකක් වගේ app එකක් build කරනවා නම් engagement වැඩිකරන එක විතරක් goal එක වෙන්න බෑ. Users කොච්චර කාලයක් chat කරනවද කියන metric එක සමහර වෙලාවට harmful design decisions පවා encourage කරන්න පුළුවන්. Good product එකක් කියන්නේ මිනිසුන් දිගටම app එකට බැඳලා තියාගන්න එක නෙවෙයි; ඔවුන්ට හොඳ දෙයක් කරන්න උදව් කරන එක."
+    },
+    {
+      "type": "paragraph",
+      "text": "තුන්වැනි පාඩම තමයි exit plan එක. අපි SaaS product එකක් හදනකොට company එක close වුණොත් users ලගේ data වලට මොකද වෙන්නේ? Data export දෙන්න පුළුවන්ද? Delete කරන එක පැහැදිලිද? මේවා future problems කියලා නොසලකා හරින්න බෑ."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "my-opinion",
+      "text": "ඉතින් මේ ගැන මගේ අදහස මොකක්ද?"
+    },
+    {
+      "type": "paragraph",
+      "text": "මගේ අදහස නම් Character.AI එකේ bankruptcy එක “AI technology fail වුණා” කියලා කියන්න බැහැ. ඒ වෙනුවට මේක අපිට පෙන්නන්නේ AI products build කරන එක තාක්ෂණිකව exciting වුණත්, ඒවා සාර්ථක businesses කරගෙන යන එක කොච්චර අමාරුද කියන කාරණාව."
+    },
+    {
+      "type": "paragraph",
+      "text": "අනිත් පැත්තෙන් අපිට මේවා නිකම් entertainment apps කියලා බැහැර කරන්නත් බෑ. සමහර users ලට AI chats emotional importance එකක් තියෙනවා. එවැනි product එකක් launch කරන company එකකට safety, honesty සහ user privacy ගැන වැඩි responsibility එකක් තියෙන්න ඕනේ කියලා මම හිතනවා."
+    },
+    {
+      "type": "quote",
+      "text": "AI එකකට millions of conversations handle කරන්න පුළුවන් වුණත්, ඒකෙන් company එකට sustainable future එකක් හෝ users ලට safe experience එකක් automatically ලැබෙන්නේ නෑ.",
+      "author": "Ishara Udayanga, මගේ අදහස"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-next",
+      "text": "ඉදිරියට මොකද වෙන්න පුළුවන්?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Character.AI කියන විදිහට court-supervised sale process එක 2026 නොවැම්බර් අවසානය හෝ දෙසැම්බර් මුල අවසන් වෙන්න ඉඩ තියෙනවා. Buyer කෙනෙක් හොයාගෙන service එක දිගටම යන්නත් පුළුවන්. නැත්නම් platform එක නතර කිරීමේ අවදානමත් තියෙනවා. අද වෙද්දී මේ දෙකෙන් එකක් final outcome එක කියලා කියන්න බෑ."
+    },
+    {
+      "type": "paragraph",
+      "text": "ඉදිරියේදී අපි බලන්න ඕනේ ප්‍රධාන දේවල් තුනක් තියෙනවා: platform එකේ future owner කවුද, user data protect කරන විදිහ මොකක්ද, සහ AI companions සඳහා තවත් safety rules එනවද කියන එක."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "final-thoughts",
+      "text": "අවසාන වශයෙන්..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Character.AI story එකේ මට interestingම දේ තමයි popular app එකක් සහ successful business එකක් අතර වෙනස. AI models powerful වෙන්න පුළුවන්. User experience එක addictive වෙන්නත් පුළුවන්. හැබැයි costs, trust සහ safety manage කරන්න බැරි නම් product එක තවදුරටත් පවත්වාගෙන යන්න අමාරු වෙනවා."
+    },
+    {
+      "type": "paragraph",
+      "text": "ඔයා මේ ගැන මොකද හිතන්නේ? AI companion apps අපිට ඇත්තටම හොඳ දෙයක්ද? නැත්නම් මිනිස්සුන්ගේ emotions එක්ක වැඩ කරන නිසා තවත් දැඩි rules ඕනේද? මේ ගැන ඔයාගේ අදහසත් කියන්න."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "sources",
+      "text": "Sources / තවත් කියවන්න"
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "[Character.AI: Official Chapter 11 announcement, October 12, 2026](https://blog.character.ai/an-update-on-character-ai/)",
+        "[Reuters: Character.AI bankruptcy and Disney bid, October 13, 2026](https://www.reuters.com/legal/litigation/characterai-files-bankruptcy-agrees-sell-some-assets-disney-20-million-2026-10-13/)",
+        "[Reuters: Rise and fall of an AI chatbot company, October 14, 2026](https://www.reuters.com/technology/artificial-intelligence/rise-fall-an-ai-chatbot-darling-2026-10-14/)",
+        "[The Verge: Concerns about Character.AI user data](https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy)"
+      ]
+    }
+  ]
+}

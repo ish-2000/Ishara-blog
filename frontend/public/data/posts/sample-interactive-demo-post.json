@@ -1,0 +1,105 @@
+{
+  "id": "sample-demo-post",
+  "slug": "sample-interactive-demo-post",
+  "title": "Interactive Demo: Testing Blocks, Code Snippets & Image Captions",
+  "excerpt": "A demonstration post showing all available block types in the static JSON engine: headings, code blocks, bullet points, callouts, and CDN media.",
+  "coverImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
+  "category": "development",
+  "categoryName": "DEVELOPMENT",
+  "tags": [
+    "Demo",
+    "Format Test",
+    "Block Renderer",
+    "Documentation"
+  ],
+  "author": {
+    "id": "ishara-perera",
+    "name": "Ishara Udayaga",
+    "avatar": "/images/ishara-avatar.jpg",
+    "role": "Writer · Builder · Lifelong Learner"
+  },
+  "publishedAt": "Dec 01, 2025",
+  "readingTime": "3 min read",
+  "featured": false,
+  "isDemo": true,
+  "relatedArticleSlugs": [
+    "react-19-server-actions-deep-dive",
+    "building-a-focused-tech-setup"
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "demo-overview",
+      "text": "1. Block Renderer Demonstration"
+    },
+    {
+      "type": "paragraph",
+      "text": "This article is tagged as **[Demo / Mock]** to test the complete suite of structured block renderers. It validates that inline formatting such as **bold text**, *italic emphasis*, `inline code identifiers`, and [external links to documentation](https://vitejs.dev) render securely without using any raw HTML injection."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Security Notice",
+      "text": "All text strings are processed through a pure React tokenizing pipeline to guarantee complete immunity against XSS (Cross-Site Scripting) vulnerabilities."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "code-block-testing",
+      "text": "2. Code Block Testing"
+    },
+    {
+      "type": "paragraph",
+      "text": "Code blocks support language tags, optional filename headers, and interactive copy-to-clipboard functionality:"
+    },
+    {
+      "type": "code",
+      "language": "typescript",
+      "filename": "articleService.ts",
+      "code": "import { ArticleMetadata } from '../types';\n\nexport async function fetchPublishedArticles(): Promise<ArticleMetadata[]> {\n  const res = await fetch('/data/articles.json');\n  if (!res.ok) throw new Error('Failed to load metadata index');\n  return res.json();\n}"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "media-and-captions",
+      "text": "3. CDN Media and Captions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Images are loaded asynchronously with lazy loading, modern border radius, and centered semantic captions:"
+    },
+    {
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
+      "alt": "Retro computing hardware",
+      "caption": "High-resolution Unsplash CDN asset demonstrating responsive fluid sizing"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "quotes-and-lists",
+      "text": "4. Quotes and Ordered Lists"
+    },
+    {
+      "type": "quote",
+      "text": "Simplicity is prerequisite for reliability. Complex systems fail in complex ways.",
+      "author": "Edsger W. Dijkstra"
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "First bullet point item validating list spacing",
+        "Second bullet point with **bold emphasis** inside",
+        "Third bullet point testing mobile line wrap behavior"
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Tip for Publishing",
+      "text": "To add your next article, simply add a new JSON file to public/data/posts/{slug}.json and register its metadata in public/data/articles.json!"
+    }
+  ]
+}

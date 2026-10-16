@@ -1,0 +1,154 @@
+{
+  "id": "ai-boom-stock-selloff-bubble-question",
+  "slug": "ai-boom-stock-selloff-bubble-question",
+  "title": "AI Stocks Lost Billions in a Day: Is the Boom Becoming a Bubble?",
+  "excerpt": "Big AI infrastructure companies fell sharply after a hotter-than-expected US inflation report. Does a stock-market shock tell us AI is overhyped?",
+  "coverImage": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
+  "category": "opinions",
+  "categoryName": "TECH INDUSTRY",
+  "tags": [
+    "AI Infrastructure",
+    "Markets",
+    "Data Centers",
+    "Tech Industry"
+  ],
+  "author": {
+    "id": "ishara-udayanga",
+    "name": "Ishara Udayanga",
+    "avatar": "/images/ishara-avatar.jpg",
+    "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future.",
+    "role": "Writer · Developer · Curious Learner"
+  },
+  "publishedAt": "Oct 15, 2026",
+  "readingTime": "8 min read",
+  "featured": false,
+  "featuredOrder": 4,
+  "isDemo": false,
+  "relatedArticleSlugs": [
+    "inside-nvidia-ai-safety-compute-commitment",
+    "us-companies-using-chinese-ai-models"
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-ai-future-looked-expensive-on-wednesday",
+      "text": "The AI future looked expensive on Wednesday"
+    },
+    {
+      "type": "paragraph",
+      "text": "Building modern AI is not cheap. You need chips, data centers, electricity, cooling and people who know how to make everything work. For a while, investors were happy to fund that race. On October 14, 2026, the mood changed sharply for several big AI infrastructure stocks."
+    },
+    {
+      "type": "paragraph",
+      "text": "After a hotter-than-expected US inflation report, companies including CoreWeave, Nebius, Oracle and Dell recorded large share-price declines. Reuters reported that the four companies together lost around $80 billion in market value during the sell-off. That does not mean $80 billion in cash vanished from their bank accounts; it means the market value of their shares fell."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-caused-the-sudden-drop",
+      "text": "What caused the sudden drop?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inflation can push investors to expect higher interest rates. Higher rates make borrowing more expensive, and that hurts businesses planning to spend huge sums today in the hope of generating bigger profits tomorrow."
+    },
+    {
+      "type": "paragraph",
+      "text": "AI infrastructure is particularly sensitive to this. A company may need to finance costly GPU clusters and facilities long before it earns back the investment. If debt gets more expensive or investors demand faster profits, its valuation can fall."
+    },
+    {
+      "type": "image",
+      "url": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/REPLACE_THIS_IMAGE.webp",
+      "alt": "Illustration of GPU data center rows with financial market chart overlay",
+      "caption": "Concept art for AI infrastructure investing; do not label this as market data."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "does-a-falling-stock-price-mean-ai-does-not-work",
+      "text": "Does a falling stock price mean AI does not work?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not at all. The ability of AI models to write code, summarize documents or help researchers does not disappear because a stock price falls. Technology usefulness and market valuation are connected, but they are not the same thing."
+    },
+    {
+      "type": "paragraph",
+      "text": "A company can build an excellent product and still have an overvalued stock. The reverse can also happen: a useful technology may initially struggle to become a profitable business."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-people-are-comparing-this-to-the-dot-com-era",
+      "text": "Why people are comparing this to the dot-com era"
+    },
+    {
+      "type": "paragraph",
+      "text": "The late-1990s internet boom showed that excitement about a real technology can lead investors to pay unrealistic prices for some businesses. The internet survived and transformed the world even though many highly valued companies did not."
+    },
+    {
+      "type": "paragraph",
+      "text": "The comparison is useful as a warning, not a prediction. Today’s AI ecosystem contains enormous profitable companies as well as smaller firms that depend heavily on borrowed money. Their risks are different."
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "Ask whether the company has real customers and repeatable revenue.",
+        "Look at the cost of running the service, not only model performance.",
+        "Separate profitable platforms from debt-heavy infrastructure providers.",
+        "Remember that one dramatic market day is not a verdict on the entire industry."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "my-take-ai-can-be-revolutionary-and-overhyped-at-the-same-time",
+      "text": "My take: AI can be revolutionary and overhyped at the same time"
+    },
+    {
+      "type": "paragraph",
+      "text": "I use and follow AI tools because they can make real tasks easier. That does not mean every business built around them will succeed. I think developers should pay attention to costs too: a feature that feels magical in a demo still needs to be affordable to operate."
+    },
+    {
+      "type": "paragraph",
+      "text": "If the excitement pushes companies to build more infrastructure than customers can support, some investments could disappoint. But if AI applications keep delivering value, much of that infrastructure may become useful over time."
+    },
+    {
+      "type": "quote",
+      "text": "The biggest question is not whether AI matters. It is who can turn the excitement into something people will keep paying for.",
+      "author": "Ishara Udayanga, draft opinion"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-should-we-watch-next",
+      "text": "What should we watch next?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Look for earnings reports, actual data-center demand, debt costs and customer adoption over several quarters. A single price swing is interesting news, but trends matter more than one bad day."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Worth remembering",
+      "text": "This article is commentary about technology markets, not investment advice. Share-price changes are time-sensitive and should be checked against the date."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "sources-and-final-thoughts",
+      "text": "Sources and final thoughts"
+    },
+    {
+      "type": "paragraph",
+      "text": "See [Reuters’ October 14 market report](https://www.reuters.com/business/red-hot-cpi-report-fuels-ai-rout-2026-10-14/) and [additional Reuters coverage of the infrastructure sell-off](https://www.investing.com/news/economy-news/ai-infrastructure-firms-slump-as-us-rate-hike-bets-rise-4949759)."
+    },
+    {
+      "type": "paragraph",
+      "text": "My conclusion: I would not call the entire AI revolution a bubble because of one sell-off. I would call it a reminder that even powerful technology has to face ordinary economics."
+    }
+  ]
+}

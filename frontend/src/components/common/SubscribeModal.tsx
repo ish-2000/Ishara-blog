@@ -58,12 +58,12 @@ export const SubscribeModal: React.FC<SubscribeModalProps> = ({ isOpen, onClose 
         role="dialog"
         aria-modal="true"
         aria-label="Subscribe to newsletter"
-        className="relative w-full max-w-md bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-gray-100 z-10 animate-in fade-in zoom-in-95 duration-150"
+        className="relative w-full max-w-md bg-white dark:bg-[#141414] rounded-3xl p-6 sm:p-8 shadow-2xl border border-gray-100 dark:border-gray-800 z-10 animate-in fade-in zoom-in-95 duration-150"
       >
         <button
           type="button"
           onClick={handleReset}
-          className="absolute top-5 right-5 p-1.5 text-gray-400 hover:text-gray-600 rounded-full hover:bg-gray-100 transition-colors"
+          className="absolute top-5 right-5 p-1.5 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
           aria-label="Close modal"
         >
           <X className="w-5 h-5" />
@@ -71,18 +71,18 @@ export const SubscribeModal: React.FC<SubscribeModalProps> = ({ isOpen, onClose 
 
         {status === 'success' ? (
           <div className="text-center py-4 space-y-3">
-            <div className="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-full flex items-center justify-center mx-auto">
+            <div className="w-12 h-12 bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 rounded-full flex items-center justify-center mx-auto">
               <CheckCircle2 className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-medium text-gray-900 tracking-tight">You're subscribed!</h3>
-            <p className="text-sm text-gray-500 font-normal leading-relaxed">
+            <h3 className="text-xl font-medium text-gray-900 dark:text-gray-100 tracking-tight">You're subscribed!</h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400 font-normal leading-relaxed">
               Thanks for joining the reading list. In this demo preview, your email has been saved locally.
             </p>
             <div className="pt-3">
               <button
                 type="button"
                 onClick={handleReset}
-                className="w-full py-2.5 px-4 bg-gray-900 hover:bg-black text-white text-sm font-medium rounded-full transition-colors"
+                className="w-full py-2.5 px-4 bg-gray-900 dark:bg-white hover:bg-black dark:hover:bg-gray-100 text-white dark:text-gray-950 text-sm font-medium rounded-full transition-colors"
               >
                 Close
               </button>
@@ -92,8 +92,8 @@ export const SubscribeModal: React.FC<SubscribeModalProps> = ({ isOpen, onClose 
           <div className="space-y-4">
             
             <div>
-              <h3 className="text-xl font-medium text-gray-900 tracking-tight">Stay updated</h3>
-              <p className="text-sm text-gray-500 font-normal mt-1 leading-relaxed">
+              <h3 className="text-xl font-medium text-gray-900 dark:text-gray-100 tracking-tight">Stay updated</h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400 font-normal mt-1 leading-relaxed">
                 Receive fresh perspectives on AI breakthroughs, computing hardware, and software development directly to your inbox.
               </p>
             </div>
@@ -108,13 +108,13 @@ export const SubscribeModal: React.FC<SubscribeModalProps> = ({ isOpen, onClose 
                     if (status === 'error') setStatus('idle');
                   }}
                   placeholder="Enter your email address"
-                  className={`w-full px-4 py-3 rounded-xl border text-sm text-gray-900 placeholder:text-gray-400 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500/20 ${
-                    status === 'error' ? 'border-red-300 bg-red-50/30' : 'border-gray-200 focus:border-blue-500'
+                  className={`w-full px-4 py-3 rounded-full border text-sm text-gray-900 dark:text-gray-100 bg-white dark:bg-[#1C1C1C] placeholder:text-gray-400 dark:placeholder:text-gray-500 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500/20 ${
+                    status === 'error' ? 'border-red-300 dark:border-red-800 bg-red-50/30 dark:bg-red-950/20' : 'border-gray-200 dark:border-gray-700 focus:border-blue-500 dark:focus:border-blue-400'
                   }`}
                   disabled={status === 'loading'}
                 />
                 {status === 'error' && (
-                  <div className="flex items-center gap-1.5 text-xs text-red-600 mt-1.5">
+                  <div className="flex items-center gap-1.5 text-xs text-red-600 dark:text-red-400 mt-1.5">
                     <AlertCircle className="w-3.5 h-3.5 shrink-0" />
                     <span>{errorMessage}</span>
                   </div>
@@ -124,7 +124,7 @@ export const SubscribeModal: React.FC<SubscribeModalProps> = ({ isOpen, onClose 
               <button
                 type="submit"
                 disabled={status === 'loading'}
-                className="w-full py-3 px-5 bg-gray-900 hover:bg-black disabled:bg-gray-400 text-white text-sm font-medium rounded-xl transition-colors shadow-sm flex items-center justify-center gap-2"
+                className="w-full py-3 px-5 bg-gray-900 dark:bg-white hover:bg-black dark:hover:bg-gray-100 disabled:bg-gray-400 dark:disabled:bg-gray-700 text-white dark:text-gray-950 text-sm font-medium rounded-full transition-colors shadow-sm flex items-center justify-center gap-2"
               >
                 {status === 'loading' ? (
                   <span>Subscribing...</span>
@@ -133,7 +133,7 @@ export const SubscribeModal: React.FC<SubscribeModalProps> = ({ isOpen, onClose 
                 )}
               </button>
 
-              <p className="text-[11px] text-gray-400 text-center">
+              <p className="text-[11px] text-gray-400 dark:text-gray-500 text-center">
                 No actual spam, unsubscribe at any time.
               </p>
             </form>

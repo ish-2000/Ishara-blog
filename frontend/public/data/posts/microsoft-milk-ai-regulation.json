@@ -1,0 +1,151 @@
+{
+  "id": "microsoft-milk-ai-regulation",
+  "slug": "microsoft-milk-ai-regulation",
+  "title": "Microsoft Says Milk Has More Safety Rules Than AI: Should We Be Worried?",
+  "excerpt": "A strange comparison from Microsoft president Brad Smith raises a serious question: who checks powerful AI systems before things go wrong?",
+  "coverImage": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&q=80",
+  "category": "opinions",
+  "categoryName": "OPINIONS",
+  "tags": [
+    "Microsoft",
+    "Brad Smith",
+    "AI Regulation",
+    "AI Safety"
+  ],
+  "author": {
+    "id": "ishara-udayanga",
+    "name": "Ishara Udayanga",
+    "avatar": "/images/ishara-avatar.jpg",
+    "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future.",
+    "role": "Writer · Developer · Curious Learner"
+  },
+  "publishedAt": "Oct 15, 2026",
+  "readingTime": "7 min read",
+  "featured": false,
+  "featuredOrder": 3,
+  "isDemo": false,
+  "relatedArticleSlugs": [
+    "inside-nvidia-ai-safety-compute-commitment",
+    "ai-self-replication-smart-devices"
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "wait-milk-has-more-rules-than-ai",
+      "text": "Wait, milk has more rules than AI?"
+    },
+    {
+      "type": "paragraph",
+      "text": "At first, it sounds like an internet joke. On October 12, 2026, Microsoft president Brad Smith argued that everyday products such as milk and washing machines can face more established safety requirements than increasingly powerful AI systems."
+    },
+    {
+      "type": "paragraph",
+      "text": "His comparison was meant to make a point: we already expect testing, reporting and accountability for many things we buy. Why should AI systems capable of taking real-world actions be treated differently?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-did-brad-smith-actually-call-for",
+      "text": "What did Brad Smith actually call for?"
+    },
+    {
+      "type": "paragraph",
+      "text": "In an interview reported by Reuters, Smith supported international AI safety rules, independent evaluation of new systems, mandatory incident reporting and notification when people are harmed or their systems are breached by rogue AI agents."
+    },
+    {
+      "type": "paragraph",
+      "text": "He also raised the idea of an emergency brake, a mechanism that could stop dangerous behavior. It is an attention-grabbing phrase, but the difficult part is designing one that works across different companies, products and ways AI can operate."
+    },
+    {
+      "type": "image",
+      "url": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/REPLACE_THIS_IMAGE.webp",
+      "alt": "Conceptual image comparing everyday product safety inspection with an AI computer interface",
+      "caption": "Illustrative comparison, not a photograph of the interview."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-part-that-sounds-simple-but-is-not",
+      "text": "The part that sounds simple but is not"
+    },
+    {
+      "type": "paragraph",
+      "text": "A carton of milk and an AI model are very different products. Milk safety often involves tangible tests and established manufacturing rules. AI can behave differently depending on a request, connected tools, new updates and the surrounding environment."
+    },
+    {
+      "type": "paragraph",
+      "text": "That makes a single pass-or-fail test hard to design. A system might answer questions safely but behave badly when connected to email, financial tools or external websites. The more permission it has, the more its behavior matters."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "would-an-ai-kill-switch-solve-the-problem",
+      "text": "Would an AI kill switch solve the problem?"
+    },
+    {
+      "type": "paragraph",
+      "text": "An emergency stop is valuable, especially when an AI tool can make changes outside a chat window. But it is not magic. Systems need limited permissions, visible logs, human approval for risky actions, monitoring and ways to undo mistakes where possible."
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "Test models before and after major updates.",
+        "Require human approval for high-impact actions.",
+        "Keep clear records of what an agent attempted to do.",
+        "Make it possible to revoke access quickly.",
+        "Report meaningful incidents so other teams can learn."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Worth remembering",
+      "text": "Smith’s comparison is a policy argument, not a literal claim that every jurisdiction has no AI laws. Rules differ across countries and sectors."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "my-take-good-rules-can-make-innovation-stronger",
+      "text": "My take: good rules can make innovation stronger"
+    },
+    {
+      "type": "paragraph",
+      "text": "As a developer, I understand why teams dislike extra steps. We want to ship useful features. But I also know how quickly a small permission mistake can turn into a serious problem. When software can act, not just suggest, testing becomes even more important."
+    },
+    {
+      "type": "paragraph",
+      "text": "I do not think every simple chatbot feature needs the same oversight as an autonomous system running critical infrastructure. Risk-based rules make more sense: the bigger the possible harm, the stronger the checks."
+    },
+    {
+      "type": "quote",
+      "text": "The right question is not whether AI should be regulated more or less. It is whether the safeguards match what a system can actually do.",
+      "author": "Ishara Udayanga, draft opinion"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-should-happen-next",
+      "text": "What should happen next?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The most useful next step would be clear, practical standards developers can follow: definitions for incidents, testing expectations, audit procedures and accountability when a system causes harm."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "sources-and-final-thoughts",
+      "text": "Sources and final thoughts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Read [Reuters’ October 12 report](https://www.reuters.com/legal/litigation/microsoft-president-says-milk-faces-more-regulation-than-ai-2026-10-12/) and [The Guardian’s coverage](https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Maybe the milk comparison sounds funny. The real issue is serious: if software gets more power, the people affected by it deserve more confidence that someone has tested the risks."
+    }
+  ]
+}

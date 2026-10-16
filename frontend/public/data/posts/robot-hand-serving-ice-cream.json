@@ -1,0 +1,139 @@
+{
+  "id": "robot-hand-ice-cream-2026",
+  "slug": "robot-hand-serving-ice-cream",
+  "title": "A Robot Hand Can Serve Ice Cream: Are Robots Finally Getting Useful?",
+  "excerpt": "A highly precise robot-hand demo and a new 3D mapping camera offer a glimpse of robots moving from flashy performances to genuinely useful tasks.",
+  "category": "big-tech",
+  "categoryName": "BIG TECH",
+  "tags": [
+    "Robotics",
+    "Hesai",
+    "Humanoid Robots",
+    "Computer Vision"
+  ],
+  "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792042660/ChatGPT_Image_Oct_15_2026_10_55_24_AM-5_avfkgu.png",
+  "author": {
+    "id": "ishara-udayanga",
+    "name": "Ishara Udayanga",
+    "avatar": "/images/ishara-avatar.jpg",
+    "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future.",
+    "role": "Writer · Developer · Curious Learner"
+  },
+  "publishedAt": "Oct 15, 2026",
+  "readingTime": "6 min read",
+  "featured": false,
+  "featuredOrder": 5,
+  "isDemo": false,
+  "relatedArticleSlugs": [
+    "ai-self-replication-smart-devices",
+    "claude-false-homicide-tip",
+    "spacex-rocket-created-space-jellyfish"
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "introduction",
+      "text": "Ice cream is harder than it looks"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you see a robot dance, it is easy to be impressed for a few seconds and then move on. But serving ice cream? That is a surprisingly interesting challenge. A robot has to judge position, grip objects, move smoothly, and repeat the task without making a mess."
+    },
+    {
+      "type": "paragraph",
+      "text": "That is why a demonstration involving a robotic hand in Shanghai caught my attention. It hints at a shift from robots that look impressive on stage to robots that might actually help with useful work."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-happened",
+      "text": "What happened in Shanghai"
+    },
+    {
+      "type": "paragraph",
+      "text": "On October 14, 2026, Reuters reported that Chinese sensing-technology company **Hesai** introduced a 3D spatial mapping camera called **Kosmo**, designed to collect the kind of real-world data AI-powered robots need."
+    },
+    {
+      "type": "paragraph",
+      "text": "The report also described the **Sharpa Wave** robotic hand used by Sharpa Robotics. In a Dairy Queen demonstration in Shanghai, the hand reportedly achieved a **99% success rate** serving ice cream. Hesai and Sharpa are separate companies; the mapping technology and robotic hand are related parts of a wider robotics ecosystem, not the same product."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-it-is-hard",
+      "text": "Why making a robot useful is difficult"
+    },
+    {
+      "type": "paragraph",
+      "text": "Software can generate text in an instant, but physical actions introduce dozens of new problems. A cup might move. A machine might be at a slightly different angle. A surface might be slippery. Cameras can misread reflections or shadows."
+    },
+    {
+      "type": "paragraph",
+      "text": "For a robot to handle everyday tasks, it needs to understand where objects are, how to move its hands, and how to correct mistakes. That requires a combination of sensing, perception, control software, and reliable mechanical parts."
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "Perception: know where objects are in three-dimensional space.",
+        "Precision: move the hand and fingers accurately.",
+        "Feedback: notice when something slips or changes position.",
+        "Repeatability: perform the task again and again, not just once for a video."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "does-this-change-everything",
+      "text": "Does this mean robot workers are everywhere next year?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not yet. A successful controlled demonstration does not automatically mean robots can work safely in any restaurant or home. Real environments are messy, unpredictable, and full of people. Reliability, cost, maintenance, and safety all matter."
+    },
+    {
+      "type": "paragraph",
+      "text": "But the progress is still meaningful. The more robots can handle small real-world tasks, the more useful they may become in warehouses, laboratories, kitchens, and other structured settings."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "my-take",
+      "text": "My take: I care more about useful hands than robot dances"
+    },
+    {
+      "type": "paragraph",
+      "text": "If I had to choose between a humanoid robot doing a perfect backflip and one that can reliably pick up delicate objects, I would probably choose the second. The backflip goes viral. The careful hands might actually change how work gets done."
+    },
+    {
+      "type": "paragraph",
+      "text": "The exciting part is not replacing every worker overnight. It is seeing robots become better at tedious, repetitive, or awkward physical tasks, while we think seriously about cost, safety, and how people work alongside them."
+    },
+    {
+      "type": "quote",
+      "text": "The future of robotics may be decided by the everyday jobs nobody thinks to put in a flashy demo.",
+      "author": "Editorial reflection, Ishara’s Blog"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "final-thoughts",
+      "text": "Final thoughts"
+    },
+    {
+      "type": "paragraph",
+      "text": "A robot serving ice cream may sound like a small novelty. Underneath it is a serious engineering problem and a useful signal that robotics is moving toward more practical goals. The next big question is whether these demonstrations can become dependable services in ordinary places."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "sources",
+      "text": "Sources and further reading"
+    },
+    {
+      "type": "paragraph",
+      "text": "[Reuters: Hesai launches spatial camera for robotics (October 14, 2026)](https://www.reuters.com/technology/chinas-hesai-launches-spatial-camera-boost-ai-powered-robotics-adoption-2026-10-14/)"
+    }
+  ]
+}

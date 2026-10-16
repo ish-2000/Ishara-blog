@@ -7,15 +7,13 @@ export const siteConfig: SiteConfig = {
   portfolioUrl: "https://ishara.live",
   navItems: [
     { label: 'Home', href: '/' },
-    { label: 'Journal', href: '/journal' },
-    { label: 'Categories', href: '/categories' },
+    { label: 'Blogs', href: '/blogs' },
     { label: 'About', href: '/about' },
     { label: 'Contact', href: '/contact' },
   ],
   footerNavItems: [
     { label: 'Home', href: '/' },
-    { label: 'Journal', href: '/journal' },
-    { label: 'Categories', href: '/categories' },
+    { label: 'Blogs', href: '/blogs' },
     { label: 'About', href: '/about' },
     { label: 'Contact', href: '/contact' },
   ],

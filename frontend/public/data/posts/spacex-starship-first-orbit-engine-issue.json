@@ -1,0 +1,149 @@
+{
+  "id": "spacex-starship-first-orbit-engine-issue",
+  "slug": "spacex-starship-first-orbit-engine-issue",
+  "title": "Starship Reached Orbit With an Engine Problem: How Did SpaceX Pull That Off?",
+  "excerpt": "An engine shut down early, the flight plan changed, and Starship still made it to orbit. Here is why this messy success actually matters.",
+  "coverImage": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=1200&q=80",
+  "category": "future-tech",
+  "categoryName": "SPACE & EXPLORATION",
+  "tags": [
+    "SpaceX",
+    "Starship",
+    "Space Exploration",
+    "Engineering"
+  ],
+  "author": {
+    "id": "ishara-udayanga",
+    "name": "Ishara Udayanga",
+    "avatar": "/images/ishara-avatar.jpg",
+    "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future.",
+    "role": "Writer · Developer · Curious Learner"
+  },
+  "publishedAt": "Oct 15, 2026",
+  "readingTime": "7 min read",
+  "featured": true,
+  "featuredOrder": 1,
+  "isDemo": false,
+  "relatedArticleSlugs": [
+    "spacex-rocket-created-space-jellyfish",
+    "inside-nvidia-ai-safety-compute-commitment"
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "a-rocket-launch-with-a-plot-twist",
+      "text": "A rocket launch with a plot twist"
+    },
+    {
+      "type": "paragraph",
+      "text": "Imagine preparing for a ten-hour space mission. Your rocket takes off, the engines roar, and then one of the spacecraft engines shuts down earlier than expected. Not exactly the kind of update a launch team wants to hear."
+    },
+    {
+      "type": "paragraph",
+      "text": "That is part of what happened on September 28, 2026, during SpaceX’s Starship Flight 14. Yet the big surprise was what followed: engineers found a way to continue, Starship reached orbit for the first time, and it released 26 next-generation Starlink satellites. The mission was shortened, but it was far from pointless."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-actually-happened",
+      "text": "What actually happened?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Starship lifted off from SpaceX’s Starbase site in Texas. An engine on the Super Heavy booster shut down during ascent, and a Starship upper-stage engine also stopped early. Mission control initially indicated that orbit might no longer be possible. After reviewing the spacecraft’s condition, the team approved an additional engine burn. Starship made it into orbit."
+    },
+    {
+      "type": "paragraph",
+      "text": "Once there, it deployed 26 Starlink V3 satellites. SpaceX had originally planned a flight lasting around ten hours, but engine trouble reduced the mission to about three hours. The booster returned for an ocean splashdown, while the spacecraft completed a shortened mission before returning to the Pacific."
+    },
+    {
+      "type": "image",
+      "url": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/REPLACE_THIS_IMAGE.webp",
+      "alt": "Illustration or licensed photograph of SpaceX Starship lifting off",
+      "caption": "Replace with an appropriately licensed Starship Flight 14 image."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-is-reaching-orbit-such-a-big-deal",
+      "text": "Why is reaching orbit such a big deal?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Going very high and staying in orbit are two different achievements. A rocket can reach space and still fall back quickly. Orbit requires enough sideways speed for the spacecraft to keep falling around Earth instead of straight back down."
+    },
+    {
+      "type": "paragraph",
+      "text": "Before this mission, Starship had made multiple suborbital test flights. Reaching orbit and deploying real satellites moves the program closer to doing useful work, not only proving pieces of hardware during test flights."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "so-was-this-a-success-or-a-failure",
+      "text": "So was this a success or a failure?"
+    },
+    {
+      "type": "paragraph",
+      "text": "It depends on what you measure. If the goal was to fly for the full planned duration with every engine operating perfectly, no. But if the goal was to demonstrate orbital flight and satellite deployment, the mission achieved important firsts."
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "The verified milestone: Starship reached orbit for the first time.",
+        "The practical milestone: it deployed 26 Starlink V3 satellites.",
+        "The unresolved work: engine reliability, reusability, refueling and future crewed-flight systems."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Worth remembering",
+      "text": "Reaching orbit does not mean Starship is ready to transport astronauts to the Moon or Mars. Major testing remains."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "my-take-imperfect-progress-is-still-progress",
+      "text": "My take: imperfect progress is still progress"
+    },
+    {
+      "type": "paragraph",
+      "text": "What I find exciting is not just the size of the rocket. It is how quickly a technical setback forced a different decision. In software development we talk about graceful degradation: a system may not do everything it was supposed to do, but it can still deliver something valuable. This flight feels like a dramatic version of that idea."
+    },
+    {
+      "type": "paragraph",
+      "text": "At the same time, successful recovery from one fault should not make us casual about reliability. A test flight can accept risks that a mission carrying people cannot. Celebration and caution belong in the same conversation."
+    },
+    {
+      "type": "quote",
+      "text": "A breakthrough does not always look like a perfect flight. Sometimes it looks like a team finding a safe way to learn from a messy one.",
+      "author": "Ishara Udayanga, draft opinion"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-happens-next",
+      "text": "What happens next?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The questions now are whether Starship can repeat orbital missions reliably, improve engine performance, demonstrate the remaining reusability goals and eventually transfer propellant in space. Those achievements matter more for future lunar missions than one spectacular launch video."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "sources-and-final-thoughts",
+      "text": "Sources and final thoughts"
+    },
+    {
+      "type": "paragraph",
+      "text": "You can read [SpaceX’s official Flight 14 update](https://www.spacex.com/launches/starship-flight-14) and [Reuters’ mission report](https://www.reuters.com/business/media-telecom/spacexs-starship-launches-14th-flight-first-headed-orbit-2026-09-28/). This article describes a September 28 launch, not a launch that happened today."
+    },
+    {
+      "type": "paragraph",
+      "text": "For me, this is a story about engineering under pressure. Starship proved something important while reminding us how much work is still ahead. Would you call it a success? I would, with an asterisk."
+    }
+  ]
+}
