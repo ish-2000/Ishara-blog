@@ -140,7 +140,7 @@ export const AboutPage: React.FC = () => {
               
               {/* Background 3D Floating Cards Wall */}
               <img
-                src="/images/hero_bg.png"
+                src="/images/Futuristic Content Wall with Cinematic Depth.png"
                 alt="Tech articles floating in perspective backdrop"
                 className="absolute inset-0 w-full h-full object-cover object-center filter brightness-[0.92] contrast-[1.06]"
               />
