@@ -65,7 +65,12 @@ export const JournalPage: React.FC = () => {
 
     articles.forEach((article) => {
       if (article.category && article.categoryName) {
-        categories.set(article.category, article.categoryName.toUpperCase());
+        const baseName = (article.categoryName.includes('·') 
+          ? article.categoryName.split('·')[0] 
+          : article.categoryName).trim();
+        if (!categories.has(article.category)) {
+          categories.set(article.category, baseName.toUpperCase());
+        }
       }
     });
 

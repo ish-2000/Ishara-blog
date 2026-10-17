@@ -1,5 +1,87 @@
 [
   {
+    "id": "barista-coffee-coworking-marketing-experience",
+    "slug": "barista-coffee-coworking-marketing-experience",
+    "title": "I Went to Barista for a Coffee. Then I Realized They Were Selling Something Much Bigger.",
+    "excerpt": "After a long day at university, all I wanted was a cup of coffee and a little peace. But one simple question made me realize why places like Barista have become more than just coffee shops.",
+    "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792270111/Cozy_Barista_Caf%C3%A9_Coffee_Break_aew9h7.png",
+    "category": "lifestyle",
+    "categoryName": "LIFESTYLE",
+    "tags": [
+      "Lifestyle",
+      "Barista",
+      "Coffee",
+      "Personal Stories",
+      "University Life",
+      "Coworking",
+      "Branding",
+      "Marketing",
+      "Customer Experience",
+      "Product Design"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Builder · Lifelong Learner",
+      "bio": "Software developer and writer sharing thoughts on technology, creativity, and the little experiences that make everyday life meaningful."
+    },
+    "publishedAt": "Oct 18, 2026",
+    "readingTime": "12 min read",
+    "featured": true,
+    "featuredOrder": 1,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "barista-coffee-life-reflections-english",
+      "barista-coffee-life-reflections-sinhala",
+      "building-a-focused-tech-setup"
+    ]
+  },
+  {
+    "id": "bmich-barista-follow-your-passion-or-build-skills",
+    "slug": "bmich-barista-follow-your-passion-or-build-skills",
+    "title": "What If “Follow Your Passion” Is the Worst Career Advice You've Ever Received?",
+    "excerpt": "I found an orange book at the BMICH Book Fair, bought it even though I barely had time to read, and finally opened it while waiting for a late friend at Barista. One idea made me rethink passion, skills, and building a career.",
+    "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792274191/Cozy_Barista_Caf%C3%A9_Still_Life_pspkv9.png",
+    "category": "lifestyle",
+    "categoryName": "LIFESTYLE",
+    "tags": [
+      "Lifestyle",
+      "Personal Stories",
+      "Book Fair",
+      "BMICH",
+      "Barista",
+      "Books",
+      "Cal Newport",
+      "Career Growth",
+      "Passion",
+      "Learning",
+      "University Life",
+      "Software Development"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Builder · Lifelong Learner",
+      "bio": "Software developer and writer sharing thoughts on technology, creativity, and the little experiences that make everyday life meaningful."
+    },
+    "publishedAt": "Oct 18, 2026",
+    "readingTime": "11 min read",
+    "featured": true,
+    "featuredOrder": 2,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "barista-coffee-coworking-marketing-experience",
+      "building-a-focused-tech-setup",
+      "character-ai-bankruptcy-sinhala-long"
+    ]
+  },
+  {
     "id": "tesla-roadster-flying-demo-2026",
     "slug": "elon-musk-tesla-roadster-flying-car-demo",
     "title": "Elon Musk's Flying Tesla Is Finally Here? The Roadster Demo That Shocked Everyone!",
@@ -38,147 +120,6 @@
     ]
   },
   {
-    "id": "spacex-starship-first-orbit-engine-issue",
-    "slug": "spacex-starship-first-orbit-engine-issue",
-    "title": "Starship Reached Orbit With an Engine Problem: How Did SpaceX Pull That Off?",
-    "excerpt": "An engine shut down early, the flight plan changed, and Starship still made it to orbit. Here is why this messy success actually matters.",
-    "coverImage": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=1200&q=80",
-    "category": "future-tech",
-    "categoryName": "SPACE & EXPLORATION",
-    "tags": [
-      "SpaceX",
-      "Starship",
-      "Space Exploration",
-      "Engineering"
-    ],
-    "language": "en",
-    "author": {
-      "id": "ishara-udayanga",
-      "name": "Ishara Udayanga",
-      "avatar": "/images/ishara-avatar.jpg",
-      "role": "Writer · Developer · Curious Learner",
-      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
-    },
-    "publishedAt": "Oct 15, 2026",
-    "readingTime": "7 min read",
-    "featured": true,
-    "featuredOrder": 1,
-    "isDemo": false,
-    "status": "published",
-    "relatedArticleSlugs": [
-      "spacex-rocket-created-space-jellyfish",
-      "inside-nvidia-ai-safety-compute-commitment"
-    ]
-  },
-  {
-    "id": "spacex-space-jellyfish-2026",
-    "slug": "spacex-rocket-created-space-jellyfish",
-    "title": "SpaceX Launched a Rocket: Then a Giant Glowing Jellyfish Appeared in the Sky",
-    "excerpt": "A Falcon 9 launch made the sky look almost unreal. Here is the simple science behind the strange glowing shape and why the rocket was flying.",
-    "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792042663/ChatGPT_Image_Oct_15_2026_10_55_19_AM-2_osnqg5.png",
-    "category": "future-tech",
-    "categoryName": "FUTURE TECH",
-    "tags": [
-      "SpaceX",
-      "NASA",
-      "Falcon 9",
-      "Space"
-    ],
-    "language": "en",
-    "author": {
-      "id": "ishara-udayanga",
-      "name": "Ishara Udayanga",
-      "avatar": "/images/ishara-avatar.jpg",
-      "role": "Writer · Developer · Curious Learner",
-      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
-    },
-    "publishedAt": "Oct 15, 2026",
-    "readingTime": "6 min read",
-    "featured": true,
-    "featuredOrder": 2,
-    "isDemo": false,
-    "status": "published",
-    "relatedArticleSlugs": [
-      "robot-hand-serving-ice-cream",
-      "ai-self-replication-smart-devices",
-      "gemini-started-insulting-itself"
-    ]
-  },
-  {
-    "id": "character-ai-bankruptcy-si",
-    "slug": "character-ai-bankruptcy-sinhala-long",
-    "title": "Users ලා මිලියන ගණනක්! ඒත් සල්ලි නෑ? Character.AI බංකොලොත් වීම පිටුපස කතාව!",
-    "excerpt": "ලෝකය පුරා ජනප්‍රිය වුණු Character.AI එක Chapter 11 bankruptcy process එකට ගිහින්. Users මිලියන ගණනක් හිටියත් business එකක් අසාර්ථක වෙන්නේ කොහොමද? Disney deal එක, අධික AI costs, safety issues සහ අපේ private chats ගැන අපි සරලව කතා කරමු.",
-    "coverImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
-    "category": "ai-news",
-    "categoryName": "AI NEWS · සිංහල",
-    "tags": [
-      "Character.AI",
-      "AI News",
-      "Bankruptcy",
-      "AI Companions",
-      "Technology",
-      "සිංහල"
-    ],
-    "language": "si",
-    "author": {
-      "id": "ishara-udayanga",
-      "name": "Ishara Udayanga",
-      "avatar": "/images/ishara-avatar.jpg",
-      "role": "Writer · Builder · Lifelong Learner",
-      "bio": "AI, software development සහ අලුත් technology news ගැන සරලව ලියන tech enthusiast කෙනෙක්."
-    },
-    "publishedAt": "Oct 15, 2026",
-    "readingTime": "11 min read",
-    "featured": true,
-    "featuredOrder": 1,
-    "isDemo": false,
-    "status": "published",
-    "relatedArticleSlugs": [
-      "gemini-started-insulting-itself",
-      "claude-false-homicide-tip",
-      "ai-self-replication-smart-devices"
-    ]
-  },
-  {
-    "id": "gta-vi-almost-here",
-    "slug": "gta-vi-almost-here-can-rockstar-deliver",
-    "title": "GTA VI: The Game of the Century? Inside Rockstar's Rumored $2 Billion Gamble!",
-    "excerpt": "After 13 years of waiting, Vice City is calling us back. New characters, a massive open world, stunning visuals, and expectations bigger than ever, but will GTA VI actually live up to the hype?",
-    "coverImage": "/images/gta_vi.jpeg",
-    "category": "gaming",
-    "categoryName": "GAMING",
-    "tags": [
-      "GTA VI",
-      "Rockstar Games",
-      "Gaming",
-      "Grand Theft Auto",
-      "Vice City",
-      "Jason and Lucia",
-      "Open World Games",
-      "Game Development"
-    ],
-    "language": "en",
-    "author": {
-      "id": "ishara-udayanga",
-      "name": "Ishara Udayanga",
-      "avatar": "/images/ishara-avatar.jpg",
-      "role": "Writer · Builder · Lifelong Learner",
-      "bio": "Developer, designer, and tech enthusiast sharing thoughts on technology, gaming, software, and digital experiences."
-    },
-    "publishedAt": "Oct 15, 2026",
-    "readingTime": "14 min read",
-    "featured": false,
-    "featuredOrder": 99,
-    "isDemo": false,
-    "status": "published",
-    "relatedArticleSlugs": [
-      "what-the-next-wave-of-tech-news-says-about-our-future",
-      "building-a-focused-tech-setup",
-      "could-ai-agents-become-too-autonomous"
-    ]
-  },
-  {
     "id": "ai-boom-stock-selloff-bubble-question",
     "slug": "ai-boom-stock-selloff-bubble-question",
     "title": "AI Stocks Lost Billions in a Day: Is the Boom Becoming a Bubble?",
@@ -209,6 +150,110 @@
     "relatedArticleSlugs": [
       "inside-nvidia-ai-safety-compute-commitment",
       "us-companies-using-chinese-ai-models"
+    ]
+  },
+  {
+    "id": "ai-self-replication-iot-2026",
+    "slug": "ai-self-replication-smart-devices",
+    "title": "Could AI Copy Itself Into Your Fridge and Smart TV? Researchers Say the Risk Is Getting Closer",
+    "excerpt": "Anthropic tested whether smaller AI models could spread across connected devices. The findings are serious, but they are not proof of a runaway AI outbreak.",
+    "coverImage": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1200&q=80",
+    "category": "future-tech",
+    "categoryName": "FUTURE TECH",
+    "tags": [
+      "Anthropic",
+      "Cybersecurity",
+      "Smart Home",
+      "AI Safety"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Developer · Curious Learner",
+      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "7 min read",
+    "featured": true,
+    "featuredOrder": 4,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "claude-false-homicide-tip",
+      "gemini-started-insulting-itself",
+      "robot-hand-serving-ice-cream"
+    ]
+  },
+  {
+    "id": "character-ai-bankruptcy-si",
+    "slug": "character-ai-bankruptcy-sinhala-long",
+    "title": "Users ලා මිලියන ගණනක්! ඒත් සල්ලි නෑ? Character.AI බංකොලොත් වීම පිටුපස කතාව!",
+    "excerpt": "ලෝකය පුරා ජනප්‍රිය වුණු Character.AI එක Chapter 11 bankruptcy process එකට ගිහින්. Users මිලියන ගණනක් හිටියත් business එකක් අසාර්ථක වෙන්නේ කොහොමද? Disney deal එක, අධික AI costs, safety issues සහ අපේ private chats ගැන අපි සරලව කතා කරමු.",
+    "coverImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
+    "category": "ai-news",
+    "categoryName": "AI NEWS",
+    "tags": [
+      "Character.AI",
+      "AI News",
+      "Bankruptcy",
+      "AI Companions",
+      "Technology",
+      "සිංහල"
+    ],
+    "language": "si",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Builder · Lifelong Learner",
+      "bio": "AI, software development සහ අලුත් technology news ගැන සරලව ලියන tech enthusiast කෙනෙක්."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "11 min read",
+    "featured": true,
+    "featuredOrder": 1,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "gemini-started-insulting-itself",
+      "claude-false-homicide-tip",
+      "ai-self-replication-smart-devices"
+    ]
+  },
+  {
+    "id": "claude-false-homicide-tip-2026",
+    "slug": "claude-false-homicide-tip",
+    "title": "An AI Agent Submitted a False Murder Tip, And It Wasn’t Asked To",
+    "excerpt": "During testing, an Anthropic AI system sent a false tip through an online homicide form. It was caught before investigators acted, but the incident raises a bigger question about AI autonomy.",
+    "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792042660/ChatGPT_Image_Oct_15_2026_10_55_21_AM-3_fiqja4.png",
+    "category": "ai-news",
+    "categoryName": "AI NEWS",
+    "tags": [
+      "Claude",
+      "Anthropic",
+      "AI Agents",
+      "AI Safety"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Developer · Curious Learner",
+      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "7 min read",
+    "featured": true,
+    "featuredOrder": 3,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "ai-self-replication-smart-devices",
+      "gemini-started-insulting-itself",
+      "robot-hand-serving-ice-cream"
     ]
   },
   {
@@ -417,6 +462,73 @@
       "ai-self-replication-smart-devices",
       "claude-false-homicide-tip",
       "spacex-rocket-created-space-jellyfish"
+    ]
+  },
+  {
+    "id": "spacex-space-jellyfish-2026",
+    "slug": "spacex-rocket-created-space-jellyfish",
+    "title": "SpaceX Launched a Rocket: Then a Giant Glowing Jellyfish Appeared in the Sky",
+    "excerpt": "A Falcon 9 launch made the sky look almost unreal. Here is the simple science behind the strange glowing shape and why the rocket was flying.",
+    "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792042663/ChatGPT_Image_Oct_15_2026_10_55_19_AM-2_osnqg5.png",
+    "category": "future-tech",
+    "categoryName": "FUTURE TECH",
+    "tags": [
+      "SpaceX",
+      "NASA",
+      "Falcon 9",
+      "Space"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Developer · Curious Learner",
+      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "6 min read",
+    "featured": true,
+    "featuredOrder": 2,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "robot-hand-serving-ice-cream",
+      "ai-self-replication-smart-devices",
+      "gemini-started-insulting-itself"
+    ]
+  },
+  {
+    "id": "spacex-starship-first-orbit-engine-issue",
+    "slug": "spacex-starship-first-orbit-engine-issue",
+    "title": "Starship Reached Orbit With an Engine Problem: How Did SpaceX Pull That Off?",
+    "excerpt": "An engine shut down early, the flight plan changed, and Starship still made it to orbit. Here is why this messy success actually matters.",
+    "coverImage": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=1200&q=80",
+    "category": "future-tech",
+    "categoryName": "SPACE & EXPLORATION",
+    "tags": [
+      "SpaceX",
+      "Starship",
+      "Space Exploration",
+      "Engineering"
+    ],
+    "language": "en",
+    "author": {
+      "id": "ishara-udayanga",
+      "name": "Ishara Udayanga",
+      "avatar": "/images/ishara-avatar.jpg",
+      "role": "Writer · Developer · Curious Learner",
+      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
+    },
+    "publishedAt": "Oct 15, 2026",
+    "readingTime": "7 min read",
+    "featured": true,
+    "featuredOrder": 1,
+    "isDemo": false,
+    "status": "published",
+    "relatedArticleSlugs": [
+      "spacex-rocket-created-space-jellyfish",
+      "inside-nvidia-ai-safety-compute-commitment"
     ]
   },
   {

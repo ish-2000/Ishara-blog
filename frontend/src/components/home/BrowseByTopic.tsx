@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Sparkles, Cpu, Building2, MessageSquare, TrendingUp } from 'lucide-react';
+import { Sparkles, Cpu, Building2, MessageSquare, TrendingUp, Coffee } from 'lucide-react';
 import { C, F, S } from '../../styles/theme';
 
 interface TopicItem {
@@ -15,6 +15,11 @@ export const BrowseByTopic: React.FC = () => {
       name: 'AI News',
       slug: 'ai-news',
       icon: <Sparkles className="w-3.5 h-3.5 text-gray-700" />,
+    },
+    {
+      name: 'Lifestyle',
+      slug: 'lifestyle',
+      icon: <Coffee className="w-3.5 h-3.5 text-gray-700" />,
     },
     {
       name: 'Development',

@@ -102,7 +102,7 @@ export const BlockRenderer: React.FC<BlockRendererProps> = ({ blocks }) => {
                 </p>
                 {block.author && (
                   <footer className="text-[12px] text-gray-400 dark:text-gray-500 font-normal not-italic mt-2">
-                    — {block.author}
+                     {block.author}
                   </footer>
                 )}
               </blockquote>

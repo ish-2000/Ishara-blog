@@ -112,7 +112,7 @@ export const mockArticles: Article[] = [
     id: 'building-tech-setup',
     slug: 'building-a-focused-tech-setup',
     title: 'Building a Focused Tech Setup for a Calmer, More Productive Life',
-    excerpt: 'A practical guide to creating a minimal, intentional tech setup that helps you work better, think clearer, and enjoy the process — without the noise.',
+    excerpt: 'A practical guide to creating a minimal, intentional tech setup that helps you work better, think clearer, and enjoy the process without the noise.',
     coverImage: '/images/future-tech.jpg',
     category: 'opinions',
     categoryName: 'PRODUCTIVITY',
@@ -129,7 +129,7 @@ export const mockArticles: Article[] = [
         id: 'introduction',
         title: 'Introduction',
         paragraphs: [
-          "Over the years, I've realized that productivity isn't about doing more — it's about creating the right environment for what matters. A well-thought-out tech setup can remove friction, reduce mental clutter, and help you focus on your best work.",
+          "Over the years, I've realized that productivity isn't about doing more it's about creating the right environment for what matters. A well-thought-out tech setup can remove friction, reduce mental clutter, and help you focus on your best work.",
           "In this post, I'm sharing my current minimalist tech setup, the tools I rely on, and the lessons I've learned while building a calmer, more intentional workflow.",
         ],
         quote: {
@@ -154,7 +154,7 @@ export const mockArticles: Article[] = [
         id: 'my-current-setup',
         title: 'My current setup',
         paragraphs: [
-          "Here's a quick breakdown of the core tools and devices I use every day. This setup keeps me productive, creative, and balanced — whether I'm at home or on the go.",
+          "Here's a quick breakdown of the core tools and devices I use every day. This setup keeps me productive, creative, and balanced.whether I'm at home or on the go.",
         ],
         items: [
           {
@@ -200,8 +200,8 @@ export const mockArticles: Article[] = [
   {
     id: 'gemini-shutdown-debate',
     slug: 'gemini-new-model-shutdown-debate',
-    title: "Gemini's New Model and the Shutdown Debate — Are We Losing Control or Misreading the Story?",
-    excerpt: "A closer look at Gemini's latest model, the recent shutdown concerns, and what they really mean for the future of AI — separating facts from fear.",
+    title: "Gemini's New Model and the Shutdown Debate.Are We Losing Control or Misreading the Story?",
+    excerpt: "A closer look at Gemini's latest model, the recent shutdown concerns, and what they really mean for the future of AI separating facts from fear.",
     coverImage: '/images/gemini-hero.jpg',
     category: 'ai-news',
     categoryName: 'AI NEWS',
@@ -280,7 +280,7 @@ export const mockArticles: Article[] = [
   {
     id: 'nvidia-chip-race',
     slug: 'inside-nvidia-new-chip-race',
-    title: "Inside NVIDIA's New Chip Race — Power, Hype, and the Future of AI Hardware",
+    title: "Inside NVIDIA's New Chip Race. Power, Hype, and the Future of AI Hardware",
     excerpt: "Breaking down NVIDIA's latest announcements, the real performance gains, and what this means for the next wave of AI infrastructure.",
     coverImage: '/images/nvidia-chip.jpg',
     category: 'lifestyle',

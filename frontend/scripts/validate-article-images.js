@@ -44,7 +44,7 @@ async function checkRemoteUrl(url) {
 
 async function validateArticleImages() {
   console.log('====================================================');
-  console.log('   Ishara\'s Blog — Article Image Validation Suite   ');
+  console.log('   Ishara\'s Blog Article Image Validation Suite   ');
   console.log('====================================================\n');
 
   const errors = [];
