@@ -1,0 +1,346 @@
+{
+  "id": "bmich-barista-follow-your-passion-or-build-skills",
+  "slug": "bmich-barista-follow-your-passion-or-build-skills",
+  "language": "en",
+  "title": "What If “Follow Your Passion” Is the Worst Career Advice You've Ever Received?",
+  "excerpt": "I found an orange book at the BMICH Book Fair, bought it even though I barely had time to read, and finally opened it while waiting for a late friend at Barista. One idea made me rethink passion, skills, and building a career.",
+  "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792274191/Cozy_Barista_Caf%C3%A9_Still_Life_pspkv9.png",
+  "category": "lifestyle",
+  "categoryName": "LIFESTYLE",
+  "tags": [
+    "Lifestyle",
+    "Personal Stories",
+    "Book Fair",
+    "BMICH",
+    "Barista",
+    "Books",
+    "Cal Newport",
+    "Career Growth",
+    "Passion",
+    "Learning",
+    "University Life",
+    "Software Development"
+  ],
+  "author": {
+    "id": "ishara-udayanga",
+    "name": "Ishara Udayanga",
+    "avatar": "/images/ishara-avatar.jpg",
+    "bio": "Software developer and writer sharing thoughts on technology, creativity, and the little experiences that make everyday life meaningful.",
+    "role": "Writer · Builder · Lifelong Learner"
+  },
+  "publishedAt": "Oct 18, 2026",
+  "readingTime": "11 min read",
+  "featured": true,
+  "featuredOrder": 2,
+  "isDemo": false,
+  "status": "published",
+  "relatedArticleSlugs": [
+    "barista-coffee-coworking-marketing-experience",
+    "building-a-focused-tech-setup",
+    "character-ai-bankruptcy-sinhala-long"
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "I bought a book I wasn't even planning to read anytime soon. Then a friend showed up an hour late and somehow, that turned into the most interesting part of my afternoon."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "a-book-i-didn-t-plan-to-buy",
+      "text": "A Book I Didn't Plan to Buy"
+    },
+    {
+      "type": "paragraph",
+      "text": "I went to the book fair at BMICH without a shopping list. No particular author I was hunting for, no title saved on my phone, and definitely no plan to come home with a stack of books. I just wanted to walk around, look through the stalls, and see what caught my attention."
+    },
+    {
+      "type": "paragraph",
+      "text": "If you've been to a book fair, you know how easy it is to lose track of time. There are books everywhere, people moving from stall to stall, and covers that make you stop even when you weren't looking for anything. That's what happened to me when I noticed a bright orange book with a rather confident title: *So Good They Can't Ignore You* by Cal Newport."
+    },
+    {
+      "type": "paragraph",
+      "text": "I recognized it almost immediately. I'd heard Malinda Alahakoon mention this book in one of his podcasts. The title had stayed somewhere in the back of my mind, so seeing it in front of me felt familiar."
+    },
+    {
+      "type": "paragraph",
+      "text": "But here's the thing: I hadn't been particularly interested in starting it. Not because the topic sounded boring. I'd simply been busy, and I already knew how that story could go. Buy a book, read a few pages, get distracted by lectures and projects, then leave it sitting on a shelf for months. I didn't want to start another book I couldn't finish."
+    },
+    {
+      "type": "paragraph",
+      "text": "Still, standing there at the fair, I thought, *Maybe this is the time.* I picked it up and bought it. No big life-changing feeling. Just a small decision, made in the middle of an ordinary day."
+    },
+    {
+      "type": "paragraph",
+      "text": "And, as it turned out, I wouldn't have to wait that long to open it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "an-hour-i-wasn-t-expecting",
+      "text": "An Hour I Wasn't Expecting"
+    },
+    {
+      "type": "paragraph",
+      "text": "On another day, I was at Barista waiting to meet a friend. I'd found a table and settled in with a coffee and something sweet, expecting him to arrive before too long."
+    },
+    {
+      "type": "paragraph",
+      "text": "Then he let me know he'd be about an hour late."
+    },
+    {
+      "type": "paragraph",
+      "text": "An entire hour. Unexpectedly free."
+    },
+    {
+      "type": "paragraph",
+      "text": "I could have opened Instagram. Normally, that's exactly what happens when I have nothing planned for the next few minutes. A quick scroll becomes a few videos, then a few more, and suddenly the time is gone. But that day I wasn't in the mood for social media. I didn't want to watch random reels just to make the clock move faster."
+    },
+    {
+      "type": "paragraph",
+      "text": "Then I remembered the orange book I'd bought at BMICH. It was with me. And for once, instead of saying \"I'll read it when I have time,\" I actually had some time. So I took it out, put my phone aside, and started reading."
+    },
+    {
+      "type": "paragraph",
+      "text": "I didn't know how much I'd get through in an hour. I definitely wasn't going to finish the whole book before my friend arrived. But maybe finishing wasn't the point. Maybe I could just start."
+    },
+    {
+      "type": "paragraph",
+      "text": "A few pages in, one idea made me look at a piece of career advice I'd heard for years in a completely different way."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "wait-isn-t-following-your-passion-supposed-to-be-the-plan",
+      "text": "Wait, Isn't Following Your Passion Supposed to Be the Plan?"
+    },
+    {
+      "type": "paragraph",
+      "text": "How many times have you heard someone say, \"Just follow your passion\"?"
+    },
+    {
+      "type": "paragraph",
+      "text": "It's everywhere. In graduation speeches. In interviews. In motivational videos. In conversations about choosing a degree or deciding what to do after university."
+    },
+    {
+      "type": "paragraph",
+      "text": "The advice sounds nice. Find something you love, make it your career, and work won't feel like work. Who wouldn't want that?"
+    },
+    {
+      "type": "paragraph",
+      "text": "But I started wondering: what if you don't have one clear passion? What if you're interested in technology, design, business, writing, and a dozen other things? Are you supposed to wait until one of them feels like your \"true calling\"?"
+    },
+    {
+      "type": "paragraph",
+      "text": "And what happens when you finally choose something you enjoy, but it gets difficult? Does struggling mean you picked the wrong passion? Does getting bored with a project mean it's not meant for you?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cal Newport challenges the idea that everyone has a ready-made passion waiting to be discovered. His argument isn't that loving your work is unimportant. It's that \"follow your passion\" can be a poor starting instruction, especially if you don't yet know what kind of work you'll become good at or find meaningful."
+    },
+    {
+      "type": "paragraph",
+      "text": "That's what caught me off guard. I'd heard people challenge hard work, university degrees, even traditional jobs. But here was a book challenging one of the most popular pieces of career advice itself."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "maybe-passion-isn-t-always-the-starting-point",
+      "text": "Maybe Passion Isn't Always the Starting Point"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea I kept coming back to was surprisingly practical: instead of spending all your energy asking, \"What job would make me happy?\", sometimes it's more useful to ask, \"What valuable skill can I become genuinely good at?\""
+    },
+    {
+      "type": "paragraph",
+      "text": "Newport calls these rare and valuable skills *career capital*. The basic argument is that being good at something gives you options. Over time, those options may help you gain more freedom, do more interesting work, and build a career you actually enjoy."
+    },
+    {
+      "type": "paragraph",
+      "text": "Think about someone learning to play an instrument. Their first few attempts might sound terrible. Their fingers hurt, the chords don't work, and the whole thing feels awkward. But after enough thoughtful practice, they can play music that once seemed impossible. Enjoyment may grow alongside ability."
+    },
+    {
+      "type": "paragraph",
+      "text": "I'm not saying every passion has to begin with difficulty or that we should force ourselves into careers we dislike. Some people discover strong interests early, and that's real too. The point that interested me was the order: we often imagine passion coming first and skill coming second, when sometimes skill helps passion develop."
+    },
+    {
+      "type": "paragraph",
+      "text": "There's also a difference between being *busy* and getting *better*. You can spend three hours doing something familiar and feel productive. But the uncomfortable hour spent understanding one thing you couldn't do yesterday might change your ability far more."
+    },
+    {
+      "type": "paragraph",
+      "text": "I don't think reading a few pages of a book magically made me disciplined. But it did give me a question worth keeping."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-this-hit-differently-as-a-university-student",
+      "text": "Why This Hit Differently as a University Student"
+    },
+    {
+      "type": "paragraph",
+      "text": "As a university student, career questions aren't abstract. They're everywhere. What should I specialize in? Am I learning enough? Should I focus on frontend, backend, design, or something entirely different? What will matter when I'm applying for jobs? And what if everyone else seems to be moving faster?"
+    },
+    {
+      "type": "paragraph",
+      "text": "It's easy to get caught up in comparing outcomes. Somebody has an impressive portfolio. Someone has started an internship. Another person is building a startup, posting achievements, or learning a new framework. You look at all of it and start asking whether you're falling behind."
+    },
+    {
+      "type": "paragraph",
+      "text": "But the book made me think about a different measurement. Not \"How impressive do I look right now?\" but \"What can I actually do better than I could six months ago?\""
+    },
+    {
+      "type": "paragraph",
+      "text": "Can I explain why a piece of code works instead of just copying it? Can I design a page that makes sense to someone using it for the first time? Can I understand a problem well enough to know when a popular tool isn't the right solution?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Those improvements don't always look exciting on social media. They may never become a post. But they change what you're capable of doing."
+    },
+    {
+      "type": "paragraph",
+      "text": "And that's a useful thought when you're trying to build a future while still figuring out what kind of developer or person you want to become."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "learning-to-code-is-a-perfect-example",
+      "text": "Learning to Code Is a Perfect Example"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you first get into development, almost everything looks interesting. A beautiful website makes you want to learn frontend. A clever mobile app makes you want to build one. You watch someone explain machine learning and suddenly that looks like the future too."
+    },
+    {
+      "type": "paragraph",
+      "text": "There's nothing wrong with curiosity. It's one of the reasons I enjoy technology. But curiosity can also make us jump from one thing to another before we understand any of them properly."
+    },
+    {
+      "type": "paragraph",
+      "text": "You start learning React. Then you see a video about a newer framework and decide to switch. A week later you're watching tutorials about something else. You feel busy the whole time, but when it's time to build an actual project, you're still depending on step-by-step instructions."
+    },
+    {
+      "type": "paragraph",
+      "text": "I've felt that temptation. The excitement of starting something new is real. Staying with one difficult problem when the excitement disappears is much harder."
+    },
+    {
+      "type": "paragraph",
+      "text": "But some of the most satisfying moments in development happen *after* the easy part. A bug finally makes sense. A feature you struggled with starts working. You understand why your first design wasn't as good as you thought and you're able to improve it."
+    },
+    {
+      "type": "paragraph",
+      "text": "In those moments, the work feels different. You're not just consuming tutorials or chasing the newest tool. You're building judgment. And that judgment carries over to the next project."
+    },
+    {
+      "type": "paragraph",
+      "text": "Maybe that's one reason skill matters so much. It doesn't guarantee that you'll love every day of work. But it allows you to solve problems that once intimidated you, and it opens doors that excitement alone cannot."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "but-i-don-t-want-to-turn-life-into-another-competition",
+      "text": "But I Don't Want to Turn Life Into Another Competition"
+    },
+    {
+      "type": "paragraph",
+      "text": "There's one part of the title that can sound intimidating: *So Good They Can't Ignore You.* It's catchy, but it can also feel like a demand to become exceptional at everything you do."
+    },
+    {
+      "type": "paragraph",
+      "text": "I don't think that's a healthy way to read it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Being good at something shouldn't mean turning every hobby into a side hustle, working late every night, or comparing yourself endlessly with other people. Nor does effort guarantee a perfect job; opportunities, circumstances, and luck play a role too."
+    },
+    {
+      "type": "paragraph",
+      "text": "For me, the more useful interpretation is quieter. Take your work seriously enough to improve. Give yourself permission to be a beginner. Choose challenges that stretch you. And pay attention to what becomes meaningful as you grow."
+    },
+    {
+      "type": "paragraph",
+      "text": "We also need room for rest, friends, coffee, and the parts of life that don't produce a measurable result. I was literally reading this book because I had a free hour in a café, not because I'd scheduled another productivity session."
+    },
+    {
+      "type": "paragraph",
+      "text": "That irony made me smile."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-most-useful-thing-i-took-away-was-a-question",
+      "text": "The Most Useful Thing I Took Away Was a Question"
+    },
+    {
+      "type": "paragraph",
+      "text": "I'm not writing this as someone who's finished the book and figured out the secret to a great career. That hour at Barista was the beginning of my reading, not the end of it."
+    },
+    {
+      "type": "paragraph",
+      "text": "But the question stuck with me: *Am I waiting to feel passionate before I put serious effort into something, or am I willing to get better and see where that takes me?*"
+    },
+    {
+      "type": "paragraph",
+      "text": "I can apply that to development. Instead of asking whether every new technology is my passion, I can choose a problem worth solving and work on becoming better at solving it. Instead of chasing the feeling of motivation every day, I can try to build a habit of doing useful, thoughtful work even when it feels ordinary."
+    },
+    {
+      "type": "paragraph",
+      "text": "It doesn't mean I'll stop exploring new interests. And it certainly doesn't mean I'll have a five-year plan figured out tomorrow. It simply gives me a better way to think about the next step."
+    },
+    {
+      "type": "paragraph",
+      "text": "A passion doesn't always arrive as a dramatic realization. Sometimes it grows slowly, through practice, progress, and the satisfaction of becoming capable."
+    },
+    {
+      "type": "paragraph",
+      "text": "That's an idea I'm willing to test in my own life rather than accept blindly."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "back-to-that-table-at-barista",
+      "text": "Back to That Table at Barista"
+    },
+    {
+      "type": "paragraph",
+      "text": "At some point, I looked up from the book. The coffee was no longer as hot as when I'd ordered it. The café was still busy with people coming and going, and I was still waiting for my friend."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nothing extraordinary had happened. I hadn't finished the book. I hadn't discovered my perfect career. I hadn't suddenly become the most focused person in the room."
+    },
+    {
+      "type": "paragraph",
+      "text": "I'd simply used an unexpected hour to read a few pages and think about a question I'd usually push aside."
+    },
+    {
+      "type": "paragraph",
+      "text": "And it's funny how that hour came about. I found the book by chance at BMICH. I bought it even though I wasn't sure I'd find time to read it. Later, a friend was running late, and I wasn't in the mood to scroll on my phone."
+    },
+    {
+      "type": "paragraph",
+      "text": "One small decision led to another, and suddenly I was thinking about whether we have career advice the wrong way around."
+    },
+    {
+      "type": "paragraph",
+      "text": "Maybe that is the part I'll remember most. We don't always get a perfectly planned moment to learn something important. Sometimes the opportunity shows up disguised as an inconvenience."
+    },
+    {
+      "type": "paragraph",
+      "text": "I went to Barista to meet a friend. He was an hour late. And I left with a question I hadn't planned to ask."
+    },
+    {
+      "type": "paragraph",
+      "text": "*What if the thing I'm looking for isn't a passion I need to find but a skill I need to build?*"
+    },
+    {
+      "type": "paragraph",
+      "text": "What do you think? Do we first discover what we love and then become good at it, or can becoming good at something be part of how we learn to love it?"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you're curious about the book's central argument, Cal Newport explains it in his own words here: [On Passion and Its Discontents](https://calnewport.com/on-passion-and-its-discontents/)."
+    }
+  ]
+}

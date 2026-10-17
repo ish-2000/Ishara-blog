@@ -65,7 +65,11 @@ function generateArticleIndex() {
         excerpt: post.excerpt || '',
         coverImage: post.coverImage,
         category: post.category,
-        categoryName: post.categoryName || post.category.toUpperCase(),
+        categoryName: (post.categoryName || post.category.toUpperCase())
+          .replace(/\s*·.*$/, '')
+          .replace(/\s*\(.*\)$/, '')
+          .trim()
+          .toUpperCase(),
         tags: Array.isArray(post.tags) ? post.tags : [],
         language: post.language || 'en',
         author: {

@@ -62,7 +62,7 @@ const topics = [
   {
     slug: "future-tech",
     name: "Future Technology",
-    description: "Exploring what's next — from AI agents to a more connected world.",
+    description: "Exploring what's next from AI agents to a more connected world.",
     icon: <TrendingUp className="w-4 h-4 text-rose-500" />,
     image: "/images/future-tech.jpg",
   },
@@ -192,7 +192,7 @@ export const AboutPage: React.FC = () => {
                   About Ishara
                 </span>
                 <p className="text-[15px] sm:text-[16px] text-gray-600 dark:text-gray-300 font-normal leading-relaxed max-w-2xl">
-                  I write about AI, hardware architectures, modern development, and digital culture —
+                  I write about AI, hardware architectures, modern development, and digital culture
                   sharing what I learn, build, and explore along the way. This is a space
                   for curious minds who care about technology and a better future.
                 </p>

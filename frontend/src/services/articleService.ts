@@ -18,11 +18,13 @@ const SLUG_ALIASES: Record<string, string> = {
   'openai-vs-google-ai-battle': 'openai-vs-google-ai-battle-getting-personal',
   'is-web-ready-for-ai-search': 'is-the-web-ready-for-ai-search-to-take-over',
   'character-ai-bankruptcy-sinhala': 'character-ai-bankruptcy-sinhala-long',
+  'barista-coffee-life-reflections-sinhala': 'barista-coffee-coworking-marketing-experience',
+  'book-fair-barista-follow-your-passion-or-build-skills': 'bmich-barista-follow-your-passion-or-build-skills',
 };
 
 const DEFAULT_CATEGORY_IMAGES: Record<string, string> = {
   'ai-news': 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80',
-  'lifestyle': 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80',
+  'lifestyle': 'https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792270111/Cozy_Barista_Caf%C3%A9_Coffee_Break_aew9h7.png',
   'big-tech': 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80',
   'future-tech': 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80',
   'opinions': 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80',
@@ -69,6 +71,17 @@ export function getArticleCoverImage(
  * Standardized error handler for cover image elements.
  * Prevents infinite onError loops and provides a consistent fallback by category.
  */
+export function cleanCategoryName(categoryName?: string, categorySlug?: string): string {
+  if (!categoryName) {
+    return categorySlug ? categorySlug.toUpperCase() : '';
+  }
+  return categoryName
+    .replace(/\s*·.*$/, '')
+    .replace(/\s*\(.*\)$/, '')
+    .trim()
+    .toUpperCase();
+}
+
 export function handleCoverImageError(
   e: React.SyntheticEvent<HTMLImageElement, Event>,
   category?: string
@@ -106,6 +119,7 @@ class ArticleService {
         .filter((item): item is ArticleMetadata => Boolean(item && item.id && item.slug && item.title))
         .map((item) => ({
           ...item,
+          categoryName: cleanCategoryName(item.categoryName, item.category),
           coverImage: getSafeCoverImage(item.coverImage, item.category)
         }));
 
@@ -211,6 +225,7 @@ class ArticleService {
       if (response.ok) {
         const post: ArticlePost = await response.json();
         if (post && post.title && (post.blocks || post.sections || post.content)) {
+          post.categoryName = cleanCategoryName(post.categoryName, post.category);
           post.coverImage = getSafeCoverImage(post.coverImage, post.category);
           this.postsCache.set(slug, post);
           return post;
