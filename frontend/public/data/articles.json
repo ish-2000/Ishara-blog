@@ -86,7 +86,7 @@
     "slug": "elon-musk-tesla-roadster-flying-car-demo",
     "title": "Elon Musk's Flying Tesla Is Finally Here? The Roadster Demo That Shocked Everyone!",
     "excerpt": "A Tesla drove upside down, launched into the air, flipped, and landed. It looked like science fiction, but how did SpaceX thrusters make it possible, and is it really a flying car?",
-    "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792163266/Futuristic_Roadster_Reveal_with_Elon_Musk_rtfqvj.png",
+    "coverImage": "https://res.cloudinary.com/dgvdlyxhw/image/upload/v1792305868/Futuristic_Flying_Car_Reveal_hyx6nr.png",
     "category": "future-tech",
     "categoryName": "FUTURE TECH",
     "tags": [
@@ -152,40 +152,7 @@
       "us-companies-using-chinese-ai-models"
     ]
   },
-  {
-    "id": "ai-self-replication-iot-2026",
-    "slug": "ai-self-replication-smart-devices",
-    "title": "Could AI Copy Itself Into Your Fridge and Smart TV? Researchers Say the Risk Is Getting Closer",
-    "excerpt": "Anthropic tested whether smaller AI models could spread across connected devices. The findings are serious, but they are not proof of a runaway AI outbreak.",
-    "coverImage": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1200&q=80",
-    "category": "future-tech",
-    "categoryName": "FUTURE TECH",
-    "tags": [
-      "Anthropic",
-      "Cybersecurity",
-      "Smart Home",
-      "AI Safety"
-    ],
-    "language": "en",
-    "author": {
-      "id": "ishara-udayanga",
-      "name": "Ishara Udayanga",
-      "avatar": "/images/ishara-avatar.jpg",
-      "role": "Writer · Developer · Curious Learner",
-      "bio": "Developer and designer exploring AI, technology news, and the ideas shaping our digital future."
-    },
-    "publishedAt": "Oct 15, 2026",
-    "readingTime": "7 min read",
-    "featured": true,
-    "featuredOrder": 4,
-    "isDemo": false,
-    "status": "published",
-    "relatedArticleSlugs": [
-      "claude-false-homicide-tip",
-      "gemini-started-insulting-itself",
-      "robot-hand-serving-ice-cream"
-    ]
-  },
+  
   {
     "id": "character-ai-bankruptcy-si",
     "slug": "character-ai-bankruptcy-sinhala-long",
